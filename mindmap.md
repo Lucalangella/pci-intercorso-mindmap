@@ -176,9 +176,13 @@ markmap:
     - $\mathbf{Utile\ Netto\ (P\&L)}$
     - **(+) Costi non monetari**: ammortamenti, accantonamenti a fondi rischi, perdite da svalutazione (sono costi che hanno abbassato l'utile ma senza uscita di cassa).
     - **(-) Plusvalenze da cessione cespiti**: la plusvalenza contabile va stornata dall'utile operativo perché l'intero corrispettivo monetario incassato dalla vendita del bene confluisce al 100% nell'**Attività di Investimento**!
-    - **(-) Aumento Crediti verso Clienti / (+) Riduzione Crediti**: se i crediti aumentano, abbiamo venduto merci ma non abbiamo ancora incassato il denaro (cassa non pervenuta $ightarrow$ sottrarre).
-    - **(-) Aumento Rimanenze di Magazzino / (+) Riduzione Rimanenze**: se il magazzino cresce, abbiamo speso cassa per produrre scorte ferme sui pallet (cassa assorbita $ightarrow$ sottrarre).
-    - **(+) Aumento Debiti verso Fornitori / (-) Riduzione Debiti**: se i debiti verso fornitori crescono, abbiamo acquistato beni senza ancora pagarli (cassa risparmiata $ightarrow$ sommare); se diminuiscono, abbiamo pagato fatture pregresse (cassa uscita $ightarrow$ sottrarre).
+    - **(-) Aumento Crediti verso Clienti / (+) Riduzione Crediti**: se i crediti aumentano, abbiamo venduto merci ma non abbiamo ancora incassato il denaro (cassa non pervenuta $
+ightarrow$ sottrarre).
+    - **(-) Aumento Rimanenze di Magazzino / (+) Riduzione Rimanenze**: se il magazzino cresce, abbiamo speso cassa per produrre scorte ferme sui pallet (cassa assorbita $
+ightarrow$ sottrarre).
+    - **(+) Aumento Debiti verso Fornitori / (-) Riduzione Debiti**: se i debiti verso fornitori crescono, abbiamo acquistato beni senza ancora pagarli (cassa risparmiata $
+ightarrow$ sommare); se diminuiscono, abbiamo pagato fatture pregresse (cassa uscita $
+ightarrow$ sottrarre).
 - **Le Operazioni Non Monetarie (Quesito 02.1)**
   - Operazioni di investimento o finanziamento che non richiedono esborso monetario immediato (es. acquisto di un impianto mediante stipula di un leasing IFRS 16, o permuta di immobili, o conversione di obbligazioni in azioni):
   - **Regola Tassativa**: **NON devono essere incluse nel prospetto del Rendiconto Finanziario**. È fatto divieto di esporre entrate e uscite fittizie; l'operazione deve essere illustrata esclusivamente in un'apposita **nota informativa esplicativa**.
@@ -220,11 +224,16 @@ markmap:
     - 3. **Global Consistency vs Local Dynamics**: Mantenere una disciplina commerciale e di prezzo uniforme a livello globale, rispettando però le peculiarità dei mercati regionali (Americas, Europe/Africa, China/HK/Taiwan).
     - 4. **Short-Term Performance vs Long-Term Value**: Evitare decisioni miopi che migliorano l'utile del trimestre a discapito della forza e reputazione secolare del brand.
 - **Il Processo Decisionale "From Data to Decision" in 5 Fasi**
-  - $\mathbf{01.\ Business\ Question} ightarrow$ Definire la domanda strategica corretta;
-  - $\mathbf{02.\ Data\ \&\ Assumptions} ightarrow$ Raccogliere i dati ed esplicitare chiaramente le ipotesi sottostanti;
-  - $\mathbf{03.\ Scenarios\ \&\ Sensitivities} ightarrow$ Eseguire simulazioni di scenari e analisi di sensitività (stress test su cambi, volumi e costi);
-  - $\mathbf{04.\ Risks\ \&\ Opportunities} ightarrow$ Mappare e quantificare sia i rischi al ribasso sia le opportunità di rialzo (*upside*);
-  - $\mathbf{05.\ Recommendation\ \&\ Decision} ightarrow$ Presentare al vertice aziendale alternative rese confrontabili per decidere in modo consapevole.
+  - $\mathbf{01.\ Business\ Question} 
+ightarrow$ Definire la domanda strategica corretta;
+  - $\mathbf{02.\ Data\ \&\ Assumptions} 
+ightarrow$ Raccogliere i dati ed esplicitare chiaramente le ipotesi sottostanti;
+  - $\mathbf{03.\ Scenarios\ \&\ Sensitivities} 
+ightarrow$ Eseguire simulazioni di scenari e analisi di sensitività (stress test su cambi, volumi e costi);
+  - $\mathbf{04.\ Risks\ \&\ Opportunities} 
+ightarrow$ Mappare e quantificare sia i rischi al ribasso sia le opportunità di rialzo (*upside*);
+  - $\mathbf{05.\ Recommendation\ \&\ Decision} 
+ightarrow$ Presentare al vertice aziendale alternative rese confrontabili per decidere in modo consapevole.
 
 ## 7. IAS 16 – Property, Plant and Equipment
 - **Definizione e Criteri di Rilevazione Iniziale**
@@ -301,3 +310,195 @@ markmap:
     - 1. Il valore contabile che avrebbe avuto se non fosse mai stato classificato in IFRS 5 (ovvero deducendo tutti gli ammortamenti e le svalutazioni che si sarebbero dovuti calcolare nel frattempo);
     - 2. Il Valore Recuperabile ex IAS 36 alla data di revoca.
   - La differenza viene imputata immediatamente a Conto Economico (P&L) come rettifica di costo della gestione in funzionamento.
+## 9. IAS 38 – Attività Immateriali (Intangible Assets)
+- **Definizione e i 3 Criteri Fondamentali di Rilevazione**
+  - **Definizione di Attività Immateriale**: Un'attività non monetaria identificabile, priva di consistenza fisica, controllata dall'entità e capace di generare benefici economici futuri.
+  - **1. Il Requisito dell'Identificabilità (Quesito 08.1)**:
+    - Un'attività è identificabile se soddisfa ALMENO UNO dei seguenti due criteri alternativi:
+      - *Criterio della Separabilità*: è suscettibile di essere separata o scorporata dall'entità e venduta, trasferita, concessa in licenza o scambiata, singolarmente o congiuntamente al relativo contratto;
+      - *Criterio Contrattuale o Legale (Quesito 08.1)*: deriva da diritti contrattuali o da altri diritti legali, a prescindere dal fatto che tali diritti siano trasferibili o separabili dall'entità o da altri diritti e obbligazioni.
+    - **Risoluzione Caso d'Esame (Quesito 08.1)**: Una licenza d'uso NON trasferibile a terzi, ma che attribuisce diritti contrattuali protetti e controllati dall'azienda con benefici futuri e costo attendibile, **può essere regolarmente iscritta all'attivo**: la non trasferibilità da sola NON impedisce l'iscrizione, poiché l'identificabilità deriva dalla fonte contrattuale/legale.
+  - **2. Il Requisito del Controllo e l'Esempio del Capitale Umano**:
+    - L'impresa ha il controllo se ha il potere di ottenere i benefici economici futuri e di limitare l'accesso di terzi a tali benefici.
+    - **Perché il Know-how del Personale NON è un'attività immateriale?**: Anche se un'azienda spende milioni per formare un team di scienziati o sviluppatori, il capitale umano non può essere iscritto all'attivo perché i dipendenti possono dare le dimissioni e cambiare lavoro in qualsiasi momento. L'impresa non ha il controllo giuridico sui dipendenti.
+  - **3. Probabilità dei Benefici e Attendibilità del Costo**:
+    - È probabile che i futuri benefici economici attesi affluiscano all'entità, e il costo dell'attività può essere misurato in modo attendibile.
+- **Divieto Assoluto di Capitalizzazione per Generazione Interna**
+  - Lo IAS 38 vieta categoricamente di capitalizzare i costi sostenuti internamente quando non è possibile distinguere l'investimento di sviluppo dall'ordinario mantenimento aziendale.
+  - **Elementi con Divieto Assoluto di Iscrizione all'Attivo**:
+    - **Avviamento generato internamente (*Internally Generated Goodwill*)**: non è un'attività identificabile e controllata;
+    - **Marchi, testate giornalistiche, titoli editoriali, liste clienti** generati internamente;
+    - **Spese di impianto e di avviamento (*Start-up costs*)**;
+    - **Spese di formazione del personale (*Staff training costs*)**;
+    - **Spese pubblicitarie, promozionali e di marketing** (anche se finalizzate a lanciare un prodotto rivoluzionario);
+    - **Spese di ricollocazione o riorganizzazione aziendale**.
+    - Tutti questi elementi devono essere **imputati interamente a Conto Economico (P&L)** come costo di periodo nell'esercizio in cui sono sostenuti.
+- **Ricerca e Sviluppo (R&D): Il Trattamento Bifasico e i 6 Criteri PIRATE**
+  - **Fase di Ricerca**:
+    - Definizione: indagine originale e pianificata intrapresa con la speranza di acquisire nuove conoscenze e scoperte scientifiche o tecniche.
+    - **Regola Tassativa**: Tutti i costi di ricerca vanno **SEMPRE A CONTO ECONOMICO (P&L)** nell'esercizio in cui sono sostenuti. Non possono mai essere capitalizzati per via dell'intrinseca incertezza sul loro esito economico.
+  - **Fase di Sviluppo e i 6 Criteri Cumulativi PIRATE**:
+    - Definizione: applicazione dei risultati della ricerca a un piano o progetto per la produzione di materiali, prodotti, processi o sistemi nuovi o sostanzialmente migliorati, prima dell'inizio della produzione commerciale.
+    - Per poter capitalizzare le spese di sviluppo all'attivo dello Stato Patrimoniale, l'impresa deve dimostrare **TUTTI E 6 I SEGUENTI CRITERI SIMULTANEAMENTE (PIRATE)**:
+      - 1. **P - Probable future benefits**: come l'attività genererà probabili benefici futuri (esistenza di un mercato o utilità interna);
+      - 2. **I - Intention to complete**: l'intenzione formale della direzione aziendale di completare l'attività per usarla o venderla;
+      - 3. **R - Resources available (Quesito 08.3)**: la disponibilità effettiva di adeguate risorse tecniche, finanziarie e operative per completare lo sviluppo. **Trap d'esame**: se la fattibilità tecnica è dimostrata al 100%, ma l'azienda non ha le risorse finanziarie per finire il progetto, **la capitalizzazione è VIETATA** e i costi vanno a P&L;
+      - 4. **A - Ability to use or sell**: la capacità tecnica e organizzativa dell'impresa di utilizzare o vendere l'attività;
+      - 5. **T - Technical feasibility**: la fattibilità tecnica di completare l'attività immateriale in modo da renderla disponibile all'uso o alla vendita;
+      - 6. **E - Expenditure reliably measured**: la capacità di misurare attendibilmente i costi direttamente attribuibili allo sviluppo.
+  - **Risoluzione Esercizio Numerico d'Esame (Quesito 08.2)**:
+    - Dati: Ricerca = €30.000; Sviluppo prima di soddisfare tutti i 6 criteri = €20.000; Sviluppo direttamente attribuibile sostenuto dopo tale data = €50.000.
+    - **Costi di Periodo a P&L**: $	ext{Ricerca (€30.000)} + 	ext{Sviluppo pre-criteri (€20.000)} = \mathbf{50.000\ €}$ a Conto Economico.
+    - **Attività Immateriale Iscritta allo SP**: solo lo sviluppo post-criteri = $\mathbf{50.000\ €}$ all'Attivo dello Stato Patrimoniale.
+  - **DIVIETO DI CAPITALIZZAZIONE RETROATTIVA**: I costi imputati a Conto Economico in esercizi precedenti o nella fase preliminare **non possono MAI essere ripresi e capitalizzati a posteriori**, anche se successivamente il progetto ottiene il brevetto e genera profitti record.
+- **Valutazione Successiva: Vita Utile Definita vs Indefinita (Quesito 08.4)**
+  - **1. Attività a Vita Utile Definita**:
+    - Esiste un limite temporale chiaro o un volume produttivo definito (es. brevetto industriale valido per 10 anni, diritti d'autore a scadenza).
+    - *Regola*: Ammortamento sistematico lungo la vita utile stimata + Impairment test solo in presenza di indicatori di perdita (*trigger events*).
+  - **2. Attività a Vita Utile Indefinita (Quesito 08.4)**:
+    - Non vi è un limite prevedibile all'orizzonte temporale entro il quale l'attività genererà flussi finanziari netti per l'impresa (es. licenza di trasmissione radiotelevisiva rinnovabile indefinitamente a costi trascurabili, marchi acquisiti con notorietà globale).
+    - **Trattamento Tassativo (Quesito 08.4)**:
+      - 1. **NESSUN AMMORTAMENTO**: il cespite non viene mai ammortizzato;
+      - 2. **IMPAIRMENT TEST OBBLIGATORIO ALMENO UNA VOLTA ALL'ANNO ex IAS 36**, anche in totale assenza di indicatori di perdita;
+      - 3. **RIESAME ANNUALE DELLO STATUS DI VITA INDEFINITA**: a ogni chiusura di bilancio il management deve verificare se permangono le condizioni per considerarla indefinita. Se la vita diventa definita, si tratta come cambiamento di stima contabile ex IAS 8 con ammortamento prospettico.
+- **Modelli di Valutazione Successiva**
+  - **Modello del Costo**: Costo storico dedotto il fondo ammortamento accumulato e le perdite per riduzione di valore cumulate.
+  - **Modello della Rideterminazione del Valore (Fair Value)**: Ammesso SOLO SE il fair value può essere determinato facendo riferimento a un **MERCATO ATTIVO**. Poiché per la maggior parte dei beni immateriali (brevetti, marchi specifici) non esiste un mercato attivo con transazioni omogenee frequenti, questo modello è rarissimo nella pratica.
+
+## 10. IFRS 16 – Leasing
+- **La Riforma del Leasing: Il Modello Unico per il Locatario (Single Lessee Model)**
+  - **Perché l'IFRS 16 ha sostituito lo IAS 17?**:
+    - Sotto lo IAS 17, le aziende classificavano gran parte dei contratti come "leasing operativi", tenendo aerei, navi, negozi e uffici completamente **fuori bilancio** (*off-balance sheet*). I debiti miliardari verso i locatori non comparivano nello Stato Patrimoniale, truccando gli indici di indebitamento (Debito/EBITDA e Leverage).
+    - L'IFRS 16 (obbligatorio dal 2019) cancella la distinzione tra leasing operativo e finanziario per il locatario: **tutti i leasing entrano a bilancio**, iscrivendo un'attività per il Diritto d'Uso (*Right-of-Use Asset*) e un debito finanziario per la Passività di Leasing (*Lease Liability*).
+- **Definizione di Contratto di Leasing e Controllo dell'Uso (Quesito 09.1)**
+  - Un contratto è, o contiene, un leasing se conferisce il **diritto di controllare l'uso di un bene identificato per un periodo di tempo verso un corrispettivo**.
+  - **I 2 Elementi Chiave del Controllo (Quesito 09.1)**:
+    - 1. **Diritto di ottenere sostanzialmente tutti i benefici economici** derivanti dall'utilizzo del bene identificato per tutta la durata contrattuale;
+    - 2. **Diritto di dirigere l'utilizzo del bene**: il cliente decide come e per quale scopo il bene è utilizzato per tutta la durata del contratto.
+  - **Bene Sostituibile vs Identificato**: Se il fornitore ha la facoltà pratica di sostituire il bene con un altro analogo in qualsiasi momento a sua discrezione e ne trae un beneficio economico, il cliente non ha il controllo di un bene identificato e il contratto è una prestazione di servizi, non un leasing.
+- **Iscrizione Iniziale alla Data di Decorrenza ($t=0$)**
+  - **1. La Passività per Leasing (*Lease Liability*)**:
+    - Viene iscritta al **Valore Attuale dei pagamenti dovuti per il leasing non ancora versati** alla data di decorrenza.
+    - I pagamenti sono attualizzati usando il tasso di interesse implicito nel leasing; se non è determinabile, si impiega il tasso di indebitamento marginale del locatario (*incremental borrowing rate*).
+  - **2. L'Attività per Diritto d'Uso (*Right-of-Use Asset - ROU*) (Quesito 09.2)**:
+    - Viene determinata partendo dalla Lease Liability iniziale con la seguente formula contabile:
+      $$	ext{ROU Asset} = 	ext{Lease Liability iniziale} + 	ext{Pagamenti effettuati alla o prima della decorrenza} + 	ext{Costi diretti iniziali sostenuti dal locatario} - 	ext{Incentivi al leasing ricevuti dal locatore} + 	ext{Stima dei costi di smantellamento e bonifica}$$
+  - **Risoluzione Esercizio Numerico d'Esame (Quesito 09.2)**:
+    - Dati: Valore attuale pagamenti ancora dovuti = €90.000; Pagamento versato alla decorrenza = €6.000; Costi diretti iniziali ammissibili = €4.000; Incentivi ricevuti dal locatore = €2.000.
+    - **Debito di Leasing Iniziale**: $\mathbf{90.000\ €}$ (poiché i 6.000 € sono già stati pagati e saldati in cassa!).
+    - **Diritto d'Uso Iniziale**: $90.000 + 6.000 + 4.000 - 2.000 = \mathbf{98.000\ €}$.
+- **Valutazione Successiva e Meccanica Contabile del Canone (Quesito 09.3)**
+  - **Ammortamento del Diritto d'Uso (ROU Asset)**:
+    - Si ammortizza a quote costanti lungo il periodo minore tra la durata del contratto di leasing e la vita utile economica del bene sottostante. Se è ragionevolmente certo l'acquisto (opzione di riscatto) o c'è trasferimento di proprietà, si ammortizza sulla vita utile del bene.
+  - **Trattamento del Debito di Leasing (Metodo del Costo Ammortizzato)**:
+    - Il debito residuo genera interessi passivi ogni esercizio: $	ext{Quota Interessi} = 	ext{Debito Residuo} 	imes 	ext{Tasso Annuo}$.
+    - Il canone periodico pagato non è un costo operativo d'affitto, ma un'operazione finanziaria: copre prima gli interessi e per la parte residua rimborsa la quota capitale del debito.
+  - **Risoluzione Esercizio Numerico d'Esame (Quesito 09.3)**:
+    - Dati: Debito iniziale all'1/1 = €100.000; Tasso contrattuale = 5% annuo; Canone pagato al 31/12 = €25.000.
+    - Calcolo Interessi di competenza: $100.000 	imes 5\% = \mathbf{5.000\ €}$ (onere finanziario a P&L).
+    - Quota capitale che riduce il debito: $25.000 - 5.000 = \mathbf{20.000\ €}$.
+    - **Scrittura Contabile a Libro Giornale (Quesito 09.3)**:  
+      $\mathbf{Dare\ Interessi\ Passivi\ (P\&L)\ €5.000\ e\ Dare\ Debito\ Leasing\ (SP)\ €20.000\ /\ Avere\ Banca\ (SP)\ €25.000}$.
+    - Debito residuo al 31/12: $100.000 - 20.000 = 80.000\ €$.
+  - **Impatto sui Principali Indicatori Finanziari**:
+    - **EBITDA**: Aumenta notevolmente, perché i vecchi canoni di affitto (costi operativi) sono sostituiti da ammortamenti (sopra l'EBIT) e interessi passivi (gestione finanziaria);
+    - **Flussi di Cassa (IAS 7)**: La cassa operativa migliora, perché la quota capitale del canone (€20.000) viene classificata nei flussi dell'attività di finanziamento (*Financing Cash Outflow*).
+- **Le 2 Esenzioni Pratiche per il Locatario (Quesito 09.4)**
+  - L'IFRS 16 concede la facoltà di NON applicare il modello ROU/Debito per due tipologie di leasing:
+    - 1. **Leasing a Breve Termine (*Short-term leases*)**: contratti con durata residua non superiore a 12 mesi che non contengono un'opzione di acquisto;
+    - 2. **Leasing di Beni di Modico Valore (*Low-value assets*)**: beni con valore a nuovo non superiore a circa 5.000 dollari (es. PC portatili, fotocopiatrici, telefoni cellulari).
+  - **Trattamento Contabile in Regime di Esenzione**: I pagamenti dei canoni vengono imputati a Conto Economico a quote costanti come costi operativi per godimento di beni di terzi.
+  - **Natura della Scelta (Quesito 09.4)**: È una facoltà (*accounting policy choice*) che il locatario può scegliere di applicare, **non un obbligo cogente**.
+
+## 11. Criptovalute – Utilizzo e Informazione Contabile
+- **La Decisione dell'IFRIC (Agenda Decision Giugno 2019)**
+  - L'IFRIC (International Financial Reporting Interpretations Committee) ha emanato un'agenda decision chiarificatrice per stabilire come contabilizzare la detenzione di criptovalute (es. Bitcoin, Ethereum) in assenza di un principio contabile IFRS specificamente dedicato.
+  - **Cosa NON sono le Criptovalute? (Quesiti 10.1 & 10.2)**:
+    - **NON sono Moneta / Disponibilità Liquide**: non hanno corso legale e non sono emesse o garantite da alcuna banca centrale.
+    - **NON sono Equivalenti di Cassa (*Cash Equivalents* ex IAS 7) (Quesito 10.2)**: non garantiscono un importo monetario fisso o convertibile a breve con rischio trascurabile. L'estrema volatilità del prezzo impedisce l'assimilazione al contante, e la negoziabilità su exchange non elimina il rischio di prezzo né equivale a un credito bancario.
+    - **NON sono Attività Finanziarie (*Financial Assets* ex IAS 32 / IFRS 9)**: non rappresentano una quota di patrimonio netto di un'altra entità né attribuiscono un diritto contrattuale a ricevere cassa da una controparte (non esiste alcun emittente obbligato a pagare).
+- **La Classificazione Basata sullo Scopo di Detenzione e Business Model (Quesito 10.1)**
+  - Il trattamento contabile corretto è governato dallo **scopo economico della detenzione e dal modello di attività dell'impresa**:
+  - **1. Modello IAS 2 – Rimanenze (*Inventories*)**:
+    - Si applica quando le criptovalute sono **detenute per la vendita nel normale svolgimento dell'attività aziendale** (es. piattaforme di intermediazione, broker-dealer di criptovalute che acquistano e rivendono per generare margini commerciali a breve termine).
+    - *Regola Speciale per Broker-Dealer*: le rimanenze sono valutate al **Fair Value al netto dei costi di vendita**, con tutte le oscillazioni di valore imputate direttamente a **Conto Economico (P&L)** nell'esercizio di maturazione.
+    - *Per le altre imprese commerciali*: si valutano al minore tra costo storico e Valore Netto di Realizzo (NRV).
+  - **2. Modello IAS 38 – Attività Immateriali (*Intangible Assets*)**:
+    - Si applica in TUTTI gli altri casi: quando le criptovalute sono detenute come investimento a medio-lungo termine, per rivalutazione del capitale o riserva di valore patrimoniale.
+    - Rientrano in IAS 38 come attività non monetarie identificabili prive di consistenza fisica. Poiché non hanno scadenza contrattuale, sono considerate **a vita utile indefinita**:
+      - **Non si ammortizzano mai**;
+      - Devono essere sottoposte a **impairment test obbligatorio almeno una volta all'anno ex IAS 36**.
+- **Trattamento delle Variazioni di Mercato e Incrementi di Prezzo (Quesito 10.3)**
+  - Un aumento della quotazione di mercato di Bitcoin non rappresenta automaticamente un utile di bilancio (Quesito 10.3). La contabilizzazione dipende dal modello adottato:
+    - Sotto **IAS 38 - Modello del Costo**: il rialzo di prezzo **NON si rileva a bilancio** (rimane iscritta al costo storico meno svalutazioni passate);
+    - Sotto **IAS 38 - Modello della Rideterminazione (*Revaluation Model*)**: ammesso solo se esiste un mercato attivo (IFRS 13). L'aumento di fair value si iscrive a **OCI nella Riserva di Rivalutazione a Patrimonio Netto**, e NON transita mai dal P&L!
+    - Sotto **IAS 2 - Commodity Broker-Dealer**: l'aumento transita a Conto Economico (P&L) come utile da variazione di fair value.
+- **Informativa Integrativa nelle Note al Bilancio**
+  - Data l'alta rischiosità, l'impresa deve fornire un'adeguata disclosure descrivendo:
+    - La finalità economica della detenzione e i principi contabili prescelti;
+    - La gerarchia del Fair Value (Livello 1 con quotazioni su mercati attivi);
+    - L'esposizione ai rischi di mercato, liquidità, cyber-sicurezza e perdita delle chiavi crittografiche private.
+
+## 12. IAS 36 – Riduzione di Valore delle Attività (Impairment of Assets)
+- **Finalità e Concetto Economico di Impairment**
+  - **Obiettivo Cardine**: Assicurare che le attività dell'impresa non siano mai iscritte a un valore superiore al loro **Valore Recuperabile (*Recoverable Amount*)**, tutelando i lettori del bilancio da sopravvalutazioni patrimoniali ingannevoli.
+  - **Quando un'attività è svalutata (*impaired*)?**: Quando il suo Valore Contabile (*Carrying Amount*) eccede l'ammontare che l'azienda può recuperare tramite l'uso continuativo o la vendita sul mercato. In tal caso, si deve rilevare immediatamente una **Perdita per Riduzione di Valore (*Impairment Loss*)** a Conto Economico.
+- **Quando si Effettua l'Impairment Test? (Trigger Events vs Test Annuale Obbligatorio)**
+  - **Regola Generale (In Presenza di Indicatori di Perdita - *Trigger Events*)**:
+    - Per i normali cespiti materiali e immateriali a vita definita, il test si esegue solo se a fine esercizio emergono indicatori interni o esterni di perdita:
+      - *Indicatori Esterni*: crollo del valore di mercato, aumenti dei tassi di interesse di mercato (che incrementano il tasso di attualizzazione riducendo il valore attuale), mutamenti normativi, legali o tecnologici avversi;
+      - *Indicatori Interni*: obsolescenza fisica dell'impianto, piani di ristrutturazione o dismissione anticipata, performance economiche e flussi di cassa consuntivati peggiori delle previsioni di budget.
+  - **LE 3 ECCEZIONI TASSATIVE: TEST ANNUALE OBBLIGATORIO A PRESCINDERE DA TRIGGER**:
+    - 1. **Avviamento (*Goodwill*)** acquisito in un'aggregazione aziendale;
+    - 2. **Attività immateriali a vita utile indefinita**;
+    - 3. **Attività immateriali non ancora disponibili all'uso** (costi di sviluppo capitalizzati in corso).
+- **La Determinazione del Valore Recuperabile (Quesito 11.1)**
+  - **La Regola del Massimo tra Due Valori**:
+    $$	ext{Valore Recuperabile} = \mathbf{MAGGIORE\ tra:}\ egin{cases} 	ext{1. Fair Value al Netto dei Costi di Dismissione (Fair Value Less Costs of Disposal)} \ 	ext{2. Valore d'Uso (Value in Use - VIU)} \end{cases}$$
+  - *Perché il MAGGIORE e non il minore?* Perché si presuppone la razionalità economica del management: se il bene produce più cassa continuando a farlo lavorare nella produzione (Valore d'Uso), l'azienda lo terrà; se invece vale di più vendendolo subito sul mercato (Fair Value netto), l'azienda lo dismetterà.
+  - **Risoluzione Esercizio Numerico d'Esame (Quesito 11.1)**:
+    - Dati: Valore Contabile Impianto = €200.000; Fair Value = €175.000; Costi di dismissione = €5.000; Valore d'Uso = €180.000.
+    - Calcolo Fair Value Netto: $175.000 - 5.000 = \mathbf{170.000\ €}$.
+    - Valore Recuperabile: $\max(170.000, 180.000) = \mathbf{180.000\ €}$ (prevale il Valore d'Uso!).
+    - **Perdita di Valore da Rilevare (Quesito 11.1)**:  
+      $	ext{Perdita} = 	ext{Valore Contabile (€200.000)} - 	ext{Valore Recuperabile (€180.000)} = \mathbf{20.000\ €}$ a Conto Economico.
+- **Il Valore d'Uso (*Value in Use*) in Dettaglio (Dalle Slide d'Aula `Value in use.pdf`)**
+  - **Definizione**: Il valore attuale dei flussi finanziari futuri attesi che si prevede origineranno dall'uso continuativo di un'attività (o CGU) e dalla sua dismissione finale.
+  - **I 3 Pilastri di Calcolo**:
+    - 1. Proiezioni dei flussi di cassa operativi basate sui budget formali più recenti approvati dal management (orizzonte temporale massimo ordinario di 5 anni);
+    - 2. Tasso di crescita costante o decrescente per il periodo successivo (*terminal value*), che non può superare il tasso medio di crescita a lungo termine del settore o del Paese;
+    - 3. **Tasso di Attualizzazione**: deve essere un **tasso al lordo delle imposte (*Pre-tax discount rate*)**, calcolato sul WACC dell'azienda e adeguato ai rischi specifici dell'attività per cui i flussi non sono stati rettificati.
+  - **La Regola dello "Stato Attuale" (*As-Is Condition*)**:
+    - Le stime dei flussi finanziari futuri devono riflettere l'attività nelle sue condizioni attuali. Sono tassativamente **ESCLUSI**:
+      - Flussi in entrata o uscita derivanti da future ristrutturazioni a cui l'impresa non è ancora legalmente vincolata;
+      - Flussi finanziari incrementali derivanti da futuri investimenti volti a migliorare o espandere le prestazioni produttive dell'attività.
+- **La Cash-Generating Unit (CGU) e i Corporate Assets (Quesito 11.3)**
+  - **Quando si fa il test sulla CGU? (Quesito 11.3)**:
+    - Se una singola attività non genera entrate finanziarie ampiamente indipendenti da quelle originate da altre attività (es. un robot di saldatura all'interno di una catena di montaggio), è impossibile stimare il Valore d'Uso del singolo macchinario.
+    - Si individua allora la **Cash-Generating Unit (CGU)**: il **più piccolo gruppo identificabile di attività che genera entrate finanziarie ampiamente indipendenti** dai flussi in entrata generati da altre attività.
+  - **Corporate Assets (Sede Centrale, Sistemi IT, Centri R&D Condivisi)**:
+    - Sono attività aziendali che contribuiscono ai flussi futuri di più CGU ma non generano flussi autonomi.
+    - **Test Bottom-up vs Top-down (Slide d'Aula `Value in use.pdf`)**:
+      - Se il Corporate Asset può essere allocato su base ragionevole e coerente alle singole CGU (es. proporzionalmente al valore contabile ponderato per la vita utile residua), si effettua il test **Bottom-up** allocando la quota a ciascuna CGU;
+      - Se una quota del Corporate Asset non è allocabile su basi coerenti, si applica il test **Top-down**: si verifica prima ogni CGU senza corporate asset, e poi si testa la macro-unità aggregata che incorpora il Corporate Asset residuo.
+- **Ordine di Allocazione della Perdita per Riduzione di Valore nella CGU**
+  - Quando il valore contabile complessivo di una CGU supera il suo valore recuperabile, la perdita per riduzione di valore viene imputata seguendo una sequenza gerarchica inderogabile:
+    - 1. **In primo luogo, si azzera l'Avviamento (*Goodwill*)** allocato a quella CGU;
+    - 2. **In secondo luogo, l'eventuale perdita residua viene ripartita pro-quota tra le altre attività della CGU**, proporzionalmente al valore contabile di ciascuna attività.
+  - *Clausola di Salvaguardia Individuale*: Nessuna singola attività può essere svalutata al di sotto del valore più elevato tra:
+    - Il suo Fair Value al netto dei costi di dismissione (se determinabile);
+    - Il suo Valore d'Uso (se determinabile);
+    - Zero.
+    - L'eventuale perdita non assorbita da tale bene viene redistribuita pro-quota sulle restanti attività della CGU.
+- **Ripristino di Valore (*Reversal of Impairment*) (Quesiti 11.2 & 11.4)**
+  - **DIVIETO ASSOLUTO E CATEGORICO PER L'AVVIAMENTO (Quesito 11.4)**:
+    - Una perdita per riduzione di valore rilevata per l'**Avviamento NON PUÒ MAI ESSERE RIPRISTINATA** in esercizi successivi. Nemmeno se le prospettive economiche della CGU migliorano radicalmente e il valore recuperabile esplode verso l'alto!
+    - *Motivazione teorica*: Qualsiasi ripristino successivo dell'avviamento equivarrebbe alla rilevazione di un avviamento generato internamente, pratica severamente vietata dallo IAS 38.
+  - **Ripristino per le Altre Attività e la Regola del Tetto Massimo (Quesito 11.2)**:
+    - Per tutti gli altri cespiti (impianti, brevetti), se in un esercizio successivo le stime cambiano e il valore recuperabile aumenta, la perdita passata viene stornata a Conto Economico come utile da ripristino di valore (*Reversal*).
+    - **LA REGOLA DEL TETTO MASSIMO (*Ceiling Rule*)**: Il nuovo valore contabile del bene **NON PUÒ MAI SUPERARE il valore contabile netto che l'attività avrebbe avuto se la svalutazione originaria non fosse mai avvenuta (ossia al netto dei normali ammortamenti storici teorici)**!
+  - **Risoluzione Esercizio Numerico d'Esame (Quesito 11.2)**:
+    - Dati: Attività valutata al costo con valore contabile residuo = €64.000 dopo precedente svalutazione; Nuovo valore recuperabile stimato = €95.000; Valore netto che l'attività avrebbe avuto alla stessa data applicando i normali ammortamenti senza alcuna svalutazione passata = €84.000.
+    - Determinazione del Tetto Massimo ammissibile: il valore contabile può salire fino a un massimo di **€84.000** (non a €95.000!).
+    - **Ripristino Massimo Rilevabile a Conto Economico (Quesito 11.2)**:  
+      $	ext{Ripristino Massimo} = 84.000 - 64.000 = \mathbf{20.000\ €}$ (imputato come provento a P&L).
