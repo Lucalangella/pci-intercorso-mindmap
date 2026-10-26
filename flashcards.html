@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PCI Flashcards Interactive — Prova Intercorso</title>
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      background: radial-gradient(circle at 50% 10%, #1e1b4b 0%, #0b0f19 80%);
+      color: #f8fafc;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      min-height: 100vh;
+      user-select: none;
+    }
+    .perspective-1000 {
+      perspective: 1200px;
+    }
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transition: transform 0.6s cubic-bezier(0.4, 0.2, 0.2, 1);
+      transform-style: preserve-3d;
+    }
+    .flip-card.flipped .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+    .flip-card-front, .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      border-radius: 1.5rem;
+    }
+    .flip-card-back {
+      transform: rotateY(180deg);
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 6px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body class="p-4 md:p-8 flex flex-col justify-between">
+
+  <!-- Header -->
+  <header class="max-w-4xl mx-auto w-full mb-6">
+    <div class="flex flex-col sm:flex-row items-center justify-between gap-4 bg-slate-900/80 backdrop-blur border border-indigo-500/30 rounded-2xl p-5 shadow-2xl">
+      <div>
+        <div class="flex items-center space-x-2 text-indigo-400 text-xs font-bold tracking-widest uppercase mb-1">
+          <i class="fa-solid fa-layer-group"></i>
+          <span>Principi Contabili Internazionali</span>
+        </div>
+        <h1 class="text-xl md:text-2xl font-black text-white tracking-tight">Flashcards Interattive (Modulo 1)</h1>
+      </div>
+      <div class="flex items-center gap-3">
+        <a href="index.html" class="px-3.5 py-2 text-xs font-semibold rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 transition flex items-center gap-2">
+          <i class="fa-solid fa-sitemap text-indigo-400"></i> Mappa Concettuale
+        </a>
+        <button id="btn-shuffle" class="px-3.5 py-2 text-xs font-semibold rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white shadow-lg shadow-indigo-600/30 transition flex items-center gap-2">
+          <i class="fa-solid fa-shuffle"></i> Mischia
+        </button>
+      </div>
+    </div>
+
+    <!-- Filters & Stats Bar -->
+    <div class="mt-4 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
+      <!-- Category Filter -->
+      <div class="flex items-center gap-2 w-full sm:w-auto overflow-x-auto pb-1 sm:pb-0">
+        <label for="module-filter" class="text-slate-400 font-bold whitespace-nowrap">Argomento:</label>
+        <select id="module-filter" class="bg-slate-800 border border-slate-700 text-slate-200 rounded-lg px-3 py-1.5 focus:outline-none focus:border-indigo-500">
+          <option value="ALL">Tutti gli 8 argomenti (45 flashcards)</option>
+          <option value="Conceptual Framework">Conceptual Framework & Capitale (10)</option>
+          <option value="IAS 1">IAS 1 – Presentazione Bilancio (8)</option>
+          <option value="IFRS 18">IFRS 18 – Standard 2027 (4)</option>
+          <option value="IAS 7">IAS 7 – Rendiconto Finanziario (6)</option>
+          <option value="Note al Bilancio">Note al Bilancio (2)</option>
+          <option value="Management Commentary">Management Commentary (2)</option>
+          <option value="Sostenibilità">Sostenibilità & ISSB (2)</option>
+          <option value="Seminario Ferrari">Seminario Ferrari (3)</option>
+          <option value="IAS 16">IAS 16 – Immobili, Impianti (5)</option>
+          <option value="IFRS 5">IFRS 5 – Held for Sale & Discontinued (5)</option>
+        </select>
+      </div>
+
+      <!-- Stats -->
+      <div class="flex items-center gap-4 text-slate-300 font-medium">
+        <span class="flex items-center gap-1.5 text-emerald-400"><i class="fa-solid fa-check"></i> So: <b id="stat-known">0</b></span>
+        <span class="flex items-center gap-1.5 text-amber-400"><i class="fa-solid fa-rotate-right"></i> Da ripassare: <b id="stat-review">0</b></span>
+        <span class="flex items-center gap-1.5 text-slate-400">Totale: <b id="stat-current-index">1</b> / <b id="stat-total">45</b></span>
+      </div>
+    </div>
+
+    <!-- Progress bar -->
+    <div class="w-full bg-slate-800/80 rounded-full h-1.5 mt-3 overflow-hidden">
+      <div id="progress-bar" class="bg-gradient-to-r from-indigo-500 to-cyan-400 h-1.5 rounded-full transition-all duration-300" style="width: 2%;"></div>
+    </div>
+  </header>
+
+  <!-- Flashcard Arena -->
+  <main class="max-w-3xl mx-auto w-full my-auto flex flex-col items-center">
+    
+    <div class="perspective-1000 w-full h-[380px] sm:h-[420px] cursor-pointer" id="card-container">
+      <div id="flip-card" class="flip-card w-full h-full">
+        <div class="flip-card-inner shadow-2xl">
+          
+          <!-- FRONT FACE -->
+          <div class="flip-card-front bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 border-2 border-indigo-500/40 p-6 sm:p-8 flex flex-col justify-between shadow-indigo-500/10">
+            <div class="flex items-center justify-between">
+              <span id="card-module-front" class="px-3 py-1 rounded-full text-xs font-bold bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 uppercase tracking-wider">Modulo</span>
+              <span id="card-tag-front" class="text-xs font-mono text-slate-400 uppercase tracking-wider">TAG</span>
+            </div>
+
+            <div class="my-auto text-center px-2 sm:px-6">
+              <span class="text-slate-500 text-xs font-bold uppercase tracking-widest block mb-3">DOMANDA D'ESAME</span>
+              <p id="card-front-text" class="text-lg sm:text-2xl font-bold text-white leading-relaxed tracking-tight">Caricamento...</p>
+            </div>
+
+            <div class="flex items-center justify-between text-xs text-slate-500 pt-3 border-t border-slate-800">
+              <span><i class="fa-solid fa-keyboard mr-1"></i> [Spazio] o Clicca per girare</span>
+              <span class="text-indigo-400 font-semibold flex items-center gap-1">VEDI RISPOSTA <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+          </div>
+
+          <!-- BACK FACE -->
+          <div class="flip-card-back bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 border-2 border-cyan-500/40 p-6 sm:p-8 flex flex-col justify-between shadow-cyan-500/10">
+            <div class="flex items-center justify-between">
+              <span id="card-module-back" class="px-3 py-1 rounded-full text-xs font-bold bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 uppercase tracking-wider">Modulo</span>
+              <span class="text-xs font-bold text-emerald-400 flex items-center gap-1"><i class="fa-solid fa-lightbulb"></i> RISPOSTA GUIDATA</span>
+            </div>
+
+            <div class="my-auto overflow-y-auto max-h-[260px] custom-scrollbar px-2 sm:px-4 py-2">
+              <p id="card-back-text" class="text-sm sm:text-base text-slate-100 font-medium whitespace-pre-line leading-relaxed">Caricamento...</p>
+            </div>
+
+            <div class="flex items-center justify-between text-xs text-slate-500 pt-3 border-t border-slate-800/80">
+              <span class="text-slate-400"><i class="fa-solid fa-rotate-left mr-1"></i> [Spazio] per girare</span>
+              <span class="text-cyan-400 font-semibold">Usa i tasti sotto per valutarti</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Rating / Action Buttons -->
+    <div class="mt-8 flex flex-wrap items-center justify-center gap-4 w-full">
+      <button id="btn-prev" class="w-12 h-12 rounded-2xl bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 flex items-center justify-center transition shadow-lg">
+        <i class="fa-solid fa-chevron-left text-sm"></i>
+      </button>
+
+      <button id="btn-unknown" class="flex-1 max-w-[180px] py-3.5 px-4 rounded-2xl bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 text-amber-300 font-bold text-sm transition flex items-center justify-center gap-2 shadow-lg hover:border-amber-400">
+        <i class="fa-solid fa-xmark"></i> Non la so
+      </button>
+
+      <button id="btn-flip" class="px-6 py-3.5 rounded-2xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm shadow-xl shadow-indigo-600/30 transition flex items-center justify-center gap-2">
+        <i class="fa-solid fa-repeat"></i> Gira Carta
+      </button>
+
+      <button id="btn-known" class="flex-1 max-w-[180px] py-3.5 px-4 rounded-2xl bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 text-emerald-300 font-bold text-sm transition flex items-center justify-center gap-2 shadow-lg hover:border-emerald-400">
+        <i class="fa-solid fa-check"></i> La so bene!
+      </button>
+
+      <button id="btn-next" class="w-12 h-12 rounded-2xl bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 flex items-center justify-center transition shadow-lg">
+        <i class="fa-solid fa-chevron-right text-sm"></i>
+      </button>
+    </div>
+
+    <div class="mt-4 text-center text-xs text-slate-500">
+      Scorciatoie: <kbd class="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-slate-400 font-mono">Spazio</kbd> = Gira | <kbd class="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-slate-400 font-mono">&larr;</kbd> Precedente | <kbd class="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-slate-400 font-mono">&rarr;</kbd> Successiva | <kbd class="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-slate-400 font-mono">1</kbd> Non so | <kbd class="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-slate-400 font-mono">2</kbd> La so
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="max-w-4xl mx-auto w-full text-center text-xs text-slate-500 mt-6 pt-4 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-2">
+    <span>Preparazione Prova Intercorso PCI — Prof. Alessandro Corrado</span>
+    <span class="flex items-center gap-3">
+      <a href="PCI_Flashcards_Intercorso.tsv" download class="hover:text-indigo-400 transition flex items-center gap-1">
+        <i class="fa-solid fa-download"></i> Scarica mazzo Anki (.tsv)
+      </a>
+      <span>•</span>
+      <a href="https://github.com/Lucalangella/pci-intercorso-mindmap" target="_blank" class="hover:text-indigo-400 transition flex items-center gap-1">
+        <i class="fa-brands fa-github"></i> Repository GitHub
+      </a>
+    </span>
+  </footer>
+
+  <!-- App Script -->
+  <script>
+    const ALL_CARDS = [{"id": 1, "module": "Conceptual Framework", "tag": "GERARCHIA & STATUS", "front": "Qual è lo status giuridico del Conceptual Framework? Se entra in conflitto con una norma dello IAS 38 o dell'IFRS 9, quale prevale?", "back": "Il Framework NON è un principio contabile (IFRS/IAS) e NON prevale mai sugli standard specifici.\n\nIn caso di contrasto PREVALE SEMPRE lo standard specifico.\n\nDiventa fonte di riferimento per i redattori solo in assenza di uno standard dedicato, secondo la gerarchia delle fonti di IAS 8."}, {"id": 2, "module": "Conceptual Framework", "tag": "DESTINATARI & SCOPO", "front": "Chi sono i Primary Users (destinatari primari) del bilancio IFRS e qual è il loro focus informativo?", "back": "Sono gli INVESTITORI e i FINANZIATORI/CREDITORI (attuali e potenziali) che non possono esigere report personalizzati.\n\nFocus: stimare l'ammontare, la tempistica e il grado di incertezza dei flussi di cassa futuri netti (cash flow prospects).\n\nIl bilancio adotta la Entity Perspective e il Going Concern (continuità >= 12 mesi)."}, {"id": 3, "module": "Conceptual Framework", "tag": "REPORTING ENTITY", "front": "Che differenza c'è tra Reporting Entity e Legal Entity? Quali sono i tre casi fondamentali di disallineamento?", "back": "La Legal Entity è la persona giuridica formale di diritto societario; la Reporting Entity è un perimetro economico-sostanziale (substance over form).\n\n1. RE > Legal Entity: BILANCIO CONSOLIDATO (gruppo controllante-controllate);\n2. RE < Legal Entity: SEGMENT REPORTING o carve-out (singola divisione);\n3. Controllo Comune: BILANCIO COMBINATO (società sorelle sotto comune proprietà senza capogruppo formale)."}, {"id": 4, "module": "Conceptual Framework", "tag": "BILANCIO SEPARATO", "front": "Nel bilancio non consolidato (separato), come vengono trattate le società controllate nello Stato Patrimoniale?", "back": "La Reporting Entity è LA SOLA SOCIETÀ MADRE.\n\nLe controllate restano soggetti terzi: i loro singoli asset e debiti NON compaiono.\n\nNello SP della madre compare solo una riga nell'attivo: 'Partecipazioni in controllate' valutata ex IAS 27 (al costo, al fair value IFRS 9 o con il metodo del patrimonio netto)."}, {"id": 5, "module": "Conceptual Framework", "tag": "QUALITÀ FONDAMENTALI", "front": "Quali sono le due caratteristiche qualitative fondamentali dell'informazione finanziaria e da cosa sono composte?", "back": "1. SIGNIFICATIVITÀ (Relevance): capacità di fare la differenza nelle decisioni (valore predittivo e confermativo), declinata nella Rilevanza (Materiality).\n\n2. RAPPRESENTAZIONE FEDELE (Faithful Representation): prevalenza della sostanza sulla forma, composta da Completezza, Assenza di errori procedurali e Neutralità."}, {"id": 6, "module": "Conceptual Framework", "tag": "MATERIALITY", "front": "Qual è la soglia quantitativa benchmark della Materialità spiegata nel corso? E la dimensione qualitativa?", "back": "• DIMENSIONE QUANTITATIVA: errore o scostamento pari o superiore al 5% nella stima dell'utile d'esercizio.\n\n• DIMENSIONE QUALITATIVA: natura intrinseca del fatto (effetto soglia utile/perdita, violazione di covenants bancari, parti correlate), rilevante anche se numericamente minima o pari a zero."}, {"id": 7, "module": "Conceptual Framework", "tag": "MATERIALITY PROCESS", "front": "Quali sono le 4 fasi del processo di valutazione della Materiality (IFRS Practice Statement 2)?", "back": "1. IDENTIFY: individuare le informazioni potenzialmente rilevanti da standard e business;\n2. ASSESS: valutare l'impatto su base quantitativa (5% utile) e qualitativa;\n3. ORGANISE: strutturare la bozza aggregando ed evitando l'oscuramento (anti-obscuring);\n4. REVIEW: fare un passo indietro ed esaminare il bilancio d'insieme."}, {"id": 8, "module": "Conceptual Framework", "tag": "PRUDENZA VS NEUTRALITÀ", "front": "Cos'è la Cautious Prudence nel Framework 2018 e perché lo IASB vieta la 'prudenza asimmetrica' del Codice Civile?", "back": "È l'esercizio di cautela nelle stime in condizioni di incertezza (no sovrastima asset/ricavi, no sottostima passività/costi).\n\nLo IASB VIETA la prudenza asimmetrica e le riserve occulte perché sottostimare un asset oggi porta a sovrastimare artificialmente i margini di domani, violando la NEUTRALITÀ nel tempo."}, {"id": 9, "module": "Conceptual Framework", "tag": "CAPITAL MAINTENANCE", "front": "Qual è la formula del profitto secondo il mantenimento del capitale finanziario? Perché i conferimenti dei soci non sono profitto?", "back": "Formula: Profitto = ΔPatrimonio Netto - Apporti soci + Distribuzioni dividendi.\n\nIl profitto si genera SOLO DOPO aver mantenuto intatto il capitale iniziale.\n\nI conferimenti aumentano il PN ma NON sono profitto perché le transazioni a titolo di capitale con i proprietari vanno rigorosamente escluse dal reddito."}, {"id": 10, "module": "Conceptual Framework", "tag": "ESERCIZIO PROFITTO", "front": "Esercizio: PN iniziale €150.000, finale €185.000. Nell'anno i soci apportano €40.000 e ricevono dividendi per €15.000. Qual è il profitto nominale?", "back": "ΔPatrimonio Netto = 185.000 - 150.000 = +35.000 €\n\nProfitto = ΔPN - Apporti + Dividendi\nProfitto = 35.000 - 40.000 + 15.000 = €10.000\n\nRisposta corretta: €10.000 (Quesito 05.3 del test ufficiale)."}, {"id": 11, "module": "IAS 1", "tag": "SET COMPLETO", "front": "Quali sono i documenti obbligatori che compongono il set completo di bilancio IFRS?", "back": "1. Stato Patrimoniale;\n2. Conto Economico e OCI (Statement of Profit or Loss and Other Comprehensive Income);\n3. Prospetto delle Variazioni di Patrimonio Netto;\n4. Rendiconto Finanziario (IAS 7);\n5. Note al bilancio;\n6. (Se applicabile) Terzo SP all'inizio del periodo comparativo per restatement retrospettivo (IAS 8)."}, {"id": 12, "module": "IAS 1", "tag": "REGOLA TEMPORALE", "front": "Una società redige il bilancio per l'esercizio 2026 e non adotta anticipatamente IFRS 18. Quale principio applica per la presentazione?", "back": "Applica obbligatoriamente IAS 1.\n\nL'obbligo di applicare IFRS 18 decorre formalmente solo dagli esercizi che iniziano dal 1° gennaio 2027 (Quesito 01.1 del test)."}, {"id": 13, "module": "IAS 1", "tag": "ATTIVITÀ CORRENTI", "front": "Quali sono i 4 criteri alternativi affinché un'attività sia classificata come 'Corrente' nello Stato Patrimoniale?", "back": "1. Si prevede di realizzarla, venderla o consumarla nel normale ciclo operativo (anche > 12 mesi, es. vino, navi);\n2. Posseduta principalmente per finalità di trading;\n3. Si prevede il realizzo entro 12 mesi dalla data di bilancio;\n4. Cassa o disponibilità liquide senza vincoli per almeno 12 mesi."}, {"id": 14, "module": "IAS 1", "tag": "CASO RIFINANZIAMENTO", "front": "Al 31/12 un debito scade a 9 mesi. A febbraio (prima dell'approvazione del bilancio) viene concordato il rifinanziamento a 5 anni. Al 31/12 il debito è corrente o non corrente?", "back": "È PASSIVITÀ CORRENTE.\n\nAl 31/12 la società non aveva il diritto incondizionato di differire il pagamento per almeno 12 mesi.\n\nL'accordo successivo di febbraio è un fatto non-adjusting ex IAS 10: richiede informativa in nota ma non sana la classificazione corrente al 31/12 (Quesito 01.2)."}, {"id": 15, "module": "IAS 1", "tag": "TOTAL COMPREHENSIVE INCOME", "front": "Cos'è il Total Comprehensive Income (TCI) e qual è la differenza funzionale tra P&L e OCI?", "back": "TCI = Profit or Loss (P&L) + Other Comprehensive Income (OCI).\n\n• P&L: misura la performance ordinaria e realizzata (base per dividendi, EPS IAS 33, bonus);\n• OCI: accoglie costi/ricavi non realizzati (variazioni di fair value) per sterilizzare la volatilità dal P&L operativo."}, {"id": 16, "module": "IAS 1", "tag": "EFFETTO OCI RIVALUTAZIONE", "front": "Un incremento da rivalutazione di un immobile (IAS 16) viene rilevato in OCI. Qual è il suo esatto effetto sul bilancio?", "back": "Aumenta il Risultato Complessivo (TCI) e aumenta il Patrimonio Netto (Riserva di rivalutazione), ma NON aumenta l'utile d'esercizio (P&L) (Quesito 01.3 del test)."}, {"id": 17, "module": "IAS 1", "tag": "RECYCLING", "front": "Cos'è il Recycling (Reclassification Adjustment)? Fai un esempio con recycling e uno con divieto di recycling.", "back": "È il trasferimento al Conto Economico (P&L) di riserve OCI quando l'operazione giunge a compimento per evitare doppie imputazioni nel TCI.\n\n• CON Recycling: titoli di debito FVOCI (IFRS 9), coperture Cash Flow Hedge, riserva cambi IAS 21;\n• SENZA Recycling: rivalutazione immobili IAS 16 (la riserva OCI residua va direttamente a utili portati a nuovo a PN, mai a P&L!)."}, {"id": 18, "module": "IAS 1", "tag": "COSTI OPERATIVI", "front": "Qual è il vincolo informativo se un'azienda sceglie di presentare il Conto Economico per destinazione (Costo del venduto)?", "back": "Ha l'obbligo inderogabile di fornire nelle note al bilancio l'informativa aggiuntiva sui costi per natura, indicando espressamente almeno il totale delle spese per il personale e il totale di ammortamenti e svalutazioni."}, {"id": 19, "module": "IFRS 18", "tag": "RIVOLUZIONE 2027", "front": "Perché lo IASB ha introdotto l'IFRS 18 in sostituzione dello IAS 1? Quando entra in vigore?", "back": "Entra in vigore obbligatoriamente il 1° gennaio 2027.\n\nNasce per standardizzare la struttura del Conto Economico, eliminare l'incomparabilità dei conti economici e disciplinare le misure non-GAAP utilizzate dal management."}, {"id": 20, "module": "IFRS 18", "tag": "LE 3 CATEGORIE P&L", "front": "Quali sono le 3 categorie obbligatorie in cui IFRS 18 suddivide tutti i ricavi e costi del Conto Economico?", "back": "1. OPERATING: categoria residuale (accoglie tutto ciò che non è Investing, Financing, imposte o IFRS 5; include costi insoliti e ristrutturazioni);\n2. INVESTING: rendimenti da asset indipendenti (immobili a reddito IAS 40, dividendi, collegate IAS 28);\n3. FINANCING: passività da raccolta capitali (interessi mutui, bond, leasing IFRS 16) e oneri finanziari netti."}, {"id": 21, "module": "IFRS 18", "tag": "2 SUB-TOTALI OBBLIGATORI", "front": "Quali sono i 2 nuovi subtotali obbligatori standardizzati introdotti da IFRS 18 nel Conto Economico e a cosa servono?", "back": "1. Risultato Operativo (Operating Profit / EBIT standardizzato);\n2. Utile prima dei finanziamenti e delle imposte (Profit before financing and income taxes).\n\nServono a offrire riferimenti oggettivi comuni per confrontare società che usano definizioni arbitrarie di EBITDA (Quesito 01.4)."}, {"id": 22, "module": "IFRS 18", "tag": "MPMs", "front": "Cosa sono le MPMs (Management Performance Measures) sotto IFRS 18 e quali obblighi comportano?", "back": "Sono indicatori non-GAAP di redditività usati dal management nei comunicati pubblici (es. Adjusted EBITDA).\n\nObbligo di entrare nelle Note al bilancio con: motivazione, formula, riconciliazione analitica con subtotale IFRS, impatto fiscale/NCI e certificazione dei revisori (Audit)."}, {"id": 23, "module": "IAS 7", "tag": "PRINCIPIO FONDANTE", "front": "Qual è l'unico prospetto di bilancio redatto secondo il principio di cassa (Cash basis)? Perché 'Cash is King'?", "back": "Il Rendiconto Finanziario (IAS 7).\n\nPerché l'utile contabile applica stime e congetture e non garantisce la solvibilità. Un'azienda con utili positivi può fallire per crisi di liquidità; il rendiconto misura i movimenti monetari reali."}, {"id": 24, "module": "IAS 7", "tag": "CASH EQUIVALENTS", "front": "Quali requisiti deve soddisfare un investimento per essere qualificato come 'Cash Equivalent' (Mezzo equivalente)?", "back": "1. Brevissimo termine e pronta conversione in cassa;\n2. Rischio insignificante di variazione del valore;\n3. Scadenza originaria non superiore a 3 mesi dalla data di acquisto.\n\nLe azioni ordinarie sono ESCLUSE (troppo volatili)."}, {"id": 25, "module": "IAS 7", "tag": "LE 3 GESTIONI", "front": "Quali sono le 3 macro-aree del Rendiconto Finanziario e cosa accolgono?", "back": "1. OPERATIVA: incassi e pagamenti del core business (motore caratteristico);\n2. INVESTIMENTO: acquisto e vendita di immobilizzazioni materiali, immateriali e partecipazioni (CapEx);\n3. FINANZIAMENTO: accensione/rimborso debiti finanziari, emissione azioni, dividendi pagati, canoni leasing quota capitale."}, {"id": 26, "module": "IAS 7", "tag": "METODO INDIRETTO CCN", "front": "Nel metodo indiretto, come si rettifica l'Utile Netto per Ammortamenti, Plusvalenze da cessione e variazioni di Crediti e Fornitori?", "back": "• Ammortamenti: si RISOMMANO (+, costo non monetario);\n• Plusvalenze cespiti: si SOTTRAGGONO (-, l'incasso totale va in Investing!);\n• Aumento Crediti: si SOTTRAE (-, vendite non ancora incassate);\n• Riduzione Fornitori: si SOTTRAE (-, pagamenti effettuati di fatture pregresse)."}, {"id": 27, "module": "IAS 7", "tag": "OPERAZIONI NON MONETARIE", "front": "Come viene trattata nel Rendiconto Finanziario l'acquisizione iniziale di un macchinario mediante contratto di leasing IFRS 16 senza esborso?", "back": "È un'operazione non monetaria (non-cash transaction): NON genera alcun flusso iniziale nel prospetto.\n\nÈ fatto divieto di esporre flussi figurativi; l'operazione va illustrata separatamente in un'apposita nota esplicativa (Quesito 02.1 del test)."}, {"id": 28, "module": "Note al Bilancio", "tag": "DIVIETO SANATORIA", "front": "Se una società opera una compensazione non consentita nei prospetti primari esponendo i dati lordi nelle note, la violazione è sanata?", "back": "NO, la disclosure in nota NON SANA una compensazione o trattamento errato nei prospetti primari (Quesito 03.3 del test)."}, {"id": 29, "module": "Note al Bilancio", "tag": "STIME & SENSIBILITÀ", "front": "Quale informazione sulle stime contabili è più utile nelle note secondo lo IAS 1 (Modulo 03)?", "back": "Descrivere le principali ipotesi assunte sul futuro e, laddove appropriato, la relativa analisi di sensibilità (sensitivity analysis) a variazioni ragionevolmente possibili dei parametri (Quesito 03.2)."}, {"id": 30, "module": "Management Commentary", "tag": "PROSPETTIVA & CONTENUTI", "front": "Cos'è il Management Commentary (Practice Statement 1) e come va commentata la crescita dell'utile dovuta alla sola vendita di un immobile?", "back": "È la relazione narrativa della gestione vista 'attraverso gli occhi del management'.\n\nSe l'utile cresce solo per una cessione straordinaria mentre i margini operativi calano, il management deve distinguere il contributo dell'alienazione e spiegare cause e prospettive del core business (Quesito 04.1)."}, {"id": 31, "module": "Sostenibilità", "tag": "ISSB STANDARDS", "front": "Quali sono i primi due standard emessi dall'ISSB e su quali pilastri si fondano?", "back": "• IFRS S1: requisiti generali di sostenibilità su 4 pilastri TCFD (Governance, Strategia, Risk Management, Metriche e Target);\n• IFRS S2: standard specifico sul Clima (rischi fisici/transizione, emissioni Scope 1, 2 e 3)."}, {"id": 32, "module": "Sostenibilità", "tag": "DOPPIA MATERIALITÀ", "front": "Qual è la differenza fondamentale tra la Materialità Finanziaria (ISSB) e la Doppia Materialità dell'Unione Europea (CSRD)?", "back": "• Materialità Finanziaria (Outside-in / ISSB): impatto dei fattori ESG sul valore e sui flussi di cassa dell'impresa (per gli investitori);\n• Doppia Materialità (CSRD UE): Outside-in + Inside-out (l'impatto delle attività aziendali su persone e ambiente)."}, {"id": 33, "module": "Seminario Ferrari", "tag": "MODELLO DI BUSINESS", "front": "Qual è la filosofia fondativa del modello Ferrari sintetizzata dalla frase di Enzo Ferrari?", "back": "'Ferrari will always deliver one car less than the market demands'.\n\nPriorità assoluta a Esclusività e Valore rispetto ai volumi: crescita dei ricavi guidata da personalizzazioni estreme e serie Icona (leva Price/Mix)."}, {"id": 34, "module": "Seminario Ferrari", "tag": "METRICHE FINANZIARIE", "front": "Quali sono i target finanziari 2020-2025 presentati nel seminario Ferrari per EBITDA e Cash Flow?", "back": "• Adjusted EBITDA Margin al 38.8% al 2025 (+580 bps rispetto al 2020);\n• Free Cash Flow Industriale cumulato 2020-25 di ~€5.1 miliardi con alto Cash Conversion Ratio per autofinanziare investimenti in R&D e ibrido."}, {"id": 35, "module": "Seminario Ferrari", "tag": "TRADE-OFFS & DECISIONI", "front": "Quali sono i 4 trade-off strategici resi visibili dalla Finanza in Ferrari e le 5 fasi del processo decisionale?", "back": "Trade-off: 1. Growth vs Exclusivity; 2. Innovation vs Discipline; 3. Global vs Local; 4. Short-term vs Long-term.\n\nFrom Data to Decision: 01. Business Question -> 02. Data & Assumptions -> 03. Scenarios/Sensitivities -> 04. Risks & Opps -> 05. Decision."}, {"id": 36, "module": "IAS 16", "tag": "COSTO CAPITALIZZABILE", "front": "Quali componenti entrano nel costo iniziale di un impianto e quali sono tassativamente escluse?", "back": "ENTRANO: prezzo d'acquisto netto, dazi, trasporto, montaggio, collaudo (netto campioni venduti) e il valore attuale dei costi di smantellamento e bonifica (IAS 37).\n\nESCLUSE (a P&L): spese di formazione del personale (manca il controllo giuridico), marketing, spese generali e costi di inaugurazione."}, {"id": 37, "module": "IAS 16", "tag": "COMPONENT APPROACH", "front": "Cos'è il Component Approach ex IAS 16? Fai l'esempio dell'aereo e del terreno/edificio.", "back": "Ogni parte di un cespite con costo significativo e vita utile o ritmo di consumo dissimile DEVE essere ammortizzata separatamente.\n\n• Aereo: fusoliera (25 anni), motori (10 anni), interni (5 anni);\n• Terreno vs Fabbricato: il terreno ha vita utile indefinita e non si ammortizza mai; l'edificio si ammortizza."}, {"id": 38, "module": "IAS 16", "tag": "SCRITTURA RIVALUTAZIONE", "front": "Esercizio: Un impianto passa da €80.000 a €95.000 nel Revaluation Model senza svalutazioni pregresse. Qual è la scrittura contabile?", "back": "Dare Impianti €15.000 / Avere Riserva di rivalutazione (OCI) €15.000.\n\nNessun provento tocca il Conto Economico ordinario (Quesito 06.4 del test ufficiale)."}, {"id": 39, "module": "IAS 16", "tag": "VENDITA CESPITE RIVALUTATO", "front": "Cosa accade alla Riserva di Rivalutazione quando un bene rivalutato viene venduto a terzi?", "back": "DIVIETO CATEGORICO DI RECYCLING.\n\nLa riserva di rivalutazione accumulata in OCI a patrimonio netto NON transita mai per il Conto Economico (P&L); viene trasferita direttamente a 'Utili portati a nuovo' (Retained Earnings) a PN."}, {"id": 40, "module": "IAS 16", "tag": "REGOLE AMMORTAMENTO", "front": "Quando inizia l'ammortamento di un cespite e cosa succede se il bene rimane temporaneamente inutilizzato?", "back": "Inizia quando il bene è DISPONIBILE ALL'USO (nel luogo e nelle condizioni volute dal management), NON dal primo utilizzo effettivo.\n\nNON SI SOSPENDE se il bene rimane temporaneamente inattivo o sottoutilizzato."}, {"id": 41, "module": "IFRS 5", "tag": "CRITERI CLASSIFICAZIONE", "front": "Quali sono le due condizioni tassative per classificare un cespite come 'Held for Sale' (Posseduto per la vendita)?", "back": "1. Disponibilità immediata per la vendita nelle condizioni attuali;\n2. Vendita ALTAMENTE PROBABILE entro 12 mesi (piano formale approvato dal management, ricerca attiva di acquirenti a prezzo congruo, scarse probabilità di revoca) (Quesito 07.1)."}, {"id": 42, "module": "IFRS 5", "tag": "STOP AMMORTAMENTO", "front": "In quale momento esatto cessa l'ammortamento per un cespite nel campo di applicazione di IFRS 5?", "back": "Cessa alla data in cui sono SODDISFATTE TUTTE LE CONDIZIONI DI CLASSIFICAZIONE (non alla sola approvazione del piano dal CdA, né alla vendita finale!) (Quesito 07.2 del test ufficiale)."}, {"id": 43, "module": "IFRS 5", "tag": "VALUTAZIONE & IMPAIRMENT", "front": "Esercizio: Macchinario con valore contabile €240.000. Fair Value €230.000, costi stimati di vendita €10.000. Quali valore e perdita si rilevano?", "back": "Fair Value netto = 230.000 - 10.000 = €220.000.\n\nRegola del minore tra valore contabile (€240k) e Fair Value netto (€220k):\n• Nuovo valore iscritto: €220.000;\n• Perdita da riduzione valore (Impairment): €20.000 a P&L (Quesito 07.3 del test)."}, {"id": 44, "module": "IFRS 5", "tag": "DISCONTINUED OPERATIONS", "front": "Quale dismissione rappresenta una Discontinued Operation e come si espone nel Conto Economico?", "back": "La cessione di un'entità o componente che rappresenta un IMPORTANTE RAMO AUTONOMO DI ATTIVITÀ o un'area geografica significativa (Quesito 07.4).\n\nNel P&L: tutti i suoi ricavi e costi sono rimossi dalle ordinarie categorie ed esposti in un'UNICA RIGA SINTETICA al netto delle imposte (Risultato netto delle discontinued operations)."}, {"id": 45, "module": "IFRS 5", "tag": "MANCATA VENDITA", "front": "Cosa accade se la vendita sfuma e il bene cessa di essere classificato come Held for Sale?", "back": "Torna nelle Attività Non Correnti al MINORE tra:\n1. Il valore contabile che avrebbe avuto se non fosse mai stato held for sale (dedotti tutti gli ammortamenti congelati nel frattempo);\n2. Il valore recuperabile ex IAS 36 alla data di revoca.\n\nLa differenza viene imputata immediatamente a P&L."}];
+
+    let activeCards = [...ALL_CARDS];
+    let currentIndex = 0;
+    let knownSet = new Set();
+    let reviewSet = new Set();
+
+    // DOM Elements
+    const cardContainer = document.getElementById("card-container");
+    const flipCard = document.getElementById("flip-card");
+    const cardModuleFront = document.getElementById("card-module-front");
+    const cardTagFront = document.getElementById("card-tag-front");
+    const cardFrontText = document.getElementById("card-front-text");
+    const cardModuleBack = document.getElementById("card-module-back");
+    const cardBackText = document.getElementById("card-back-text");
+
+    const statIndex = document.getElementById("stat-current-index");
+    const statTotal = document.getElementById("stat-total");
+    const statKnown = document.getElementById("stat-known");
+    const statReview = document.getElementById("stat-review");
+    const progressBar = document.getElementById("progress-bar");
+    const moduleFilter = document.getElementById("module-filter");
+
+    function renderCard() {
+      flipCard.classList.remove("flipped");
+      
+      if (activeCards.length === 0) {
+        cardFrontText.textContent = "Nessuna carta per questo filtro!";
+        cardBackText.textContent = "";
+        return;
+      }
+
+      const card = activeCards[currentIndex];
+      cardModuleFront.textContent = card.module;
+      cardTagFront.textContent = card.tag;
+      cardFrontText.textContent = card.front;
+
+      cardModuleBack.textContent = card.module;
+      cardBackText.textContent = card.back;
+
+      statIndex.textContent = currentIndex + 1;
+      statTotal.textContent = activeCards.length;
+      statKnown.textContent = knownSet.size;
+      statReview.textContent = reviewSet.size;
+
+      const progress = ((currentIndex + 1) / activeCards.length) * 100;
+      progressBar.style.width = progress + "%";
+    }
+
+    function toggleFlip() {
+      flipCard.classList.toggle("flipped");
+    }
+
+    function nextCard() {
+      if (currentIndex < activeCards.length - 1) {
+        currentIndex++;
+      } else {
+        currentIndex = 0; // wrap around
+      }
+      renderCard();
+    }
+
+    function prevCard() {
+      if (currentIndex > 0) {
+        currentIndex--;
+      } else {
+        currentIndex = activeCards.length - 1;
+      }
+      renderCard();
+    }
+
+    function markKnown() {
+      const card = activeCards[currentIndex];
+      knownSet.add(card.id);
+      reviewSet.delete(card.id);
+      nextCard();
+    }
+
+    function markReview() {
+      const card = activeCards[currentIndex];
+      reviewSet.add(card.id);
+      knownSet.delete(card.id);
+      nextCard();
+    }
+
+    function shuffle() {
+      for (let i = activeCards.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [activeCards[i], activeCards[j]] = [activeCards[j], activeCards[i]];
+      }
+      currentIndex = 0;
+      renderCard();
+    }
+
+    // Filter by module
+    moduleFilter.addEventListener("change", (e) => {
+      const selected = e.target.value;
+      if (selected === "ALL") {
+        activeCards = [...ALL_CARDS];
+      } else {
+        activeCards = ALL_CARDS.filter(c => c.module.includes(selected));
+      }
+      currentIndex = 0;
+      renderCard();
+    });
+
+    // Event Listeners
+    cardContainer.addEventListener("click", toggleFlip);
+    document.getElementById("btn-flip").addEventListener("click", toggleFlip);
+    document.getElementById("btn-next").addEventListener("click", nextCard);
+    document.getElementById("btn-prev").addEventListener("click", prevCard);
+    document.getElementById("btn-known").addEventListener("click", markKnown);
+    document.getElementById("btn-unknown").addEventListener("click", markReview);
+    document.getElementById("btn-shuffle").addEventListener("click", shuffle);
+
+    // Keyboard Shortcuts
+    window.addEventListener("keydown", (e) => {
+      if (e.code === "Space") {
+        e.preventDefault();
+        toggleFlip();
+      } else if (e.code === "ArrowRight") {
+        nextCard();
+      } else if (e.code === "ArrowLeft") {
+        prevCard();
+      } else if (e.key === "1") {
+        markReview();
+      } else if (e.key === "2") {
+        markKnown();
+      }
+    });
+
+    // Init
+    renderCard();
+  </script>
+</body>
+</html>
