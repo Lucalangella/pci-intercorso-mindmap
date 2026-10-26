@@ -1,394 +1,549 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3200 2100" width="3200" height="2100" style="background-color: #0B0F19; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Inter, Helvetica, Arial, sans-serif;">
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2500 2320" width="2500" height="2320">
   <defs>
-    <!-- Background Grid Pattern -->
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.7" stroke-opacity="0.6"/>
-    </pattern>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#0B0F19" stop-opacity="0"/>
-    </radialGradient>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F19"/>
+      <stop offset="50%" stop-color="#0E1626"/>
+      <stop offset="100%" stop-color="#080C14"/>
+    </linearGradient>
+    
+    <!-- Card Drop Shadow -->
     <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000000" flood-opacity="0.5"/>
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.6"/>
     </filter>
   </defs>
 
-  <!-- Background Layer -->
-  <rect width="100%" height="100%" fill="#0B0F19"/>
-  <rect width="100%" height="100%" fill="url(#grid)"/>
-  <circle cx="1600" cy="1050" r="700" fill="url(#centerGlow)"/>
+  <!-- Background -->
+  <rect width="2500" height="2320" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle Grid Pattern -->
+  <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+    <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#1E293B" stroke-width="0.75" stroke-opacity="0.4"/>
+  </pattern>
+  <rect width="2500" height="2320" fill="url(#grid)"/>
 
-<path d="M 1280 1050 C 1010 1050, 1010 310, 740 310" fill="none" stroke="#8B5CF6" stroke-width="3" stroke-opacity="0.55" stroke-dasharray="6 4"/>
-<circle cx="740" cy="310" r="6" fill="#8B5CF6"/>
-<path d="M 1280 1050 C 1010 1050, 1010 810, 740 810" fill="none" stroke="#3B82F6" stroke-width="3" stroke-opacity="0.55" stroke-dasharray="6 4"/>
-<circle cx="740" cy="810" r="6" fill="#3B82F6"/>
-<path d="M 1280 1050 C 1010 1050, 1010 1310, 740 1310" fill="none" stroke="#06B6D4" stroke-width="3" stroke-opacity="0.55" stroke-dasharray="6 4"/>
-<circle cx="740" cy="1310" r="6" fill="#06B6D4"/>
-<path d="M 1280 1050 C 1010 1050, 1010 1810, 740 1810" fill="none" stroke="#10B981" stroke-width="3" stroke-opacity="0.55" stroke-dasharray="6 4"/>
-<circle cx="740" cy="1810" r="6" fill="#10B981"/>
-<path d="M 1920 1050 C 2190 1050, 2190 310, 2460 310" fill="none" stroke="#14B8A6" stroke-width="3" stroke-opacity="0.55" stroke-dasharray="6 4"/>
-<circle cx="2460" cy="310" r="6" fill="#14B8A6"/>
-<path d="M 1920 1050 C 2190 1050, 2190 810, 2460 810" fill="none" stroke="#EF4444" stroke-width="3" stroke-opacity="0.55" stroke-dasharray="6 4"/>
-<circle cx="2460" cy="810" r="6" fill="#EF4444"/>
-<path d="M 1920 1050 C 2190 1050, 2190 1310, 2460 1310" fill="none" stroke="#F59E0B" stroke-width="3" stroke-opacity="0.55" stroke-dasharray="6 4"/>
-<circle cx="2460" cy="1310" r="6" fill="#F59E0B"/>
-<path d="M 1920 1050 C 2190 1050, 2190 1810, 2460 1810" fill="none" stroke="#EC4899" stroke-width="3" stroke-opacity="0.55" stroke-dasharray="6 4"/>
-<circle cx="2460" cy="1810" r="6" fill="#EC4899"/>
+  <!-- Main Top Header -->
+  <g transform="translate(100, 45)">
+    <rect x="0" y="0" width="8" height="60" rx="4" fill="#6366F1"/>
+    <text x="25" y="32" fill="#FFFFFF" font-size="28" font-weight="900" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif" letter-spacing="-0.5">PRINCIPI CONTABILI INTERNAZIONALI (IFRS / IAS)</text>
+    <text x="25" y="54" fill="#94A3B8" font-size="15" font-weight="500" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">Mappa Concettuale Completa 12 Moduli • Prova Intercorso (Prof. A. Corrado) • Modelli, Formule, Casi d'Esame e Risoluzioni</text>
+    
+    <!-- Pills in header -->
+    <g transform="translate(1450, 14)">
+      <rect x="0" y="0" width="170" height="34" rx="17" fill="#4F46E5"/>
+      <text x="85" y="22" fill="#FFFFFF" font-size="12" font-weight="700" text-anchor="middle">12 MODULI COMPLETI</text>
+      
+      <rect x="185" y="0" width="160" height="34" rx="17" fill="#0D9488"/>
+      <text x="265" y="22" fill="#FFFFFF" font-size="12" font-weight="700" text-anchor="middle">40 QUESITI D'ESAME</text>
+      
+      <rect x="360" y="0" width="180" height="34" rx="17" fill="#D97706"/>
+      <text x="450" y="22" fill="#FFFFFF" font-size="12" font-weight="700" text-anchor="middle">VALUTAZIONI &amp; SCRITTURE</text>
 
-  <!-- Center Node -->
-  <g filter="url(#cardShadow)">
-    <rect x="1280" y="900" width="640" height="300" rx="28" fill="#1E1B4B" stroke="#6366F1" stroke-width="3"/>
-    <rect x="1296" y="916" width="608" height="38" rx="10" fill="#312E81"/>
-    <text x="1600" y="941" fill="#A5B4FC" font-size="14" font-weight="800" text-anchor="middle" letter-spacing="2">DIPARTIMENTO DI ECONOMIA &amp; MANAGEMENT</text>
-    
-    <text x="1600" y="1025" fill="#FFFFFF" font-size="30" font-weight="900" text-anchor="middle" letter-spacing="-0.5">PRINCIPI CONTABILI INTERNAZIONALI</text>
-    <text x="1600" y="1065" fill="#38BDF8" font-size="20" font-weight="700" text-anchor="middle">MAPPA DI RIPASSO: PROVA INTERCORSO (MODULO 1)</text>
-    
-    <!-- Badges in center -->
-    <g transform="translate(1350, 1105)">
-      <rect x="0" y="0" width="150" height="34" rx="17" fill="#4338CA"/>
-      <text x="75" y="22" fill="#FFFFFF" font-size="12" font-weight="700" text-anchor="middle">8 ARGOMENTI CHIAVE</text>
-      
-      <rect x="170" y="0" width="160" height="34" rx="17" fill="#4338CA"/>
-      <text x="250" y="22" fill="#FFFFFF" font-size="12" font-weight="700" text-anchor="middle">FRAMEWORK &amp; IFRS</text>
-      
-      <rect x="350" y="0" width="150" height="34" rx="17" fill="#4338CA"/>
-      <text x="425" y="22" fill="#FFFFFF" font-size="12" font-weight="700" text-anchor="middle">FOCUS DOMANDE</text>
+      <rect x="555" y="0" width="150" height="34" rx="17" fill="#BE185D"/>
+      <text x="630" y="22" fill="#FFFFFF" font-size="12" font-weight="700" text-anchor="middle">CASO FERRARI &amp; VIU</text>
     </g>
   </g>
 
 
-    <!-- Card: 1. Conceptual Framework (2018) -->
+    <!-- Card: 1. Conceptual Framework & Capital -->
     <g filter="url(#cardShadow)">
       <!-- Card background -->
-      <rect x="80" y="80" width="660" height="460" rx="20" fill="#131B2E" stroke="#8B5CF6" stroke-width="2" stroke-opacity="0.85"/>
-      <rect x="80" y="80" width="660" height="55" rx="20" fill="#8B5CF6" fill-opacity="0.15"/>
-      <path d="M 80 135 L 740 135" stroke="#8B5CF6" stroke-width="1.5" stroke-opacity="0.4"/>
+      <rect x="70" y="140" width="740" height="480" rx="18" fill="#111827" stroke="#8B5CF6" stroke-width="2" stroke-opacity="0.85"/>
+      <rect x="70" y="140" width="740" height="52" rx="18" fill="#8B5CF6" fill-opacity="0.15"/>
+      <path d="M 70 192 L 810 192" stroke="#8B5CF6" stroke-width="1.5" stroke-opacity="0.35"/>
       
       <!-- Tag / Badge -->
-      <rect x="530" y="94" width="190" height="26" rx="13" fill="#8B5CF6" fill-opacity="0.25"/>
-      <text x="625" y="111" fill="#8B5CF6" font-size="11" font-weight="800" text-anchor="middle" letter-spacing="1">THEORY & FOUNDATIONS</text>
+      <rect x="600" y="153" width="190" height="26" rx="13" fill="#8B5CF6" fill-opacity="0.25"/>
+      <text x="695" y="170" fill="#8B5CF6" font-size="11" font-weight="800" text-anchor="middle" letter-spacing="0.8" font-family="-apple-system, sans-serif">THEORY & FOUNDATIONS</text>
       
       <!-- Title -->
-      <text x="104" y="116" fill="#FFFFFF" font-size="19" font-weight="800">1. Conceptual Framework (2018)</text>
+      <text x="92" y="174" fill="#FFFFFF" font-size="18" font-weight="800" font-family="-apple-system, sans-serif">1. Conceptual Framework & Capital</text>
     
 
       <!-- Point -->
-      <circle cx="108" cy="163" r="5" fill="#8B5CF6"/>
-      <text x="122" y="168" fill="#F1F5F9" font-size="14" font-weight="700">Natura &amp; Gerarchia IAS 8: <tspan fill="#94A3B8" font-size="13" font-weight="400">Non è un IFRS e non prevale. Guida lo IASB e assiste i preparers in assenza di IFRS specifici.</tspan></text>
+      <circle cx="96" cy="219" r="4.5" fill="#8B5CF6"/>
+      <text x="110" y="224" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Natura &amp; Gerarchia IAS 8: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Non è un IFRS e non prevale. Guida lo IASB e assiste i redattori ex IAS 8 in assenza di IFRS specifici.</tspan></text>
         
 
       <!-- Point -->
-      <circle cx="108" cy="221" r="5" fill="#8B5CF6"/>
-      <text x="122" y="226" fill="#F1F5F9" font-size="14" font-weight="700">Destinatari Primari: <tspan fill="#94A3B8" font-size="13" font-weight="400">Primary users: investitori e finanziatori/creditori. Focus: stimare ammontare, tempi e incertezze dei cash flows futuri.</tspan></text>
+      <circle cx="96" cy="275" r="4.5" fill="#8B5CF6"/>
+      <text x="110" y="280" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Destinatari Primari: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Investitori e finanziatori/creditori esterni. Focus: stimare ammontare, tempi e incertezze dei cash flows futuri.</tspan></text>
         
 
       <!-- Point -->
-      <circle cx="108" cy="279" r="5" fill="#8B5CF6"/>
-      <text x="122" y="284" fill="#F1F5F9" font-size="14" font-weight="700">Reporting Entity vs Legal Entity: <tspan fill="#94A3B8" font-size="13" font-weight="400">Perimetro economico vs forma legale. RE &gt; LE: Consolidato; RE &lt; LE: Segment; Controllo comune: Combinato; Madre sola: Separato.</tspan></text>
+      <circle cx="96" cy="331" r="4.5" fill="#8B5CF6"/>
+      <text x="110" y="336" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Reporting vs Legal Entity: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Sostanza economica vs forma giuridica. RE &gt; LE: Consolidato; RE &lt; LE: Segment; Comune controllo: Combinato.</tspan></text>
         
 
       <!-- Point -->
-      <circle cx="108" cy="337" r="5" fill="#8B5CF6"/>
-      <text x="122" y="342" fill="#F1F5F9" font-size="14" font-weight="700">Caratteristiche Fondamentali: <tspan fill="#94A3B8" font-size="13" font-weight="400">Significatività (Materiality con 4-step e soglia 5% utile) e Rappresentazione Fedele (Completezza, Assenza errori, Neutralità).</tspan></text>
+      <circle cx="96" cy="387" r="4.5" fill="#8B5CF6"/>
+      <text x="110" y="392" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Materiality &amp; 4-Step Process: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Soglia quantitativa standard &gt;= 5% utile netto; soglia qualitativa a zero (covenants, utili/perdite, parti correlate).</tspan></text>
         
 
       <!-- Point -->
-      <circle cx="108" cy="395" r="5" fill="#8B5CF6"/>
-      <text x="122" y="400" fill="#F1F5F9" font-size="14" font-weight="700">Prudenza Cautelativa vs Neutralità: <tspan fill="#94A3B8" font-size="13" font-weight="400">Cautela nelle stime in condizioni di incertezza. VIETATA la prudenza asimmetrica civilistica e le riserve occulte.</tspan></text>
+      <circle cx="96" cy="443" r="4.5" fill="#8B5CF6"/>
+      <text x="110" y="448" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Prudenza Cautelativa vs Neutralità: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Cautela nelle stime in condizioni di incertezza. VIETATE le riserve occulte e la prudenza asimmetrica civilistica.</tspan></text>
         
 
       <!-- Point -->
-      <circle cx="108" cy="453" r="5" fill="#8B5CF6"/>
-      <text x="122" y="458" fill="#F1F5F9" font-size="14" font-weight="700">Capital Maintenance: <tspan fill="#94A3B8" font-size="13" font-weight="400">Finanziario nominale (costo storico), Finanziario reale (inflazione) e Fisico (capacità produttiva/costi correnti).</tspan></text>
+      <circle cx="96" cy="499" r="4.5" fill="#8B5CF6"/>
+      <text x="110" y="504" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Capital Maintenance: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Nominale (costo storico), Reale (indice prezzi) e Fisico (capacità produttiva; variazioni di costo a riserva PN).</tspan></text>
         
     </g>
 
-    <!-- Card: 2. IAS 1 – Presentazione del Bilancio -->
+    <!-- Card: 2. IAS 1 – Presentazione Bilancio -->
     <g filter="url(#cardShadow)">
       <!-- Card background -->
-      <rect x="80" y="580" width="660" height="460" rx="20" fill="#131B2E" stroke="#3B82F6" stroke-width="2" stroke-opacity="0.85"/>
-      <rect x="80" y="580" width="660" height="55" rx="20" fill="#3B82F6" fill-opacity="0.15"/>
-      <path d="M 80 635 L 740 635" stroke="#3B82F6" stroke-width="1.5" stroke-opacity="0.4"/>
+      <rect x="70" y="660" width="740" height="480" rx="18" fill="#111827" stroke="#06B6D4" stroke-width="2" stroke-opacity="0.85"/>
+      <rect x="70" y="660" width="740" height="52" rx="18" fill="#06B6D4" fill-opacity="0.15"/>
+      <path d="M 70 712 L 810 712" stroke="#06B6D4" stroke-width="1.5" stroke-opacity="0.35"/>
       
       <!-- Tag / Badge -->
-      <rect x="530" y="594" width="190" height="26" rx="13" fill="#3B82F6" fill-opacity="0.25"/>
-      <text x="625" y="611" fill="#3B82F6" font-size="11" font-weight="800" text-anchor="middle" letter-spacing="1">REPORTING & STRUCTURE</text>
+      <rect x="600" y="673" width="190" height="26" rx="13" fill="#06B6D4" fill-opacity="0.25"/>
+      <text x="695" y="690" fill="#06B6D4" font-size="11" font-weight="800" text-anchor="middle" letter-spacing="0.8" font-family="-apple-system, sans-serif">FINANCIAL STATEMENTS</text>
       
       <!-- Title -->
-      <text x="104" y="616" fill="#FFFFFF" font-size="19" font-weight="800">2. IAS 1 – Presentazione del Bilancio</text>
+      <text x="92" y="694" fill="#FFFFFF" font-size="18" font-weight="800" font-family="-apple-system, sans-serif">2. IAS 1 – Presentazione Bilancio</text>
     
 
       <!-- Point -->
-      <circle cx="108" cy="663" r="5" fill="#3B82F6"/>
-      <text x="122" y="668" fill="#F1F5F9" font-size="14" font-weight="700">Postulati Generali: <tspan fill="#94A3B8" font-size="13" font-weight="400">Competenza economica (Accrual basis), Going concern, Divieto di compensazione (Offsetting), Divieto proventi/oneri straordinari.</tspan></text>
+      <circle cx="96" cy="739" r="4.5" fill="#06B6D4"/>
+      <text x="110" y="744" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Set Completo di Bilancio: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Cinque documenti obbligatori: SP, P&amp;L complessivo (P&amp;L + OCI), Prospetto Variazioni PN, Rendiconto Finanziario, Note.</tspan></text>
         
 
       <!-- Point -->
-      <circle cx="108" cy="721" r="5" fill="#3B82F6"/>
-      <text x="122" y="726" fill="#F1F5F9" font-size="14" font-weight="700">Stato Patrimoniale (Corrente vs Non): <tspan fill="#94A3B8" font-size="13" font-weight="400">Corrente se nel normale ciclo operativo (anche &gt; 12 mesi!) o realizzo entro 12 mesi. Ratio chiave: Current Ratio (Att. Corr / Pass. Corr).</tspan></text>
+      <circle cx="96" cy="795" r="4.5" fill="#06B6D4"/>
+      <text x="110" y="800" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Postulati Fondamentali: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Going Concern (continuità &gt;= 12 mesi), Accrual Basis (competenza), Rilevanza &amp; Aggregazione, Divieto di compensazione.</tspan></text>
         
 
       <!-- Point -->
-      <circle cx="108" cy="779" r="5" fill="#3B82F6"/>
-      <text x="122" y="784" fill="#F1F5F9" font-size="14" font-weight="700">Total Comprehensive Income (TCI): <tspan fill="#94A3B8" font-size="13" font-weight="400">TCI = Profit or Loss (P&amp;L realizzato/ordinario) + OCI (variazioni di valore non realizzate a PN).</tspan></text>
+      <circle cx="96" cy="851" r="4.5" fill="#06B6D4"/>
+      <text x="110" y="856" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Corrente vs Non Corrente: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Ciclo operativo normale o 12 mesi. Trap: debito a 9 mesi rifinanziato a febbraio prima dell&#x27;approvazione resta CORRENTE.</tspan></text>
         
 
       <!-- Point -->
-      <circle cx="108" cy="837" r="5" fill="#3B82F6"/>
-      <text x="122" y="842" fill="#F1F5F9" font-size="14" font-weight="700">La Regola del Recycling: <tspan fill="#94A3B8" font-size="13" font-weight="400">Voci CON recycling (bond FVOCI, coperture CFH) transitano a P&amp;L alla chiusura. Voci SENZA recycling (rivalutazione IAS 16, azioni FVOCI) MAI a P&amp;L.</tspan></text>
+      <circle cx="96" cy="907" r="4.5" fill="#06B6D4"/>
+      <text x="110" y="912" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">P&amp;L per Natura vs Destinazione: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Natura (materie, personale, ammortamenti) vs Destinazione (cost of sales, distribution, admin con disclosure natura in nota).</tspan></text>
         
 
       <!-- Point -->
-      <circle cx="108" cy="895" r="5" fill="#3B82F6"/>
-      <text x="122" y="900" fill="#F1F5F9" font-size="14" font-weight="700">Costi a P&amp;L: Natura vs Destinazione: <tspan fill="#94A3B8" font-size="13" font-weight="400">Classificazione libera; se per destinazione (costo del venduto), obbligo disclosure minima in nota per costi del personale e ammortamenti.</tspan></text>
+      <circle cx="96" cy="963" r="4.5" fill="#06B6D4"/>
+      <text x="110" y="968" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">OCI &amp; Recycling: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">OCI con riciclo a P&amp;L (cash flow hedge, FVOCI debito) vs OCI senza riciclo (rivalutazione cespiti IAS 16/38, attuariali IAS 19).</tspan></text>
         
     </g>
 
     <!-- Card: 3. IFRS 18 – Nuova Presentazione (2027) -->
     <g filter="url(#cardShadow)">
       <!-- Card background -->
-      <rect x="80" y="1080" width="660" height="460" rx="20" fill="#131B2E" stroke="#06B6D4" stroke-width="2" stroke-opacity="0.85"/>
-      <rect x="80" y="1080" width="660" height="55" rx="20" fill="#06B6D4" fill-opacity="0.15"/>
-      <path d="M 80 1135 L 740 1135" stroke="#06B6D4" stroke-width="1.5" stroke-opacity="0.4"/>
+      <rect x="70" y="1180" width="740" height="480" rx="18" fill="#111827" stroke="#10B981" stroke-width="2" stroke-opacity="0.85"/>
+      <rect x="70" y="1180" width="740" height="52" rx="18" fill="#10B981" fill-opacity="0.15"/>
+      <path d="M 70 1232 L 810 1232" stroke="#10B981" stroke-width="1.5" stroke-opacity="0.35"/>
       
       <!-- Tag / Badge -->
-      <rect x="530" y="1094" width="190" height="26" rx="13" fill="#06B6D4" fill-opacity="0.25"/>
-      <text x="625" y="1111" fill="#06B6D4" font-size="11" font-weight="800" text-anchor="middle" letter-spacing="1">NEW STANDARD REVOLUTION</text>
+      <rect x="600" y="1193" width="190" height="26" rx="13" fill="#10B981" fill-opacity="0.25"/>
+      <text x="695" y="1210" fill="#10B981" font-size="11" font-weight="800" text-anchor="middle" letter-spacing="0.8" font-family="-apple-system, sans-serif">MANDATORY 2027</text>
       
       <!-- Title -->
-      <text x="104" y="1116" fill="#FFFFFF" font-size="19" font-weight="800">3. IFRS 18 – Nuova Presentazione (2027)</text>
+      <text x="92" y="1214" fill="#FFFFFF" font-size="18" font-weight="800" font-family="-apple-system, sans-serif">3. IFRS 18 – Nuova Presentazione (2027)</text>
     
 
       <!-- Point -->
-      <circle cx="108" cy="1163" r="5" fill="#06B6D4"/>
-      <text x="122" y="1168" fill="#F1F5F9" font-size="14" font-weight="700">Superamento dello IAS 1: <tspan fill="#94A3B8" font-size="13" font-weight="400">In vigore dal 1° gennaio 2027. Nasce per standardizzare il Conto Economico e rendere confrontabili le performance aziendali.</tspan></text>
+      <circle cx="96" cy="1259" r="4.5" fill="#10B981"/>
+      <text x="110" y="1264" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Decorrenza &amp; Scopo: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Obbligatorio dal 1° gennaio 2027 (sostituisce IAS 1). Rende comparabili i subtotali di conto economico tra imprese.</tspan></text>
         
 
       <!-- Point -->
-      <circle cx="108" cy="1221" r="5" fill="#06B6D4"/>
-      <text x="122" y="1226" fill="#F1F5F9" font-size="14" font-weight="700">Le 3 Categorie Rigide del P&amp;L: <tspan fill="#94A3B8" font-size="13" font-weight="400">1. Operating (categoria RESIDUALE: accoglie tutto ciò che non è invest/finanz); 2. Investing (rendimenti indipendenti); 3. Financing (debiti e raccolta).</tspan></text>
+      <circle cx="96" cy="1315" r="4.5" fill="#10B981"/>
+      <text x="110" y="1320" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Le 3 Categorie del P&amp;L: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Operating (operativa come categoria RESIDUALE), Investing (investimenti in partecipazioni/immobili) e Financing (debiti).</tspan></text>
         
 
       <!-- Point -->
-      <circle cx="108" cy="1279" r="5" fill="#06B6D4"/>
-      <text x="122" y="1284" fill="#F1F5F9" font-size="14" font-weight="700">2 Subtotali Obbligatori: <tspan fill="#94A3B8" font-size="13" font-weight="400">1. Risultato Operativo (Operating Profit / EBIT standardizzato); 2. Utile prima di finanziamento e imposte (Profit before financing &amp; tax).</tspan></text>
+      <circle cx="96" cy="1371" r="4.5" fill="#10B981"/>
+      <text x="110" y="1376" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">I 2 Subtotali Obbligatori: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">1. Risultato Operativo (Operating Profit) e 2. Risultato prima di finanziamento e imposte (Profit before financing and tax).</tspan></text>
         
 
       <!-- Point -->
-      <circle cx="108" cy="1337" r="5" fill="#06B6D4"/>
-      <text x="122" y="1342" fill="#F1F5F9" font-size="14" font-weight="700">Misure MPM (Management Performance): <tspan fill="#94A3B8" font-size="13" font-weight="400">Metriche non-GAAP usate dal management (Adjusted EBIT): obbligo di inclusione in nota con riconciliazione analitica e revisione.</tspan></text>
+      <circle cx="96" cy="1427" r="4.5" fill="#10B981"/>
+      <text x="110" y="1432" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">MPM Auditati nelle Note: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Management-defined Performance Measures: indicatori non-IFRS comunicati al mercato devono essere riconciliati e auditati in nota.</tspan></text>
         
 
       <!-- Point -->
-      <circle cx="108" cy="1395" r="5" fill="#06B6D4"/>
-      <text x="122" y="1400" fill="#F1F5F9" font-size="14" font-weight="700">Anti-Oscuramento (Obscuring): <tspan fill="#94A3B8" font-size="13" font-weight="400">Divieto di raggruppare voci dissimili; vincoli severi alle etichette &#x27;Altro&#x27; e regole stringenti di aggregazione/disaggregazione.</tspan></text>
+      <circle cx="96" cy="1483" r="4.5" fill="#10B981"/>
+      <text x="110" y="1488" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Raggruppamento e Aggregazione: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Divieto di etichette generiche ambigue (&#x27;costi vari&#x27;) per nascondere costi anomali o non ricorrenti.</tspan></text>
         
     </g>
 
     <!-- Card: 4. IAS 7 – Rendiconto Finanziario -->
     <g filter="url(#cardShadow)">
       <!-- Card background -->
-      <rect x="80" y="1580" width="660" height="460" rx="20" fill="#131B2E" stroke="#10B981" stroke-width="2" stroke-opacity="0.85"/>
-      <rect x="80" y="1580" width="660" height="55" rx="20" fill="#10B981" fill-opacity="0.15"/>
-      <path d="M 80 1635 L 740 1635" stroke="#10B981" stroke-width="1.5" stroke-opacity="0.4"/>
+      <rect x="70" y="1700" width="740" height="480" rx="18" fill="#111827" stroke="#3B82F6" stroke-width="2" stroke-opacity="0.85"/>
+      <rect x="70" y="1700" width="740" height="52" rx="18" fill="#3B82F6" fill-opacity="0.15"/>
+      <path d="M 70 1752 L 810 1752" stroke="#3B82F6" stroke-width="1.5" stroke-opacity="0.35"/>
       
       <!-- Tag / Badge -->
-      <rect x="530" y="1594" width="190" height="26" rx="13" fill="#10B981" fill-opacity="0.25"/>
-      <text x="625" y="1611" fill="#10B981" font-size="11" font-weight="800" text-anchor="middle" letter-spacing="1">CASH FLOW IS KING</text>
+      <rect x="600" y="1713" width="190" height="26" rx="13" fill="#3B82F6" fill-opacity="0.25"/>
+      <text x="695" y="1730" fill="#3B82F6" font-size="11" font-weight="800" text-anchor="middle" letter-spacing="0.8" font-family="-apple-system, sans-serif">CASH FLOW STATEMENT</text>
       
       <!-- Title -->
-      <text x="104" y="1616" fill="#FFFFFF" font-size="19" font-weight="800">4. IAS 7 – Rendiconto Finanziario</text>
+      <text x="92" y="1734" fill="#FFFFFF" font-size="18" font-weight="800" font-family="-apple-system, sans-serif">4. IAS 7 – Rendiconto Finanziario</text>
     
 
       <!-- Point -->
-      <circle cx="108" cy="1663" r="5" fill="#10B981"/>
-      <text x="122" y="1668" fill="#F1F5F9" font-size="14" font-weight="700">L&#x27;Unica Eccezione alla Competenza: <tspan fill="#94A3B8" font-size="13" font-weight="400">Redatto rigorosamente per Cassa (Cash basis) per misurare la reale liquidità generata ed evitare le stime contabili.</tspan></text>
+      <circle cx="96" cy="1779" r="4.5" fill="#3B82F6"/>
+      <text x="110" y="1784" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Le 3 Aree Finanziarie: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Operativa (autofinanziamento &#x27;core&#x27;), Investimento (CapEx materiali/immateriali), Finanziamento (capitale di rischio e debiti).</tspan></text>
         
 
       <!-- Point -->
-      <circle cx="108" cy="1721" r="5" fill="#10B981"/>
-      <text x="122" y="1726" fill="#F1F5F9" font-size="14" font-weight="700">Cash and Cash Equivalents: <tspan fill="#94A3B8" font-size="13" font-weight="400">Disponibilità liquide a vista + investimenti ad altissima liquidità a rischio insignificante con scadenza originaria &lt;= 3 mesi.</tspan></text>
+      <circle cx="96" cy="1835" r="4.5" fill="#3B82F6"/>
+      <text x="110" y="1840" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Metodo Diretto vs Indiretto: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">IASB incoraggia il Diretto (incassi da clienti - uscite per fornitori); prassi usa Indiretto (Utile rettificato per non-monetari e CCN).</tspan></text>
         
 
       <!-- Point -->
-      <circle cx="108" cy="1779" r="5" fill="#10B981"/>
-      <text x="122" y="1784" fill="#F1F5F9" font-size="14" font-weight="700">Le 3 Gestioni Finanziarie: <tspan fill="#94A3B8" font-size="13" font-weight="400">1. Operativa (motore caratteristico); 2. Investimento (CapEx e M&amp;A); 3. Finanziamento (Capitale proprio, rimborsi mutui, canoni IFRS 16).</tspan></text>
+      <circle cx="96" cy="1891" r="4.5" fill="#3B82F6"/>
+      <text x="110" y="1896" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Regola Variazioni CCN: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Aumento Crediti = - cassa (assorbimento); Riduzione Magazzino = + cassa; Aumento Debiti Fornitori = + cassa (dilazione).</tspan></text>
         
 
       <!-- Point -->
-      <circle cx="108" cy="1837" r="5" fill="#10B981"/>
-      <text x="122" y="1842" fill="#F1F5F9" font-size="14" font-weight="700">Metodo Indiretto Operativo (CCN): <tspan fill="#94A3B8" font-size="13" font-weight="400">Utile Netto + Costi non monetari (Amm.ti) - Plusvalenze (vanno in Investing!) - ΔCrediti - ΔMagazzino + ΔDebiti Fornitori.</tspan></text>
+      <circle cx="96" cy="1947" r="4.5" fill="#3B82F6"/>
+      <text x="110" y="1952" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Interessi e Dividendi: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Politica coerente: dividendi pagati sempre financing; dividendi incassati operating o investing; interessi pagati operating/financing.</tspan></text>
         
 
       <!-- Point -->
-      <circle cx="108" cy="1895" r="5" fill="#10B981"/>
-      <text x="122" y="1900" fill="#F1F5F9" font-size="14" font-weight="700">Operazioni Non Monetarie: <tspan fill="#94A3B8" font-size="13" font-weight="400">Acquisti di impianti con permute, leasing IFRS 16 o aumenti di capitale: ESCLUSI dal prospetto, solo disclosure in nota.</tspan></text>
+      <circle cx="96" cy="2003" r="4.5" fill="#3B82F6"/>
+      <text x="110" y="2008" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Operazioni Non-Monetarie: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Acquisto cespite interamente con leasing o apporto soci: ESCLUSO dal rendiconto, solo informativa qualitativa nelle note.</tspan></text>
         
     </g>
 
-    <!-- Card: 5. Notes, Commentary & Sostenibilità -->
+    <!-- Card: 5. Notes, Commentary & ESG -->
     <g filter="url(#cardShadow)">
       <!-- Card background -->
-      <rect x="2460" y="80" width="660" height="460" rx="20" fill="#131B2E" stroke="#14B8A6" stroke-width="2" stroke-opacity="0.85"/>
-      <rect x="2460" y="80" width="660" height="55" rx="20" fill="#14B8A6" fill-opacity="0.15"/>
-      <path d="M 2460 135 L 3120 135" stroke="#14B8A6" stroke-width="1.5" stroke-opacity="0.4"/>
+      <rect x="860" y="140" width="740" height="480" rx="18" fill="#111827" stroke="#F59E0B" stroke-width="2" stroke-opacity="0.85"/>
+      <rect x="860" y="140" width="740" height="52" rx="18" fill="#F59E0B" fill-opacity="0.15"/>
+      <path d="M 860 192 L 1600 192" stroke="#F59E0B" stroke-width="1.5" stroke-opacity="0.35"/>
       
       <!-- Tag / Badge -->
-      <rect x="2910" y="94" width="190" height="26" rx="13" fill="#14B8A6" fill-opacity="0.25"/>
-      <text x="3005" y="111" fill="#14B8A6" font-size="11" font-weight="800" text-anchor="middle" letter-spacing="1">DISCLOSURE & ESG</text>
+      <rect x="1390" y="153" width="190" height="26" rx="13" fill="#F59E0B" fill-opacity="0.25"/>
+      <text x="1485" y="170" fill="#F59E0B" font-size="11" font-weight="800" text-anchor="middle" letter-spacing="0.8" font-family="-apple-system, sans-serif">DISCLOSURE & REPORTS</text>
       
       <!-- Title -->
-      <text x="2484" y="116" fill="#FFFFFF" font-size="19" font-weight="800">5. Notes, Commentary & Sostenibilità</text>
+      <text x="882" y="174" fill="#FFFFFF" font-size="18" font-weight="800" font-family="-apple-system, sans-serif">5. Notes, Commentary & ESG</text>
     
 
       <!-- Point -->
-      <circle cx="2488" cy="163" r="5" fill="#14B8A6"/>
-      <text x="2502" y="168" fill="#F1F5F9" font-size="14" font-weight="700">Note al Bilancio (IAS 1): <tspan fill="#94A3B8" font-size="13" font-weight="400">Parte integrante del bilancio. Dichiarazione conformità, accounting policies e fonti di incertezza nelle stime (sources of estimation uncertainty).</tspan></text>
+      <circle cx="886" cy="219" r="4.5" fill="#F59E0B"/>
+      <text x="900" y="224" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Funzione Note al Bilancio: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Parte integrante cogente del bilancio. Principi contabili adottati (accounting policies), stime incerte e dettagli analitici.</tspan></text>
         
 
       <!-- Point -->
-      <circle cx="2488" cy="221" r="5" fill="#14B8A6"/>
-      <text x="2502" y="226" fill="#F1F5F9" font-size="14" font-weight="700">Management Commentary: <tspan fill="#94A3B8" font-size="13" font-weight="400">IFRS Practice Statement 1: relazione narrativa &#x27;through the eyes of management&#x27; (modello di business, rischi, strategia, KPIs).</tspan></text>
+      <circle cx="886" cy="275" r="4.5" fill="#F59E0B"/>
+      <text x="900" y="280" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Management Commentary (IASB Practice): <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Relazione sulla gestione: documento narrativo fuori bilancio. Strategia, modelli di business, rischi principali e forward-looking.</tspan></text>
         
 
       <!-- Point -->
-      <circle cx="2488" cy="279" r="5" fill="#14B8A6"/>
-      <text x="2502" y="284" fill="#F1F5F9" font-size="14" font-weight="700">Nascita dell&#x27;ISSB (COP26): <tspan fill="#94A3B8" font-size="13" font-weight="400">International Sustainability Standards Board per creare una global baseline di informativa finanziaria di sostenibilità.</tspan></text>
+      <circle cx="886" cy="331" r="4.5" fill="#F59E0B"/>
+      <text x="900" y="336" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Sostenibilità &amp; ISSB Standards: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">IFRS S1 (requisiti generali di disclosure ESG) e IFRS S2 (clima: rischi fisici, di transizione e metriche Scope 1, 2, 3).</tspan></text>
         
 
       <!-- Point -->
-      <circle cx="2488" cy="337" r="5" fill="#14B8A6"/>
-      <text x="2502" y="342" fill="#F1F5F9" font-size="14" font-weight="700">Standard IFRS S1 &amp; IFRS S2: <tspan fill="#94A3B8" font-size="13" font-weight="400">S1: Requisiti generali di sostenibilità su 4 pilastri TCFD. S2: Clima (rischi fisici/transizione ed emissioni Scope 1, 2, 3).</tspan></text>
-        
-
-      <!-- Point -->
-      <circle cx="2488" cy="395" r="5" fill="#14B8A6"/>
-      <text x="2502" y="400" fill="#F1F5F9" font-size="14" font-weight="700">Doppia Materialità (ISSB vs UE): <tspan fill="#94A3B8" font-size="13" font-weight="400">ISSB: Materialità Finanziaria (Outside-in, impatto ESG sull&#x27;azienda). UE/CSRD: Doppia Materialità (Outside-in + Inside-out, impatto sul pianeta).</tspan></text>
+      <circle cx="886" cy="387" r="4.5" fill="#F59E0B"/>
+      <text x="900" y="392" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Informativa Segmenti (IFRS 8): <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Report per business o aree geografiche basato sul Chief Operating Decision Maker (CODM) e parametri quantitativi del 10%.</tspan></text>
         
     </g>
 
     <!-- Card: 6. Seminario Ferrari: Unique Model -->
     <g filter="url(#cardShadow)">
       <!-- Card background -->
-      <rect x="2460" y="580" width="660" height="460" rx="20" fill="#131B2E" stroke="#EF4444" stroke-width="2" stroke-opacity="0.85"/>
-      <rect x="2460" y="580" width="660" height="55" rx="20" fill="#EF4444" fill-opacity="0.15"/>
-      <path d="M 2460 635 L 3120 635" stroke="#EF4444" stroke-width="1.5" stroke-opacity="0.4"/>
+      <rect x="860" y="660" width="740" height="480" rx="18" fill="#111827" stroke="#EF4444" stroke-width="2" stroke-opacity="0.85"/>
+      <rect x="860" y="660" width="740" height="52" rx="18" fill="#EF4444" fill-opacity="0.15"/>
+      <path d="M 860 712 L 1600 712" stroke="#EF4444" stroke-width="1.5" stroke-opacity="0.35"/>
       
       <!-- Tag / Badge -->
-      <rect x="2910" y="594" width="190" height="26" rx="13" fill="#EF4444" fill-opacity="0.25"/>
-      <text x="3005" y="611" fill="#EF4444" font-size="11" font-weight="800" text-anchor="middle" letter-spacing="1">BUSINESS APPLIED CASE</text>
+      <rect x="1390" y="673" width="190" height="26" rx="13" fill="#EF4444" fill-opacity="0.25"/>
+      <text x="1485" y="690" fill="#EF4444" font-size="11" font-weight="800" text-anchor="middle" letter-spacing="0.8" font-family="-apple-system, sans-serif">BUSINESS CASE STUDY</text>
       
       <!-- Title -->
-      <text x="2484" y="616" fill="#FFFFFF" font-size="19" font-weight="800">6. Seminario Ferrari: Unique Model</text>
+      <text x="882" y="694" fill="#FFFFFF" font-size="18" font-weight="800" font-family="-apple-system, sans-serif">6. Seminario Ferrari: Unique Model</text>
     
 
       <!-- Point -->
-      <circle cx="2488" cy="663" r="5" fill="#EF4444"/>
-      <text x="2502" y="668" fill="#F1F5F9" font-size="14" font-weight="700">Filosofia Fondativa: <tspan fill="#94A3B8" font-size="13" font-weight="400">&#x27;Ferrari will always deliver one car less than the market demands&#x27; (Enzo Ferrari): esclusività e valore prioritari sui volumi.</tspan></text>
+      <circle cx="886" cy="739" r="4.5" fill="#EF4444"/>
+      <text x="900" y="744" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Filosofia Enzo Ferrari: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">&#x27;Consegnerò sempre una macchina in meno di quanto il mercato richieda&#x27; (esclusività programmata e pricing power assoluto).</tspan></text>
         
 
       <!-- Point -->
-      <circle cx="2488" cy="721" r="5" fill="#EF4444"/>
-      <text x="2502" y="726" fill="#F1F5F9" font-size="14" font-weight="700">Valore &amp; Mix (Price/Mix): <tspan fill="#94A3B8" font-size="13" font-weight="400">Crescita ricavi trainata da personalizzazioni estreme e serie limitate/Icona. Adj. EBITDA Margin al 38.8% (+580 bps vs 2020).</tspan></text>
+      <circle cx="886" cy="795" r="4.5" fill="#EF4444"/>
+      <text x="900" y="800" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Scomposizione Price/Mix: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Crescita trainata non dai volumi industriali ma da personalizzazioni Atelier/Tailor-Made e serie limitate speciali.</tspan></text>
         
 
       <!-- Point -->
-      <circle cx="2488" cy="779" r="5" fill="#EF4444"/>
-      <text x="2502" y="784" fill="#F1F5F9" font-size="14" font-weight="700">Free Cash Flow Industriale: <tspan fill="#94A3B8" font-size="13" font-weight="400">~€5.1 miliardi di FCF industriale cumulato 2020-25 con alto Cash Conversion Ratio (autofinanziamento CapEx R&amp;D e ibrido).</tspan></text>
+      <circle cx="886" cy="851" r="4.5" fill="#EF4444"/>
+      <text x="900" y="856" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Metriche Finanziarie Straordinarie: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Adjusted EBITDA margin al 38,8% (record industriale luxury) e Free Cash Flow industriale di €5,1 miliardi.</tspan></text>
         
 
       <!-- Point -->
-      <circle cx="2488" cy="837" r="5" fill="#EF4444"/>
-      <text x="2502" y="842" fill="#F1F5F9" font-size="14" font-weight="700">I 4 Trade-off della Finanza: <tspan fill="#94A3B8" font-size="13" font-weight="400">Finance makes trade-offs visible: 1. Growth vs Exclusivity; 2. Innovation vs Discipline; 3. Global vs Local; 4. Short-term vs Long-term.</tspan></text>
+      <circle cx="886" cy="907" r="4.5" fill="#EF4444"/>
+      <text x="900" y="912" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">I 4 Trade-offs Strategici: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Esclusività vs Crescita; Elettrificazione vs Performance/Sound; Clienti tradizionali vs Nuove generazioni; Formula 1 vs Brand value.</tspan></text>
         
 
       <!-- Point -->
-      <circle cx="2488" cy="895" r="5" fill="#EF4444"/>
-      <text x="2502" y="900" fill="#F1F5F9" font-size="14" font-weight="700">Processo &#x27;From Data to Decision&#x27;: <tspan fill="#94A3B8" font-size="13" font-weight="400">01. Business Question -&gt; 02. Data &amp; Assumptions -&gt; 03. Scenarios/Sensitivities -&gt; 04. Risks &amp; Opps -&gt; 05. Decision.</tspan></text>
+      <circle cx="886" cy="963" r="4.5" fill="#EF4444"/>
+      <text x="900" y="968" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">From Data to Decision: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">5 fasi del processo: Business Understanding, Data Collection, Advanced Analytics, Strategic Insights, Executive Decision.</tspan></text>
         
     </g>
 
-    <!-- Card: 7. IAS 16 – Property, Plant & Equipment -->
+    <!-- Card: 7. IAS 16 – Property, Plant & Equip. -->
     <g filter="url(#cardShadow)">
       <!-- Card background -->
-      <rect x="2460" y="1080" width="660" height="460" rx="20" fill="#131B2E" stroke="#F59E0B" stroke-width="2" stroke-opacity="0.85"/>
-      <rect x="2460" y="1080" width="660" height="55" rx="20" fill="#F59E0B" fill-opacity="0.15"/>
-      <path d="M 2460 1135 L 3120 1135" stroke="#F59E0B" stroke-width="1.5" stroke-opacity="0.4"/>
+      <rect x="860" y="1180" width="740" height="480" rx="18" fill="#111827" stroke="#EC4899" stroke-width="2" stroke-opacity="0.85"/>
+      <rect x="860" y="1180" width="740" height="52" rx="18" fill="#EC4899" fill-opacity="0.15"/>
+      <path d="M 860 1232 L 1600 1232" stroke="#EC4899" stroke-width="1.5" stroke-opacity="0.35"/>
       
       <!-- Tag / Badge -->
-      <rect x="2910" y="1094" width="190" height="26" rx="13" fill="#F59E0B" fill-opacity="0.25"/>
-      <text x="3005" y="1111" fill="#F59E0B" font-size="11" font-weight="800" text-anchor="middle" letter-spacing="1">TANGIBLE ASSETS</text>
+      <rect x="1390" y="1193" width="190" height="26" rx="13" fill="#EC4899" fill-opacity="0.25"/>
+      <text x="1485" y="1210" fill="#EC4899" font-size="11" font-weight="800" text-anchor="middle" letter-spacing="0.8" font-family="-apple-system, sans-serif">TANGIBLE ASSETS</text>
       
       <!-- Title -->
-      <text x="2484" y="1116" fill="#FFFFFF" font-size="19" font-weight="800">7. IAS 16 – Property, Plant & Equipment</text>
+      <text x="882" y="1214" fill="#FFFFFF" font-size="18" font-weight="800" font-family="-apple-system, sans-serif">7. IAS 16 – Property, Plant & Equip.</text>
     
 
       <!-- Point -->
-      <circle cx="2488" cy="1163" r="5" fill="#F59E0B"/>
-      <text x="2502" y="1168" fill="#F1F5F9" font-size="14" font-weight="700">Costo Iniziale Capitalizzabile: <tspan fill="#94A3B8" font-size="13" font-weight="400">Prezzo netto + Costi direttamente attribuibili (trasporto, posa, collaudo) + Valore attuale costi bonifica e smantellamento (IAS 37).</tspan></text>
+      <circle cx="886" cy="1259" r="4.5" fill="#EC4899"/>
+      <text x="900" y="1264" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Criteri di Iscrizione Iniziale: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Beni tangibili per produzione/amministrazione usati per più anni. Costo d&#x27;acquisto + oneri accessori + stima ripristino/smantellamento.</tspan></text>
         
 
       <!-- Point -->
-      <circle cx="2488" cy="1221" r="5" fill="#F59E0B"/>
-      <text x="2502" y="1226" fill="#F1F5F9" font-size="14" font-weight="700">Spese Escluse dal Costo: <tspan fill="#94A3B8" font-size="13" font-weight="400">Spese di formazione del personale (non c&#x27;è controllo ex Framework), inaugurazione, marketing e costi generali vanno SEMPRE a P&amp;L.</tspan></text>
+      <circle cx="886" cy="1315" r="4.5" fill="#EC4899"/>
+      <text x="900" y="1320" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Component Approach: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Parti di valore significativo con vite utili differenti si ammortizzano separatamente (es. cellula aereo 25y vs motori 8y).</tspan></text>
         
 
       <!-- Point -->
-      <circle cx="2488" cy="1279" r="5" fill="#F59E0B"/>
-      <text x="2502" y="1284" fill="#F1F5F9" font-size="14" font-weight="700">Component Approach: <tspan fill="#94A3B8" font-size="13" font-weight="400">Parti significative a vita utile dissimile vanno ammortizzate separatamente (es. cellula aereo 25y vs motori 10y; terreno no ammortamento vs fabbricato).</tspan></text>
+      <circle cx="886" cy="1371" r="4.5" fill="#EC4899"/>
+      <text x="900" y="1376" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Cost Model vs Revaluation Model: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Costo storico meno ammortamenti vs Fair Value a OCI. Rivalutazione a Riserva OCI; svalutazione successiva azzera prima OCI.</tspan></text>
         
 
       <!-- Point -->
-      <circle cx="2488" cy="1337" r="5" fill="#F59E0B"/>
-      <text x="2502" y="1342" fill="#F1F5F9" font-size="14" font-weight="700">Revaluation Model (OCI &amp; No Recycling): <tspan fill="#94A3B8" font-size="13" font-weight="400">Rivalutazione a OCI (Revaluation Surplus). Se poi venduto: DIVIETO DI RECYCLING a P&amp;L (transito diretto a utili a nuovo a PN).</tspan></text>
+      <circle cx="886" cy="1427" r="4.5" fill="#EC4899"/>
+      <text x="900" y="1432" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Divieto Assoluto di Recycling: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Alla vendita del cespite rivalutato, la riserva OCI residua va direttamente a Utili portati a nuovo e NON a P&amp;L!</tspan></text>
         
 
       <!-- Point -->
-      <circle cx="2488" cy="1395" r="5" fill="#F59E0B"/>
-      <text x="2502" y="1400" fill="#F1F5F9" font-size="14" font-weight="700">Regole di Ammortamento: <tspan fill="#94A3B8" font-size="13" font-weight="400">Inizia quando il bene è pronto all&#x27;uso (non dal primo utilizzo!). NON si sospende per inattività temporanea.</tspan></text>
+      <circle cx="886" cy="1483" r="4.5" fill="#EC4899"/>
+      <text x="900" y="1488" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Decorrenza Ammortamento: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Inizia quando il bene è pronto all&#x27;uso nelle condizioni previste dal management (non quando inizia a produrre). Non si ferma per inattività.</tspan></text>
         
     </g>
 
-    <!-- Card: 8. IFRS 5 – Held for Sale & Discontinued -->
+    <!-- Card: 8. IFRS 5 – Held for Sale & Discont. -->
     <g filter="url(#cardShadow)">
       <!-- Card background -->
-      <rect x="2460" y="1580" width="660" height="460" rx="20" fill="#131B2E" stroke="#EC4899" stroke-width="2" stroke-opacity="0.85"/>
-      <rect x="2460" y="1580" width="660" height="55" rx="20" fill="#EC4899" fill-opacity="0.15"/>
-      <path d="M 2460 1635 L 3120 1635" stroke="#EC4899" stroke-width="1.5" stroke-opacity="0.4"/>
+      <rect x="860" y="1700" width="740" height="480" rx="18" fill="#111827" stroke="#F97316" stroke-width="2" stroke-opacity="0.85"/>
+      <rect x="860" y="1700" width="740" height="52" rx="18" fill="#F97316" fill-opacity="0.15"/>
+      <path d="M 860 1752 L 1600 1752" stroke="#F97316" stroke-width="1.5" stroke-opacity="0.35"/>
       
       <!-- Tag / Badge -->
-      <rect x="2910" y="1594" width="190" height="26" rx="13" fill="#EC4899" fill-opacity="0.25"/>
-      <text x="3005" y="1611" fill="#EC4899" font-size="11" font-weight="800" text-anchor="middle" letter-spacing="1">DISPOSAL & DISCONTINUED</text>
+      <rect x="1390" y="1713" width="190" height="26" rx="13" fill="#F97316" fill-opacity="0.25"/>
+      <text x="1485" y="1730" fill="#F97316" font-size="11" font-weight="800" text-anchor="middle" letter-spacing="0.8" font-family="-apple-system, sans-serif">ASSETS HELD FOR SALE</text>
       
       <!-- Title -->
-      <text x="2484" y="1616" fill="#FFFFFF" font-size="19" font-weight="800">8. IFRS 5 – Held for Sale & Discontinued</text>
+      <text x="882" y="1734" fill="#FFFFFF" font-size="18" font-weight="800" font-family="-apple-system, sans-serif">8. IFRS 5 – Held for Sale & Discont.</text>
     
 
       <!-- Point -->
-      <circle cx="2488" cy="1663" r="5" fill="#EC4899"/>
-      <text x="2502" y="1668" fill="#F1F5F9" font-size="14" font-weight="700">Criteri di Classificazione: <tspan fill="#94A3B8" font-size="13" font-weight="400">Disponibile alla vendita immediata nello stato attuale + Vendita ALTAMENTE PROBABILE entro 12 mesi con piano attivo del CdA.</tspan></text>
+      <circle cx="886" cy="1779" r="4.5" fill="#F97316"/>
+      <text x="900" y="1784" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">I 2 Requisiti Tassativi: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">1. Disponibile per vendita immediata nelle condizioni attuali; 2. Vendita altamente probabile entro 12 mesi con piano formalizzato.</tspan></text>
         
 
       <!-- Point -->
-      <circle cx="2488" cy="1721" r="5" fill="#EC4899"/>
-      <text x="2502" y="1726" fill="#F1F5F9" font-size="14" font-weight="700">Valutazione al Minor Valore: <tspan fill="#94A3B8" font-size="13" font-weight="400">Al MINORE tra Valore Contabile precedente e Fair Value al netto dei Costi di Dismissione (Fair value less costs to sell).</tspan></text>
+      <circle cx="886" cy="1835" r="4.5" fill="#F97316"/>
+      <text x="900" y="1840" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Valutazione al Minor Valore: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Minore tra Valore Contabile Netto e Fair Value al netto dei costi di dismissione. Esempio test: 240k vs 220k -&gt; svalutazione 20k a P&amp;L.</tspan></text>
         
 
       <!-- Point -->
-      <circle cx="2488" cy="1779" r="5" fill="#EC4899"/>
-      <text x="2502" y="1784" fill="#F1F5F9" font-size="14" font-weight="700">Stop Totale Ammortamento: <tspan fill="#94A3B8" font-size="13" font-weight="400">Dal giorno di classificazione in IFRS 5 l&#x27;AMMORTAMENTO SI BLOCCA IMMEDIATAMENTE. Nello SP: riclassifica in Attività Correnti.</tspan></text>
+      <circle cx="886" cy="1891" r="4.5" fill="#F97316"/>
+      <text x="900" y="1896" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Stop Immediato all&#x27;Ammortamento: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">L&#x27;ammortamento si arresta alla data esatta in cui sono soddisfatti tutti i requisiti di classificazione (non alla vendita o rogito).</tspan></text>
         
 
       <!-- Point -->
-      <circle cx="2488" cy="1837" r="5" fill="#EC4899"/>
-      <text x="2502" y="1842" fill="#F1F5F9" font-size="14" font-weight="700">Discontinued Operations: <tspan fill="#94A3B8" font-size="13" font-weight="400">Ramo d&#x27;attività principale o area geografica autonoma in dismissione. Nel P&amp;L: ricavi e costi isolati in un&#x27;UNICA RIGA al netto delle tasse.</tspan></text>
+      <circle cx="886" cy="1947" r="4.5" fill="#F97316"/>
+      <text x="900" y="1952" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Discontinued Operations: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Importante ramo d&#x27;affari o area geografica autonoma ceduta o held for sale. Presentata in un&#x27;unica riga netta in fondo al P&amp;L.</tspan></text>
         
 
       <!-- Point -->
-      <circle cx="2488" cy="1895" r="5" fill="#EC4899"/>
-      <text x="2502" y="1900" fill="#F1F5F9" font-size="14" font-weight="700">Mancata Vendita (Ritorno alle Non Corr.): <tspan fill="#94A3B8" font-size="13" font-weight="400">Torna nelle Non Correnti al minore tra il valore contabile rettificato per ammortamenti arretrati non calcolati e il valore recuperabile IAS 36.</tspan></text>
+      <circle cx="886" cy="2003" r="4.5" fill="#F97316"/>
+      <text x="900" y="2008" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Modifiche al Piano di Vendita: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Se la vendita sfuma, il bene torna non corrente al minore tra carrying amount ammortizzato teorico e valore recuperabile IAS 36.</tspan></text>
+        
+    </g>
+
+    <!-- Card: 9. IAS 38 – Attività Immateriali -->
+    <g filter="url(#cardShadow)">
+      <!-- Card background -->
+      <rect x="1650" y="140" width="740" height="480" rx="18" fill="#111827" stroke="#6366F1" stroke-width="2" stroke-opacity="0.85"/>
+      <rect x="1650" y="140" width="740" height="52" rx="18" fill="#6366F1" fill-opacity="0.15"/>
+      <path d="M 1650 192 L 2390 192" stroke="#6366F1" stroke-width="1.5" stroke-opacity="0.35"/>
+      
+      <!-- Tag / Badge -->
+      <rect x="2180" y="153" width="190" height="26" rx="13" fill="#6366F1" fill-opacity="0.25"/>
+      <text x="2275" y="170" fill="#6366F1" font-size="11" font-weight="800" text-anchor="middle" letter-spacing="0.8" font-family="-apple-system, sans-serif">INTANGIBLE ASSETS</text>
+      
+      <!-- Title -->
+      <text x="1672" y="174" fill="#FFFFFF" font-size="18" font-weight="800" font-family="-apple-system, sans-serif">9. IAS 38 – Attività Immateriali</text>
+    
+
+      <!-- Point -->
+      <circle cx="1676" cy="219" r="4.5" fill="#6366F1"/>
+      <text x="1690" y="224" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Definizione &amp; 3 Criteri: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Attività non monetaria identificabile priva di consistenza fisica. Identificabile: separabile OPPURE da diritti legali/contrattuali.</tspan></text>
+        
+
+      <!-- Point -->
+      <circle cx="1676" cy="275" r="4.5" fill="#6366F1"/>
+      <text x="1690" y="280" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Caso Licenza Non Trasferibile: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">La non trasferibilità a terzi non impedisce l&#x27;iscrizione se attribuita da diritti contrattuali/legali controllati con benefici futuri.</tspan></text>
+        
+
+      <!-- Point -->
+      <circle cx="1676" cy="331" r="4.5" fill="#6366F1"/>
+      <text x="1690" y="336" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Divieti Generazione Interna: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Vietata capitalizzazione di: avviamento interno, marchi, liste clienti, spese di formazione, costi promozionali e start-up.</tspan></text>
+        
+
+      <!-- Point -->
+      <circle cx="1676" cy="387" r="4.5" fill="#6366F1"/>
+      <text x="1690" y="392" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Ricerca vs Sviluppo (PIRATE): <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Ricerca SEMPRE a P&amp;L. Sviluppo a P&amp;L prima dei 6 criteri PIRATE, capitalizzato allo SP dopo. Divieto di ripristino retroattivo!</tspan></text>
+        
+
+      <!-- Point -->
+      <circle cx="1676" cy="443" r="4.5" fill="#6366F1"/>
+      <text x="1690" y="448" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Esercizio Test R&amp;D: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Ricerca €30k + Sviluppo pre-criteri €20k = €50k P&amp;L; Sviluppo post-criteri €50k = Attivo SP. Risorse finanziarie mancanti vietano SP.</tspan></text>
+        
+
+      <!-- Point -->
+      <circle cx="1676" cy="499" r="4.5" fill="#6366F1"/>
+      <text x="1690" y="504" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Vita Utile Indefinita: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Nessun ammortamento; impairment test obbligatorio almeno annuale ex IAS 36 e riesame annuale dello status indefinito.</tspan></text>
+        
+    </g>
+
+    <!-- Card: 10. IFRS 16 – Leasing -->
+    <g filter="url(#cardShadow)">
+      <!-- Card background -->
+      <rect x="1650" y="660" width="740" height="480" rx="18" fill="#111827" stroke="#14B8A6" stroke-width="2" stroke-opacity="0.85"/>
+      <rect x="1650" y="660" width="740" height="52" rx="18" fill="#14B8A6" fill-opacity="0.15"/>
+      <path d="M 1650 712 L 2390 712" stroke="#14B8A6" stroke-width="1.5" stroke-opacity="0.35"/>
+      
+      <!-- Tag / Badge -->
+      <rect x="2180" y="673" width="190" height="26" rx="13" fill="#14B8A6" fill-opacity="0.25"/>
+      <text x="2275" y="690" fill="#14B8A6" font-size="11" font-weight="800" text-anchor="middle" letter-spacing="0.8" font-family="-apple-system, sans-serif">LEASES & ROU MODEL</text>
+      
+      <!-- Title -->
+      <text x="1672" y="694" fill="#FFFFFF" font-size="18" font-weight="800" font-family="-apple-system, sans-serif">10. IFRS 16 – Leasing</text>
+    
+
+      <!-- Point -->
+      <circle cx="1676" cy="739" r="4.5" fill="#14B8A6"/>
+      <text x="1690" y="744" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Single Lessee Model: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Cancellata distinzione operativo/finanziario per locatario: tutti i leasing entrano a SP (Diritto d&#x27;Uso ROU e Debito Leasing).</tspan></text>
+        
+
+      <!-- Point -->
+      <circle cx="1676" cy="795" r="4.5" fill="#14B8A6"/>
+      <text x="1690" y="800" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Definizione &amp; Controllo: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Contratto che attribuisce il controllo dell&#x27;uso di un bene identificato (sostanzialmente tutti i benefici e diritto di dirigere l&#x27;uso).</tspan></text>
+        
+
+      <!-- Point -->
+      <circle cx="1676" cy="851" r="4.5" fill="#14B8A6"/>
+      <text x="1690" y="856" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Esercizio ROU Iniziale: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Debito iniziale = €90k. ROU = Debito €90k + Anticipo €6k + Costi diretti €4k - Incentivi €2k = €98k all&#x27;attivo.</tspan></text>
+        
+
+      <!-- Point -->
+      <circle cx="1676" cy="907" r="4.5" fill="#14B8A6"/>
+      <text x="1690" y="912" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Scrittura Canone &amp; Interessi: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Debito €100k, tasso 5%, canone €25k: Dare Interessi P&amp;L €5k e Dare Debito SP €20k / Avere Banca €25k. Debito residuo €80k.</tspan></text>
+        
+
+      <!-- Point -->
+      <circle cx="1676" cy="963" r="4.5" fill="#14B8A6"/>
+      <text x="1690" y="968" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Esenzioni Facoltative Locatario: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Scelta contabile per leasing a breve termine (&lt;= 12 mesi senza riscatto) e beni di modico valore (&lt; $5.000): canoni a costo a P&amp;L.</tspan></text>
+        
+    </g>
+
+    <!-- Card: 11. Criptovalute (IFRIC 2019) -->
+    <g filter="url(#cardShadow)">
+      <!-- Card background -->
+      <rect x="1650" y="1180" width="740" height="480" rx="18" fill="#111827" stroke="#EAB308" stroke-width="2" stroke-opacity="0.85"/>
+      <rect x="1650" y="1180" width="740" height="52" rx="18" fill="#EAB308" fill-opacity="0.15"/>
+      <path d="M 1650 1232 L 2390 1232" stroke="#EAB308" stroke-width="1.5" stroke-opacity="0.35"/>
+      
+      <!-- Tag / Badge -->
+      <rect x="2180" y="1193" width="190" height="26" rx="13" fill="#EAB308" fill-opacity="0.25"/>
+      <text x="2275" y="1210" fill="#EAB308" font-size="11" font-weight="800" text-anchor="middle" letter-spacing="0.8" font-family="-apple-system, sans-serif">CRYPTO-ASSETS & IFRIC</text>
+      
+      <!-- Title -->
+      <text x="1672" y="1214" fill="#FFFFFF" font-size="18" font-weight="800" font-family="-apple-system, sans-serif">11. Criptovalute (IFRIC 2019)</text>
+    
+
+      <!-- Point -->
+      <circle cx="1676" cy="1259" r="4.5" fill="#EAB308"/>
+      <text x="1690" y="1264" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Cosa NON sono le Cripto: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">NON sono moneta legale; NON sono &#x27;Cash Equivalents&#x27; (alta volatilità); NON sono attività finanziarie (nessun debitore obbligato).</tspan></text>
+        
+
+      <!-- Point -->
+      <circle cx="1676" cy="1315" r="4.5" fill="#EAB308"/>
+      <text x="1690" y="1320" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Classificazione Business Model: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">La classificazione dipende dallo scopo della detenzione e dal modello di business, non dalla tecnologia blockchain.</tspan></text>
+        
+
+      <!-- Point -->
+      <circle cx="1676" cy="1371" r="4.5" fill="#EAB308"/>
+      <text x="1690" y="1376" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">IAS 2 Rimanenze (Broker-Dealer): <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Detenute per compravendita ordinaria ai clienti: valutate al Fair Value al netto dei costi di vendita con variazioni a P&amp;L.</tspan></text>
+        
+
+      <!-- Point -->
+      <circle cx="1676" cy="1427" r="4.5" fill="#EAB308"/>
+      <text x="1690" y="1432" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">IAS 38 Immateriali (Investimento): <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Detenute per riserva o investimento: attività immateriale a vita indefinita (no ammortamento, test IAS 36 annuale).</tspan></text>
+        
+
+      <!-- Point -->
+      <circle cx="1676" cy="1483" r="4.5" fill="#EAB308"/>
+      <text x="1690" y="1488" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Rialzo Prezzo sul Mercato: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">L&#x27;aumento di prezzo di Bitcoin non è utile a P&amp;L: sotto IAS 38 costo non si rileva; sotto rivalutazione va a Riserva OCI; a P&amp;L solo per dealer.</tspan></text>
+        
+    </g>
+
+    <!-- Card: 12. IAS 36 – Riduzione Valore -->
+    <g filter="url(#cardShadow)">
+      <!-- Card background -->
+      <rect x="1650" y="1700" width="740" height="480" rx="18" fill="#111827" stroke="#D946EF" stroke-width="2" stroke-opacity="0.85"/>
+      <rect x="1650" y="1700" width="740" height="52" rx="18" fill="#D946EF" fill-opacity="0.15"/>
+      <path d="M 1650 1752 L 2390 1752" stroke="#D946EF" stroke-width="1.5" stroke-opacity="0.35"/>
+      
+      <!-- Tag / Badge -->
+      <rect x="2180" y="1713" width="190" height="26" rx="13" fill="#D946EF" fill-opacity="0.25"/>
+      <text x="2275" y="1730" fill="#D946EF" font-size="11" font-weight="800" text-anchor="middle" letter-spacing="0.8" font-family="-apple-system, sans-serif">IMPAIRMENT & RECOVERABLE</text>
+      
+      <!-- Title -->
+      <text x="1672" y="1734" fill="#FFFFFF" font-size="18" font-weight="800" font-family="-apple-system, sans-serif">12. IAS 36 – Riduzione Valore</text>
+    
+
+      <!-- Point -->
+      <circle cx="1676" cy="1779" r="4.5" fill="#D946EF"/>
+      <text x="1690" y="1784" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Obiettivo &amp; Trigger Events: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Carrying amount non può superare il Valore Recuperabile. Test annuale obbligatorio per: Avviamento, vita indefinita, R&amp;D in corso.</tspan></text>
+        
+
+      <!-- Point -->
+      <circle cx="1676" cy="1835" r="4.5" fill="#D946EF"/>
+      <text x="1690" y="1840" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Formula Valore Recuperabile: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">MAGGIORE tra Fair Value al netto dei costi di dismissione e Valore d&#x27;Uso (VIU). Esercizio: 200k vs max(170k, 180k) -&gt; perdita €20k a P&amp;L.</tspan></text>
+        
+
+      <!-- Point -->
+      <circle cx="1676" cy="1891" r="4.5" fill="#D946EF"/>
+      <text x="1690" y="1896" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Valore d&#x27;Uso: Flussi As-Is: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Flussi attesi scontati a WACC pre-tax. ESCLUSI: future ristrutturazioni non deliberate e investimenti incrementali/espansivi.</tspan></text>
+        
+
+      <!-- Point -->
+      <circle cx="1676" cy="1947" r="4.5" fill="#D946EF"/>
+      <text x="1690" y="1952" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Cash-Generating Unit (CGU): <tspan fill="#94A3B8" font-size="12.5" font-weight="400">Più piccolo gruppo identificabile di attività che genera flussi in entrata ampiamente indipendenti.</tspan></text>
+        
+
+      <!-- Point -->
+      <circle cx="1676" cy="2003" r="4.5" fill="#D946EF"/>
+      <text x="1690" y="2008" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Ordine Svalutazione CGU: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">1. Si azzera per intero l&#x27;Avviamento (Goodwill); 2. Perdita residua ripartita pro-quota sulle altre attività della CGU.</tspan></text>
+        
+
+      <!-- Point -->
+      <circle cx="1676" cy="2059" r="4.5" fill="#D946EF"/>
+      <text x="1690" y="2064" fill="#F1F5F9" font-size="13.5" font-weight="700" font-family="-apple-system, sans-serif">Ripristino &amp; Tetto Massimo: <tspan fill="#94A3B8" font-size="12.5" font-weight="400">DIVIETO ASSOLUTO DI RIPRISTINO PER L&#x27;AVVIAMENTO! Altre attività: ripristino limitato al carrying amount storico ammortizzato (max €20k).</tspan></text>
         
     </g>
 </svg>
