@@ -1,0 +1,278 @@
+---
+title: Principi Contabili Internazionali – Modulo 1 (Prova Intercorso)
+markmap:
+  colorFreezeLevel: 2
+  maxWidth: 320
+---
+
+# Principi Contabili Internazionali – Modulo 1
+
+## 1. Conceptual Framework for Financial Reporting (2018)
+- **Natura e Status Giuridico**
+  - Non è un principio contabile IFRS/IAS
+  - Non prevale sugli IFRS specifici (prevale sempre lo standard)
+  - Guida lo IASB nella formulazione di standard coerenti
+  - Gerarchia IAS 8: fonte di riferimento per i preparers in assenza di IFRS specifici
+- **Obiettivo e Destinatari Primari**
+  - General Purpose Financial Reporting: utilità decisionale (*decision-usefulness*)
+  - Primary Users: Investitori e Finanziatori/Creditori attuali e potenziali
+  - Focus informativo: stima di ammontare, tempistica e incertezza dei flussi di cassa futuri
+  - Entity Perspective: bilancio dal punto di vista dell'impresa come soggetto autonomo
+  - Postulato di Continuità Aziendale (*Going Concern Assumption* >= 12 mesi)
+- **Reporting Entity vs Legal Entity**
+  - Reporting Entity = perimetro economico-sostanziale (*substance over form*)
+  - Reporting Entity > Legal Entity: **Bilancio Consolidato** (gruppo capogruppo-figlie)
+  - Reporting Entity < Legal Entity: **Segment Reporting** (singola divisione o carve-out)
+  - Società sotto controllo comune (*Common control*): **Bilancio Combinato**
+  - Bilancio Non Consolidato (Separato): la reporting entity è la sola madre (controllate = voce "Partecipazioni" IAS 27)
+  - Boundaries: divieto assoluto di cherry-picking arbitrario
+- **Caratteristiche Qualitative Fondamentali**
+  - **Significatività (Relevance)**
+    - Capacità di incidere sulle decisioni economiche degli utenti
+    - Valore predittivo (*predictive*) & Valore di conferma (*confirmatory*)
+    - **Rilevanza (Materiality)**: specifica per l'entità
+    - Dimensione Quantitativa: soglia benchmark del **5% nella stima dell'utile**
+    - Dimensione Qualitativa: natura del fenomeno (covenants, parti correlate, inversione utile/perdita)
+    - Four-Step Materiality Process (Practice Statement 2): 1. Identify -> 2. Assess -> 3. Organise -> 4. Review
+    - Divieto di oscuramento (*anti-obscuring*)
+  - **Rappresentazione Fedele (Faithful Representation)**
+    - Prevalenza della sostanza sulla forma
+    - Completezza (*complete*): include tutte le info per comprendere il fenomeno
+    - Assenza di errori procedurali (*free from error* nelle stime)
+    - Neutralità (*neutral*): informazione non manipolata o polarizzata
+    - **Prudenza (Cautious Prudence)**: esercizio di cautela nelle stime in condizioni di incertezza
+    - Divieto di prudenza asimmetrica e divieto di riserve occulte (violerebbero la neutralità futura)
+- **Caratteristiche Qualitative di Potenziamento**
+  - Comparabilità (*Comparability*): intertemporale e interaziendale (non è uniformità cieca)
+  - Verificabilità (*Verifiability*): consenso tra osservatori indipendenti (diretta vs indiretta)
+  - Tempestività (*Timeliness*): info disponibile in tempo per orientare decisioni
+  - Comprensibilità (*Understandability*): chiara e concisa (presuppone utenti con ragionevole diligenza)
+  - Vincolo del Costo (*Cost Constraint*): benefici > costi sostenuti
+- **Elementi del Bilancio (Definizioni 2018)**
+  - Attività (*Asset*): risorsa economica presente controllata, diritto con potenziale di benefici economici
+  - Passività (*Liability*): obbligazione attuale al trasferimento di una risorsa (*no practical ability to avoid*)
+  - Patrimonio Netto (*Equity*): interesse residuo nelle attività dedotte le passività
+  - Ricavi (*Income*) & Costi (*Expenses*): variazioni di asset/liability che variano l'equity (esclusi apporti/prelievi soci)
+- **Recognition & Derecognition**
+  - Recognition: rilevazione se produce info significative e fedeli (valutazione incertezza di misura)
+  - Derecognition: storno quando si perde il controllo dell'asset o si estingue l'obbligazione
+- **Basi di Misurazione (Measurement Bases)**
+  - Costo Storico (*Historical Cost*): prezzo della transazione originale
+  - Valori Correnti (*Current Value*):
+    - Fair Value (IFRS 13): prezzo di mercato d'uscita, non entity-specific
+    - Valore d'Uso (Attività) / Valore di Adempimento (Passività): flussi attualizzati, entity-specific
+    - Costo Corrente (*Current Cost*): valore di sostituzione attuale
+- **Capitale e Capital Maintenance**
+  - Capitale Finanziario Nominale: mantenimento euro nominali (costo storico)
+  - Capitale Finanziario Reale: mantenimento potere d'acquisto (rettificato per inflazione)
+  - Capitale Fisico: mantenimento capacità produttiva/operativa (costi correnti, no utili a P&L)
+- **Incoerenze dello IASB**
+  - Business Model (IFRS 9) vs Business Activity (Framework 2018)
+  - Asimmetrie Fair Value vs Costo Ammortizzato
+  - Assenza di un principio teorico univoco per separare P&L da OCI (recycling selettivo)
+
+## 2. IAS 1 – Presentazione del Bilancio
+- **Set Completo del Bilancio**
+  - Stato Patrimoniale (*Statement of Financial Position*)
+  - Conto Economico e OCI (*Statement of Profit or Loss and Other Comprehensive Income*)
+  - Prospetto delle Variazioni di Patrimonio Netto (*Statement of Changes in Equity*)
+  - Rendiconto Finanziario (*Statement of Cash Flows* - IAS 7)
+  - Note al Bilancio (*Notes*)
+  - Terzo SP di apertura in caso di restatement retrospettivo (IAS 8)
+- **Postulati Generali di Redazione**
+  - Fair presentation & Compliance IFRS (con eventuale rarissimo True and Fair Override)
+  - Continuità aziendale (*Going Concern*)
+  - Competenza Economica (*Accrual Basis* - per tutti i prospetti tranne IAS 7)
+  - Rilevanza e Aggregazione (disaggregare voci dissimili)
+  - **Divieto di Compensazione (Offsetting)** tra attività e passività o ricavi e costi
+  - Frequenza almeno annuale e informativa comparativa minima (t-1)
+  - Costanza di presentazione (*Consistency*)
+  - **Divieto di Voci Straordinarie (*Extraordinary Items*)** sia a P&L sia nelle Note
+- **Stato Patrimoniale: Corrente vs Non Corrente**
+  - Presentazione Corrente/Non Corrente obbligatoria (salvo criterio liquidità per banche)
+  - **Criteri Attività Corrente**:
+    - Nel normale ciclo operativo (anche se > 12 mesi, es. vino, navi, formaggi stagionati)
+    - Posseduta per trading
+    - Realizzo entro 12 mesi dalla data di bilancio
+    - Cassa e disponibilità liquide non vincolate
+  - **Criteri Passività Corrente**: estinzione nel ciclo operativo, trading, scadenza entro 12 mesi, nessun diritto incondizionato a differire oltre 12 mesi
+  - **Current Ratio**: Attività Correnti / Passività Correnti (solvibilità a breve termine)
+- **Performance Economica: Total Comprehensive Income (TCI)**
+  - TCI = Profit or Loss (P&L) + Other Comprehensive Income (OCI)
+  - Single Statement vs Two-Statement Approach
+  - **P&L**: reddito ordinario realizzato (base per dividendi, EPS IAS 33, bonus management)
+  - **OCI**: costi e ricavi non realizzati da specifici standard per evitare volatilità a P&L
+- **La Disciplina del Recycling (Reclassification Adjustment)**
+  - Evita la doppia imputazione nel Total Comprehensive Income
+  - **Voci CON Recycling (Reclassificabili a P&L alla chiusura)**:
+    - Riserva titoli di debito FVOCI (IFRS 9)
+    - Riserva Cash Flow Hedge (IFRS 9 - parte efficace coperture)
+    - Riserva conversione gestioni estere (IAS 21)
+  - **Voci SENZA Recycling (MAI a P&L, transito diretto a Utili Portati a Nuovo)**:
+    - Riserva di rivalutazione immobili/impianti (*Revaluation Surplus* IAS 16 e IAS 38)
+    - Azioni e partecipazioni designate a FVOCI (IFRS 9)
+    - Utili e perdite attuariali su fondi pensione e TFR (IAS 19)
+    - Rischio di credito proprio (*Own credit risk*) su debiti a Fair Value
+- **Classificazione Costi Operativi a P&L**
+  - Per Natura: materie prime, personale, ammortamenti (semplice, tipo civilistico)
+  - Per Destinazione: Costo del venduto, commerciali, amministrativi (evidenzia Gross Margin)
+  - Se per destinazione: **disclosure obbligatoria in nota** per costi del personale e ammortamenti
+
+## 3. IFRS 18 – Nuova Presentazione e Disclosure (2027)
+- **Genesi e Obiettivi**
+  - Emesso ad aprile 2024, in vigore dal 1° gennaio 2027, **sostituisce integralmente lo IAS 1**
+  - Risolve l'opacità dello IAS 1: standardizza i subtotali e disciplina le misure non-GAAP
+- **Le 3 Categorie Rigide del Conto Economico**
+  - **1. Categoria Operativa (Operating)**:
+    - Attività operative caratteristiche/primarie
+    - **Categoria RESIDUALE**: accoglie tutto ciò che non è Investing, Financing, Tax o IFRS 5
+    - Include costi insoliti, ristrutturazioni e contenziosi operativi
+  - **2. Categoria di Investimento (Investing)**:
+    - Rendimenti da asset indipendenti (canoni/plusvalenze immobili investimento IAS 40)
+    - Dividendi e interessi da titoli finanziari non operativi
+    - Quota utili/perdite di collegate e Joint Venture a patrimonio netto (IAS 28)
+  - **3. Categoria di Finanziamento (Financing)**:
+    - Passività derivanti dalla raccolta di finanziamenti (interessi passivi mutui, bond, leasing IFRS 16)
+    - Effetti di attualizzazione finanziaria (IAS 37)
+- **I 2 Nuovi Subtotali Obbligatori**
+  - **Risultato Operativo (Operating Profit / EBIT standardizzato)**
+  - **Utile prima di Finanziamento e Imposte (Profit before financing and income taxes)**
+- **Disciplina Rigorosa delle MPMs (Management Performance Measures)**
+  - Subtotali di ricavi/costi non-GAAP usati dal management in presentazioni pubbliche (es. Adjusted EBIT)
+  - Devono entrare ufficialmente in una **nota dedicata del bilancio**
+  - Requisiti in nota: spiegazione dell'utilità, formula, riconciliazione analitica con subtotale IFRS, impatto fiscale e NCI
+  - **Soggette a revisione contabile obbligatoria (Audit)**
+- **Principi di Aggregazione e Disaggregazione**
+  - Divieto di aggregare voci dissimili per natura o funzione
+  - Restrizioni stringenti sull'uso di etichette opache ("Altro" / "Varie")
+
+## 4. IAS 7 – Rendiconto Finanziario
+- **Finalità e Principio Fondante**
+  - "Cash is King": la redditività contabile non garantisce la solvibilità monetaria
+  - **Unico prospetto redatto su base di Cassa (Cash Basis)** anziché competenza economica
+- **Oggetto: Cash & Cash Equivalents**
+  - Cassa e conti correnti a vista (*Cash*)
+  - Mezzi Equivalenti (*Cash Equivalents*): investimenti a brevissimo termine prontamente convertibili, rischio minimo, **scadenza originaria <= 3 mesi**
+  - Azioni ordinarie ESCLUSE dai mezzi equivalenti (troppo volatili)
+  - Scoperti bancari a vista: dedotti dalle disponibilità liquide se parte della gestione quotidiana
+- **Le 3 Gestioni Finanziarie**
+  - **Attività Operativa (Operating)**: incassi e pagamenti del core business (generazione cassa caratteristica)
+  - **Attività di Investimento (Investing)**: acquisto/vendita di immobilizzazioni materiali (IAS 16), immateriali (IAS 38) e partecipazioni (CapEx)
+  - **Attività di Finanziamento (Financing)**: accensione/rimborso mutui e bond, aumenti di capitale, buy-back, quota capitale leasing IFRS 16
+- **Metodi di Esposizione dell'Attività Operativa**
+  - **Metodo Diretto**: espone le categorie di incassi e pagamenti lordi (clienti, fornitori, stipendi, imposte)
+  - **Metodo Indiretto (Riconciliazione Utile - Flussi)**:
+    - Utile Netto (P&L)
+    - (+) Costi non monetari (Ammortamenti, Svalutazioni, Fondi)
+    - (-) Plusvalenze da cessione cespiti (vanno al 100% nell'Investing!)
+    - (-) Aumento Crediti Clienti / (+) Riduzione Crediti
+    - (-) Aumento Magazzino / (+) Riduzione Magazzino
+    - (+) Aumento Debiti Fornitori / (-) Riduzione Debiti Fornitori
+- **Trattamento di Interessi e Dividendi (Flessibilità IAS 7)**
+  - Interessi pagati: Operativo (P&L) o Finanziamento (costo del debito)
+  - Interessi e dividendi incassati: Operativo (P&L) o Investimento (rendimento)
+  - Dividendi pagati ai soci: Finanziamento (costo equity) o Operativo
+- **Operazioni Non Monetarie (Non-Cash Transactions)**
+  - Permute, leasing IFRS 16 o conferimenti in natura: **ESCLUSI dal prospetto** (solo disclosure in nota)
+
+## 5. Note, Management Commentary & Sustainability Reporting
+- **Le Note Esplicative al Bilancio (IAS 1)**
+  - Parte inscindibile del set di bilancio
+  - Dichiarazione esplicita e senza riserve di conformità IFRS
+  - Sintesi delle politiche contabili rilevanti (*Accounting Policies*)
+  - Dettaglio disaggregato delle voci di SP e P&L
+  - **Fonti di incertezza nelle stime (*Sources of Estimation Uncertainty*)**: assunzioni sul futuro con rischio significativo di rettifiche materiali entro 12 mesi
+  - Informativa su passività potenziali (IAS 37), impegni futuri e parti correlate (IAS 24)
+- **Management Commentary (Relazione sulla Gestione)**
+  - IFRS Practice Statement 1: guida non obbligatoria ma integrata nelle leggi nazionali (art. 2428 c.c.)
+  - Relazione narrativa "attraverso gli occhi del management" (*through the eyes of management*)
+  - 6 Contenuti cardine: 1. Natura del business; 2. Obiettivi e strategie; 3. Risorse, relazioni e rischi; 4. Risultati economico-finanziari; 5. KPIs finanziari e non; 6. Prospettive future
+- **Sustainability Reporting & Nascita ISSB**
+  - Creazione dell'ISSB da parte della IFRS Foundation (COP26 Glasgow 2021)
+  - Missione: creare una *Global Baseline* standardizzata di informativa ESG per i mercati dei capitali
+  - **Standard IFRS S1**: requisiti generali di disclosure ESG basati sui 4 pilastri TCFD (Governance, Strategia, Risk Management, Metriche & Target)
+  - **Standard IFRS S2**: focalizzato sul Clima (rischi fisici e di transizione, calcolo emissioni Scope 1, 2 e 3)
+- **Il Nodo della Doppia Materialità (Double Materiality)**
+  - **Materialità Finanziaria (Outside-in)**: approccio ISSB / IFRS S1-S2, impatto dei fattori ESG sul valore e sui cash flow dell'impresa
+  - **Materialità di Impatto (Inside-out)**: impatto delle attività aziendali sull'ambiente e sulla collettività
+  - **Doppia Materialità Obbligatoria**: approccio Unione Europea (CSRD ed ESRS di EFRAG), impone la rendicontazione integrata di entrambe le dimensioni
+
+## 6. Seminario Ferrari: Finance in a Unique Business Model
+- **Filosofia Strategica Fondativa**
+  - "Ferrari will always deliver one car less than the market demands" (Enzo Ferrari)
+  - Priorità assoluta al Valore e all'Esclusività rispetto ai volumi produttivi
+  - Driver dei ricavi: non le unità consegnate (*shipments*), ma la leva **Price/Mix**, le personalizzazioni e le serie speciali/Icona
+- **Metriche Finanziarie di Performance d'Eccellenza**
+  - **Adjusted EBITDA Margin**: 38.8% al 2025 (+580 bps rispetto al 2020)
+  - **Free Cash Flow Industriale Cumulato (2020-25)**: ~€5.1 miliardi
+  - **Elevato Cash Conversion Ratio**: trasformazione dell'EBITDA in cassa reale per autofinanziare Capex industriali, R&D e transizione ibrida/elettrica
+- **Il Ruolo della Finanza: "Finance Makes Trade-offs Visible"**
+  - La finanza come partner strategico del business
+  - I 4 Grandi Trade-Off:
+    - 1. Growth vs Exclusivity (crescita vs rarità del brand)
+    - 2. Innovation vs Financial Discipline (R&D estrema e F1 vs controllo CapEx)
+    - 3. Global Consistency vs Local Dynamics (omogeneità globale vs mercati regionali Americas/Europe/China)
+    - 4. Short-term Performance vs Long-term Value (redditività del trimestre vs conservazione del brand)
+- **Il Processo "From Data to Decision" in 5 Step**
+  - 01. Business Question (formulare la domanda strategica)
+  - 02. Data & Assumptions (esplicitare le ipotesi sottostanti)
+  - 03. Scenarios & Sensitivities (stress test su volumi, costi e cambi)
+  - 04. Risks & Opportunities (quantificare rischi e opzioni al rialzo)
+  - 05. Recommendation & Decision (scelta tra alternative comparabili)
+
+## 7. IAS 16 – Property, Plant and Equipment
+- **Definizione e Criteri di Rilevazione**
+  - Beni tangibili usati nella produzione, fornitura servizi, affitto o fini amministrativi per più esercizi
+  - Riconoscimento: probabilità di benefici economici futuri + costo misurabile attendibilmente
+- **Valutazione Iniziale: Composizione del Costo**
+  - Prezzo di acquisto al netto di sconti commerciali e abbuoni (+ dazi e imposte non recuperabili)
+  - Costi direttamente attribuibili (preparazione sito, trasporto, montaggio, collaudi al netto campioni venduti, perizie)
+  - **Stima attualizzata dei costi di smantellamento e bonifica (Decommissioning)**: capitalizzati subito ad incremento del cespite con contropartita Fondo Rischi passività IAS 37
+  - **Spese ESCLUSE dal costo (sempre a P&L)**: formazione del personale (manca il controllo), inaugurazione, marketing/pubblicità, spese generali e amministrative
+- **Component Approach (Approccio per Componenti - Obbligatorio)**
+  - Parti con costo significativo e vita utile/modalità di consumo dissimile si ammortizzano separatamente
+  - Esempi classici: aereo (fusoliera 25y vs motori 10y vs interni 5y); terreno (non ammortizzabile) vs fabbricato
+  - Sostituzione componente: capitalizzazione nuovo pezzo e storno a P&L del valore contabile residuo del vecchio
+- **Valutazione Successiva: Due Modelli Alternativi**
+  - **Cost Model**: Costo Storico - Fondo Ammortamento - Perdite per riduzione valore (IAS 36)
+  - **Revaluation Model (Rideterminazione del Valore)**:
+    - Fair Value alla data di rivalutazione - ammortamenti successivi
+    - Prima rivalutazione in AUMENTO: a **OCI (Riserva di Rivalutazione / Revaluation Surplus)** a Patrimonio Netto (no P&L!)
+    - Successiva svalutazione in DIMINUZIONE: riduce prima la riserva OCI preesistente; l'eccedenza va a P&L
+    - Svalutazione iniziale a P&L + successiva rivalutazione: ripristino di valore a P&L fino a concorrenza della perdita passata; eccedenza a OCI
+    - **Alla vendita del bene rivalutato: DIVIETO CATEGORICO DI RECYCLING** (la riserva OCI residua va direttamente a Utili a Nuovo a PN)
+- **Regole di Ammortamento**
+  - Valore ammortizzabile = Costo - Valore Residuo stimato a fine vita utile
+  - Decorrenza: inizia quando il cespite è **disponibile per l'uso** (non dal primo utilizzo effettivo!)
+  - Continuità: **NON si sospende** se il bene è temporaneamente inattivo o sottoutilizzato
+  - Revisione annuale obbligatoria: vita utile, valore residuo e metodo di ammortamento si rivedono ogni anno (cambiamento di stima prospettico IAS 8)
+
+## 8. IFRS 5 – Non-current Assets Held for Sale & Discontinued Operations
+- **Attività Non Correnti Destinate alla Vendita (Held for Sale)**
+  - Cambio nella modalità di recupero del valore: recuperato tramite la vendita anziché con l'uso continuativo
+  - **I 2 Requisiti Tassativi Cumulativi**:
+    - 1. Disponibilità immediata per la vendita nelle condizioni attuali
+    - 2. Vendita **ALTAMENTE PROBABILE entro 12 mesi** (impegno formale del CdA, programma attivo per trovare acquirenti, prezzo congruo rispetto al fair value corrente)
+- **Regola di Valutazione al Minor Valore**
+  - Iscrizione al **MINORE tra Valore Contabile netto precedente e Fair Value al netto dei Costi di Dismissione**
+  - Se Fair Value netto < Valore Contabile: rilevazione immediata di **Svalutazione per Impairment a P&L**
+  - Eventuali successivi recuperi di valore vanno a P&L, ma solo fino a concorrenza delle perdite cumulate pregresse
+- **Stop Totale all'Ammortamento**
+  - Dal giorno esatto di classificazione in IFRS 5 **L'AMMORTAMENTO SI BLOCCA TOTALMENTE**
+  - Motivazione: il bene non si consuma più operativamente; il valore dipende unicamente dal realizzo di mercato
+- **Presentazione nello Stato Patrimoniale**
+  - Esce dalle Attività Non Correnti; entra in riga separata nelle **Attività Correnti** ("Attività possedute per la vendita")
+  - Debiti associati: riga separata nelle Passività Correnti (divieto di compensazione)
+  - Lo Stato Patrimoniale dell'anno precedente (t-1) **NON viene modificato retroattivamente**
+- **Discontinued Operations (Attività Operative Cessate)**
+  - Definizione: componente dismessa o held for sale che rappresenta un **ramo d'attività principale o un'area geografica significativa**, autonoma operativamente
+  - **Presentazione nel Conto Economico**:
+    - Ricavi e costi del ramo spariti dalle categorie ordinarie del P&L
+    - Esposti in un'**UNICA RIGA SINTETICA in fondo al P&L al netto delle imposte**: *"Risultato netto delle attività operative cessate"*
+    - Nel P&L comparativo (t-1) si ridetermina il passato per isolare la riga discontinued e consentire il confronto delle sole continuing operations
+- **Mancata Vendita (Changes to a Plan of Sale)**
+  - Se la vendita sfuma, il bene torna tra le Attività Non Correnti
+  - Valore di reiscrizione: **al MINORE tra**:
+    - 1. Valore contabile che avrebbe avuto se NON fosse mai stato classificato in IFRS 5 (dedotti tutti gli ammortamenti congelati nel frattempo)
+    - 2. Valore recuperabile attuale calcolato ex IAS 36
+  - La differenza viene imputata immediatamente a P&L dell'esercizio come costo/rettifica delle attività in funzionamento
