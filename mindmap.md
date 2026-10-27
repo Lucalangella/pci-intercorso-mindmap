@@ -1,504 +1,415 @@
 ---
-title: Principi Contabili Internazionali – Modulo 1 (Prova Intercorso)
+title: Principi Contabili Internazionali – Mappa Concettuale Completa Prova Intercorso (12 Moduli)
 markmap:
   colorFreezeLevel: 2
-  maxWidth: 380
+  maxWidth: 420
 ---
 
-# Principi Contabili Internazionali – Modulo 1 (Guida Approfondita)
+# Principi Contabili Internazionali – Prova Intercorso (12 Moduli Completi)
 
-## 1. Conceptual Framework for Financial Reporting & Capital Maintenance
+## 1. Conceptual Framework (2018) & Capital Maintenance
 - **Natura, Funzione e Gerarchia delle Fonti (IAS 8)**
   - **Cos'è il Conceptual Framework?**
-    - È il documento teorico fondativo dello IASB (aggiornato nel 2018) che fissa i concetti, gli obiettivi e i principi cardine della contabilità internazionale.
-    - **Status Giuridico Formale**: NON è un principio contabile (IFRS o IAS) e NON ha forza di legge cogente. Di conseguenza, **non prevale mai su alcun principio contabile specifico**. Se una norma dello IAS 38 o dell'IFRS 9 appare in contrasto con il Framework, il redattore deve applicare obbligatoriamente il principio.
-  - **A cosa serve se non è vincolante?**
-    - 1. Guida lo standard setter (IASB) a scrivere principi contabili coerenti nel tempo, evitando regole arbitrarie o contraddittorie.
-    - 2. Assiste revisori contabili e analisti nell'interpretazione degli standard.
-    - 3. **La Gerarchia di IAS 8 per i Redattori**: quando un'impresa si trova di fronte a una transazione o evento non espressamente disciplinato da alcuno standard IFRS, il management non può decidere a piacimento: deve applicare la gerarchia dello IAS 8. Questa impone di consultare prima gli IFRS che trattano casi simili e, subito dopo, le definizioni, i criteri di rilevazione e i concetti di misurazione del Conceptual Framework.
-- **Obiettivo del Bilancio e Destinatari Primari (Primary Users)**
-  - **L'Obiettivo: Utilità Decisionale (*Decision-Usefulness*)**
-    - La finalità del General Purpose Financial Reporting è fornire informazioni economico-finanziarie sull'entità che siano utili a soggetti esterni per assumere decisioni in merito alla fornitura di risorse all'impresa (comprare o vendere azioni, concedere o revocare prestiti, votare sulla fiducia agli amministratori).
-  - **Chi sono i Destinatari Primari (*Primary Users*)?**
-    - Sono esclusivamente gli **investitori** (azionisti attuali e potenziali) e i **finanziatori e altri creditori** (banche, obbligazionisti, fornitori).
-    - **Perché il bilancio è disegnato attorno a loro?** Perché, a differenza del management interno o dell'Agenzia delle Entrate (che possono ordinare per legge o contratto report personalizzati), gli investitori sul mercato non hanno il potere contrattuale di esigere report su misura e devono fare affidamento solo sul bilancio pubblico a destinazione generale.
-    - **Cosa cercano gli utenti? (Cash Flow Prospects)**: Vogliono stimare l'ammontare, la tempistica e il grado di incertezza dei **futuri flussi di cassa netti** che l'impresa genererà, per determinare il rendimento del proprio capitale.
-  - **Entity Perspective & Going Concern**
-    - **Entity Perspective (Prospettiva dell'Entità)**: Il bilancio è redatto dal punto di vista dell'impresa come soggetto economico autonomo e distinto dai suoi proprietari, non dal punto di vista personale di un singolo azionista o banca.
-    - **Postulato di Continuità (*Going Concern Assumption*)**: Il bilancio presuppone che l'azienda continui a operare nel futuro prevedibile (almeno 12 mesi). Se c'è intenzione o necessità di liquidare, il bilancio va redatto a valori di realizzo/liquidazione.
-- **Reporting Entity vs Legal Entity (Confini Economici del Bilancio)**
-  - **Il Principio di Sostanza sulla Forma**: La contabilità IFRS guarda alla sostanza economica e non alla forma giuridica (*substance over form*). Una *Reporting Entity* è definita semplicemente come un'entità che redige il bilancio, e **non coincide necessariamente con una persona giuridica (Legal Entity)**.
-  - **I 4 Casi Operativi di Reporting Entity**:
-    - **1. Reporting Entity > Legal Entity: Il Bilancio Consolidato**
-      - Quando la reporting entity comprende una società capogruppo e più società controllate giuridicamente autonome. Sul piano legale sono tante società separate; sul piano economico agiscono come un solo organismo. Il bilancio consolidato abbatte i confini legali e somma riga per riga tutti gli asset e i debiti delle figlie.
-    - **2. Reporting Entity < Legal Entity: Segment Reporting e Carve-out**
-      - Quando la reporting entity è solo una divisione o ramo d'affari interno a una grande persona giuridica (es. la divisione navale di una holding industriale, o un ramo venduto con un'operazione di carve-out). Serve a mostrare ai mercati la redditività specifica di quel singolo business.
-    - **3. Società Sorelle sotto Controllo Comune: Il Bilancio Combinato**
-      - Quando due o più società operative sono sotto il controllo della stessa famiglia o dello stesso gruppo di soci (*Common Control*), ma non esiste una società holding capogruppo a monte. Per mostrare il quadro complessivo a banche o investitori in vista di un'IPO, si redige il Bilancio Combinato sommando i bilanci ed elidendo i rapporti infragruppo.
-    - **4. Bilancio Non Consolidato (Separato della Sola Madre)**
-      - La reporting entity coincide rigorosamente con la sola capogruppo. Le società controllate rimangono all'esterno: i loro capannoni e debiti non entrano nello SP, ma figurano come un'unica voce nell'attivo finanziario: **"Partecipazioni in controllate"** valutata ex IAS 27 (al costo, al fair value ex IFRS 9 o a patrimonio netto). Serve a misurare la solvibilità diretta della madre e la sua capacità di distribuire dividendi propri.
-  - **La Regola dei Confini (*Boundaries*) e Divieto di Cherry-Picking**:
-    - Tracciare i confini della reporting entity non è arbitrario: è severamente vietato selezionare ad arte solo le società o attività in attivo ed escludere quelle indebitate o in perdita (*cherry-picking*).
-- **Caratteristiche Qualitative Fondamentali (Rendono l'informazione utile)**
-  - **1. Significatività (*Relevance*)**
-    - Un'informazione è significativa se è capace di influenzare il processo decisionale degli utilizzatori. Ha **valore predittivo** (aiuta a formulare previsioni su flussi futuri) e/o **valore confermativo** (fornisce un riscontro per confermare o correggere valutazioni precedenti).
-  - **La Rilevanza (*Materiality*)**
-    - È la declinazione specifica della significatività per la singola entità: un'informazione è rilevante (*material*) se la sua omissione, errata indicazione o oscuramento potrebbe ragionevolmente condizionare le decisioni degli utenti.
-    - **Dimensione Quantitativa**: Riguarda la grandezza monetaria. La regola aurea spiegata a lezione considera rilevante qualsiasi errore o scostamento **pari o superiore al 5% nella stima dell'utile d'esercizio**.
-    - **Dimensione Qualitativa**: Riguarda la natura intrinseca dell'operazione. Ci sono eventi rilevanti anche se monetariamente piccolissimi:
-      - 1. Errori che causano un'**inversione di tendenza** (trasformano un utile netto in perdita d'esercizio);
-      - 2. Violazione di **covenants bancari** o vincoli regolamentari (che farebbero decadere i finanziamenti);
-      - 3. Transazioni con **parti correlate** (compensi o accordi con amministratori/azionisti con potenziali conflitti d'interesse).
-    - **Il Processo in 4 Fasi della Rilevanza (Practice Statement 2)**:
-      - *Passo 1 (Identify)*: Individuare le informazioni potenzialmente rilevanti dai principi e dal contesto;
-      - *Passo 2 (Assess)*: Valutare l'impatto applicando sia il filtro quantitativo (soglia 5%) sia il filtro qualitativo;
-      - *Passo 3 (Organise)*: Organizzare la bozza di bilancio aggregando voci simili ed **evitando l'oscuramento (*anti-obscuring*)**;
-      - *Passo 4 (Review)*: Esaminare il bilancio nel suo complesso per verificare l'equilibrio complessivo dell'informativa.
-  - **2. Rappresentazione Fedele (*Faithful Representation*)**
-    - Il bilancio deve rappresentare la sostanza economica dei fenomeni e non la sola veste giuridica (*substance over form*).
-    - Si articola in tre requisiti inderogabili:
-      - **Completezza (*Complete*)**: include tutte le descrizioni e spiegazioni necessarie a comprendere il fenomeno;
-      - **Assenza di Errori (*Free from error*)**: non significa precisione scientifica assoluta (le stime contengono soggettività), ma che il processo di calcolo è stato condotto senza errori procedurali ed esplicitando le ipotesi;
-      - **Neutralità (*Neutral*)**: l'informazione è priva di pregiudizi, non è manipolata, filtrata o enfatizzata per indurre un predeterminato comportamento negli utenti.
-  - **Prudenza Cautelativa vs Prudenza Asimmetrica del Codice Civile**
-    - **Cosa intende lo IASB per Prudenza? (Cautious Prudence)**: È l'esercizio di cautela nelle stime in condizioni di incertezza, affinché le attività e i ricavi non siano sovrastimati e le passività e i costi non siano sottostimati.
-    - **Perché lo IASB VIETA la Prudenza Asimmetrica?**
-      - Nel Codice Civile italiano vale l'asimmetria sistematica: le perdite si rilevano anche se solo temute, mentre gli utili si rilevano solo se certi/realizzati.
-      - Negli IFRS la prudenza asimmetrica e le riserve occulte sono **severamente vietate**: sottostimare deliberatamente un impianto oggi (iscrivendo ammortamenti eccessivi o perdite inesistenti) deprime il risultato di quest'anno, ma fa sì che negli anni futuri gli ammortamenti saranno artificialmente più bassi, **gonfiando i margini di domani**. Questo viola la neutralità e produce una rappresentazione non fedele nel tempo.
-- **Caratteristiche Qualitative di Potenziamento (*Enhancing Characteristics*)**
-  - Hanno il compito di incrementare l'utilità di un'informazione che è già significativa e fedele (non possono rendere utile un'informazione falsa o irrilevante):
-    - **Comparabilità**: Permette di cogliere somiglianze e differenze nel tempo (costanza di criteri nella stessa impresa) e nello spazio (tra imprese dello stesso settore). Non impone uniformità cieca: transazioni diverse devono essere contabilizzate diversamente.
-    - **Verificabilità**: Assicura che osservatori esperti e indipendenti possano raggiungere il medesimo consenso sulla fedeltà della stima. Può essere diretta (conteggio cassa/scorte) o indiretta (verifica di formule, tassi di sconto e modelli finanziari).
-    - **Tempestività**: Informazione resa disponibile in tempo utile per orientare le decisioni prima che perdano efficacia.
-    - **Comprensibilità**: Informazioni classificate ed esposte con chiarezza e concisione. Si presuppone che i destinatari posseggano una ragionevole conoscenza delle dinamiche aziendali e studino i bilanci con ragionevole diligenza.
-    - **Vincolo del Costo (*Cost Constraint*)**: I benefici generati dall'informazione contabile per gli investitori devono sempre superare i costi sostenuti dall'impresa per produrla e auditarla.
-- **Elementi del Bilancio e Nuove Definizioni (2018)**
-  - **Attività (*Asset*)**: Una risorsa economica presente controllata dall'entità come risultato di eventi passati. Una risorsa economica è un **diritto** che ha il **potenziale di produrre benefici economici** (non si richiede più la certezza del flusso futuro, basta il potenziale).
-  - **Passività (*Liability*)**: Un'obbligazione attuale dell'entità al trasferimento di una risorsa economica derivante da eventi passati, per la quale l'impresa **non ha la capacità pratica di evitare il trasferimento (*no practical ability to avoid*)**.
-  - **Patrimonio Netto (*Equity*)**: La grandezza residuale che scaturisce dalla differenza algebrica tra Attività e Passività (Attivo Netto).
-  - **Ricavi (*Income*) & Costi (*Expenses*)**: Incrementi o decrementi di attività e passività che generano variazioni nel patrimonio netto, diverse da apporti di capitale o distribuzioni ai soci.
-- **Misurazione: Costo Storico vs Valori Correnti**
-  - **Costo Storico (*Historical Cost*)**: Misura l'attività al valore della transazione originaria (prezzo d'acquisto + costi di transazione). Non riflette rivalutazioni di mercato nel tempo, tranne ammortamenti e svalutazioni da impairment.
-  - **Valori Correnti (*Current Value*)**:
-    - **Fair Value (IFRS 13)**: Prezzo di mercato di uscita che si percepirebbe vendendo l'asset in una transazione ordinaria tra operatori indipendenti. È un valore oggettivo orientato al mercato (*market-based*), non legato all'uso specifico che l'impresa fa del bene (*not entity-specific*).
-    - **Valore d'Uso (*Value in Use* - IAS 36)**: Valore attuale dei flussi di cassa stimati che l'azienda prevede di ottenere dall'uso continuativo del bene e dalla sua dismissione finale. È un valore soggettivo e specifico dell'impresa (*entity-specific*).
-    - **Costo Corrente (*Current Cost*)**: Costo di sostituzione che l'azienda sosterrebbe oggi per acquistare un bene equivalente.
-- **Mantenimento del Capitale (*Capital Maintenance* - Focus Modulo 05)**
-  - **L'Assioma Fondamentale**: L'impresa genera un profitto (utile) **SOLO ed esclusivamente dopo che il proprio capitale iniziale è stato mantenuto intatto**. Qualsiasi eccedenza è profitto; qualsiasi valore al di sotto rappresenta un'erosione patrimoniale.
-  - **La Formula d'Esame del Profitto**:
-    - $\mathbf{Profitto = \Delta Patrimonio\ Netto - Apporti\ dei\ Soci + Distribuzioni\ di\ Dividendi}$
-    - **Perché gli apporti dei soci non sono profitto? (Quesito 05.1)**: Perché le transazioni a titolo di capitale tra l'impresa e i suoi proprietari devono essere escluse dal reddito dell'esercizio.
-    - **Esercizio Numerico Risolto (Quesito 05.3)**: PN iniziale €150.000, PN finale €185.000 ($\Delta	ext{PN} = +35.000$ €). Soci apportano €40.000 e ricevono dividendi per €15.000.  
-      $	ext{Profitto} = 35.000 - 40.000	ext{ (apporti)} + 15.000	ext{ (dividendi)} = \mathbf{10.000\ €}$.
-  - **I Tre Modelli di Capitale a Confronto (Quesito 05.2)**:
-    - **1. Capitale Finanziario Nominale**: Definisce il capitale in termini di euro nominali investiti. Il capitale è mantenuto se il PN finale supera quello iniziale a moneta storica. Ignora completamente l'inflazione (adottato dal modello a costo storico tradizionale).
-    - **2. Capitale Finanziario Reale**: Definisce il capitale in termini di **potere d'acquisto**. C'è profitto solo se il PN finale supera il capitale iniziale rettificato per l'inflazione (indice generale dei prezzi ex IAS 29).
-    - **3. Capitale Fisico**: Definisce il capitale in termini di **capacità operativa e produttiva** (tonnellate prodotte, impianti in efficienza). Si valuta a costi correnti di sostituzione: gli aumenti di valore dei macchinari dovuti a rincari di mercato non sono considerati utili d'esercizio distribuibili, ma sono riserve di mantenimento del capitale fisico iscritte a patrimonio netto.
+    - È il documento teorico fondativo dello IASB (aggiornato nel 2018, strutturato in 8 capitoli) che fissa i concetti, gli obiettivi e i principi cardine del *General Purpose Financial Reporting*.
+    - **Status Giuridico Formale**: NON è un principio contabile (IFRS o IAS) e NON ha forza cogente diretta. Di conseguenza, **non prevale mai su alcun principio contabile specifico**: in caso di contrasto tra il Framework e uno standard (es. IAS 38 o IFRS 9), prevale sempre lo standard specifico.
+  - **Le 3 Funzioni Chiave e la Gerarchia di IAS 8**:
+    - 1. Guida lo standard setter (**IASB**) nello sviluppo coerente di nuovi principi contabili;
+    - 2. Assiste revisori contabili (*auditors*), analisti e autorità di vigilanza nell'interpretazione del bilancio;
+    - 3. **Vincolo per i Redattori (*Preparers*) ex IAS 8**: quando una transazione non è disciplinata da uno specifico IFRS (come avvenuto per le criptovalute nel 2019), il management deve applicare la gerarchia dello IAS 8: consultare prima gli IFRS che regolano fattispecie analoghe e, subito dopo, le definizioni e i concetti del Conceptual Framework.
+- **Obiettivo del Bilancio e Destinatari Primari (*Primary Users*)**
+  - **Utilità Decisionale (*Decision-Usefulness*)**: Fornire informazioni economico-finanziarie utili ai fornitori di capitale di rischio e di debito per assumere decisioni sull'erogazione di risorse all'entità.
+  - **Chi sono i Primary Users?**: Esclusivamente **investitori** (azionisti attuali e potenziali), **finanziatori** (*lenders*) e **altri creditori** (obbligazionisti, fornitori). Non hanno il potere contrattuale di esigere report su misura (a differenza di Fisco o management) e dipendono dal bilancio pubblico per stimare ammontare, tempistica e incertezza dei **flussi di cassa futuri netti** (*cash flow prospects*) e valutare la *stewardship* del management.
+  - **Entity Perspective & Going Concern**:
+    - *Entity Perspective*: Il bilancio rappresenta l'entità come soggetto economico autonomo e distinto dai suoi soci;
+    - *Going Concern (Continuità Aziendale)*: Presuppone che l'azienda operi nel futuro prevedibile (almeno 12 mesi); altrimenti si adottano criteri di liquidazione.
+- **Reporting Entity vs Legal Entity (I 4 Casi Operativi)**
+  - La contabilità IFRS applica il principio della **sostanza economica sulla forma giuridica (*substance over form*)**: il perimetro economico del bilancio (*Reporting Entity*) non coincide necessariamente con il perimetro legale della singola società (*Legal Entity*).
+  - **1. Reporting Entity > Legal Entity $\rightarrow$ Bilancio Consolidato**: Capogruppo + controllate; abbatte i confini legali elidendo le partite infragruppo e sommando attività, passività, ricavi e costi come un'unica impresa;
+  - **2. Reporting Entity < Legal Entity $\rightarrow$ Segment Reporting / Carve-out**: Un singolo ramo d'azienda o divisione interna a una persona giuridica;
+  - **3. Società sotto Controllo Comune $\rightarrow$ Bilancio Combinato (*Combined*)**: Società "sorelle" controllate dalla stessa persona fisica o famiglia senza una holding capogruppo al vertice;
+  - **4. Bilancio Non Consolidato (Separato della Sola Madre)**: Coincide con la sola capogruppo; le figlie non vengono consolidate riga per riga ma iscritte nella voce *"Partecipazioni in controllate"* ex IAS 27 (al costo, al Fair Value IFRS 9 o a Patrimonio Netto).
+  - **Divieto di Cherry-Picking**: I confini della reporting entity non possono essere tracciati ad arte per escludere debiti o rami in perdita.
+- **Caratteristiche Qualitative Fondamentali (*Fundamental*)**
+  - **1. Significatività (*Relevance*) e Rilevanza (*Materiality*)**:
+    - Un'informazione è significativa se ha **valore predittivo** e/o **valore confermativo**.
+    - **Materiality (Rilevanza)**: L'informazione è rilevante se la sua omissione, errata indicazione o oscuramento (*obscuring*) può influenzare le decisioni dei primary users.
+    - **Soglia Quantitativa**: Scostamento o errore $\ge \mathbf{5\%}$ nella stima dell'utile d'esercizio;
+    - **Soglia Qualitativa (anche per importi minimi)**: 1) Inversione del segno (da utile a perdita); 2) Violazione di *covenants* bancari; 3) Operazioni con parti correlate o compensi del management.
+    - **Processo in 4 Fasi (Practice Statement 2)**: *1. Identify* $\rightarrow$ *2. Assess* (filtro quantitativo + qualitativo) $\rightarrow$ *3. Organise* (anti-oscuramento) $\rightarrow$ *4. Review*.
+  - **2. Rappresentazione Fedele (*Faithful Representation*)**:
+    - Richiede **Completezza**, **Assenza di errori** (processo di stima rigoroso e trasparente) e **Neutralità** (assenza di distorsioni per orientare il giudizio).
+    - **Prudenza Cautelativa vs Prudenza Asimmetrica Civilistica**: Lo IASB accoglie la *Cautious Prudence* (cautela nelle stime in condizioni di incertezza), ma **VIETA categoricamente la prudenza asimmetrica e le riserve occulte**: sottostimare un attivo o gonfiare i costi oggi deprime l'utile corrente ma gonfia artificialmente gli utili degli esercizi futuri, violando la neutralità.
+- **Caratteristiche di Potenziamento (*Enhancing*) e Vincolo del Costo**
+  - **Comparabilità** (nel tempo e nello spazio), **Verificabilità** (diretta o indiretta sui modelli di stima), **Tempestività** e **Comprensibilità**, soggette al **Vincolo del Costo** (i benefici informativi devono superare i costi di produzione del dato).
+- **Elementi del Bilancio e Criteri di Misurazione**
+  - **Attività (*Asset*)**: Risorsa economica presente controllata dall'entità per eventi passati; è un **diritto** che ha il **potenziale di produrre benefici economici** (non serve più la certezza/probabilità elevata nella definizione base).
+  - **Passività (*Liability*)**: Obbligazione attuale al trasferimento di una risorsa economica per la quale l'entità **non ha la capacità pratica di evitare il trasferimento**.
+  - **Basi di Misurazione**: **Costo Storico** vs **Valori Correnti** (*Fair Value* IFRS 13 market-based, *Value in Use* IAS 36 entity-specific, *Current Cost* costo di sostituzione).
+- **Mantenimento del Capitale (*Capital Maintenance* – Modulo 05)**
+  - **Regola Aurea (Quesito 05.1)**: C'è profitto solo dopo aver mantenuto intatto il capitale iniziale. Gli apporti dei soci e i dividendi sono operazioni con i proprietari e **vanno sempre esclusi dal calcolo del profitto**.
+  - **Formula d'Esame ed Esercizio Risolto (Quesito 05.3)**:
+    - $$\text{Profitto} = (\text{PN}_{\text{finale}} - \text{PN}_{\text{iniziale}}) - \text{Apporti dei Soci} + \text{Dividendi Distribuiti}$$
+    - *Dati Quesito 05.3*: $\text{PN}_0 = 150.000$ €, $\text{PN}_1 = 185.000$ € ($\Delta\text{PN} = +35.000$ €), Apporti $= 40.000$ €, Dividendi $= 15.000 \rightarrow \text{Profitto} = 35.000 - 40.000 + 15.000 = \mathbf{10.000}$ €.
+  - **Confronto tra i 3 Modelli di Capitale (Quesito 05.2)**:
+    - 1. **Capitale Finanziario Nominale**: conserva l'importo monetario iniziale investito (ignora l'inflazione);
+    - 2. **Capitale Finanziario Reale**: conserva il potere d'acquisto reale iniziale (rettificato con indice generale dei prezzi ex IAS 29);
+    - 3. **Capitale Fisico**: conserva la **capacità produttiva operativa fisica** (valutazione a costi correnti di sostituzione; i rincari dei beni strumentali non sono utile distribuibile ma vanno a riserva di patrimonio netto).
 
 ## 2. IAS 1 – Presentazione del Bilancio
-- **Set Completo del Bilancio e Regole di Vigenza**
-  - **La Regola di Vigenza Temporale (Quesito 01.1)**: Una società che redige il bilancio per l'esercizio 2026 e non adotta anticipatamente IFRS 18 applica obbligatoriamente **IAS 1**, poiché IFRS 18 entra formalmente in vigore solo dal 1° gennaio 2027.
-  - **I Documenti Obbligatori**: 1. Stato Patrimoniale; 2. Conto Economico e OCI; 3. Prospetto delle Variazioni di Patrimonio Netto; 4. Rendiconto Finanziario (IAS 7); 5. Note al Bilancio; 6. Terzo SP iniziale in caso di applicazione retrospettiva di principi (IAS 8).
+- **Ambito di Vigenza Temporale e Set Completo (Quesito 01.1)**
+  - **Vigenza (Quesito 01.1)**: Per il bilancio 2026 (senza adozione anticipata di IFRS 18) si applica obbligatoriamente **IAS 1**, poiché l'IFRS 18 diventa obbligatorio solo per gli esercizi che iniziano dal **1° gennaio 2027**.
+  - **I 5+1 Documenti Obbligatori**: 1) Stato Patrimoniale; 2) Prospetto dell'Utile/Perdita (P&L) e delle Altre Componenti di Conto Economico Complessivo (OCI); 3) Prospetto Variazioni del Patrimonio Netto; 4) Rendiconto Finanziario (IAS 7); 5) Note al Bilancio; 6) Terzo SP all'inizio del periodo comparativo in caso di *restatement* retrospettivo ex IAS 8.
 - **Postulati Generali di Redazione**
-  - **Competenza Economica (*Accrual Basis*)**: Gli effetti delle transazioni si rilevano nel periodo in cui maturano e non quando si manifesta l'incasso o il pagamento. Vale per tutti i prospetti con l'unica eccezione del Rendiconto Finanziario (IAS 7).
-  - **Divieto Assoluto di Compensazione (*No Offsetting*)**: Attività e passività, così come ricavi e costi, non possono essere compensati tra loro salvo espressa previsione contabile.
-  - **Divieto Categorico di Componenti Straordinari**: È fatto espresso divieto di qualificare voci come "straordinarie" sia nel Conto Economico sia nelle Note.
-- **Stato Patrimoniale: Corrente vs Non Corrente**
-  - La classificazione ordinaria obbligatoria è basata sulla separazione Corrente / Non Corrente (il criterio di liquidità decrescente è riservato agli intermediari finanziari).
-  - **Criteri Attività Correnti**:
-    - 1. Realizzo, vendita o consumo nel **normale ciclo operativo** dell'impresa (anche se dura più di 12 mesi!);
-    - 2. Posseduta principalmente per finalità di negoziazione (*trading*);
-    - 3. Realizzo previsto entro **12 mesi** dalla data di chiusura;
-    - 4. Cassa o disponibilità liquide prive di vincoli di utilizzo per almeno 12 mesi.
-  - **Criteri Passività Correnti**: estinzione nel normale ciclo operativo, finalità di trading, scadenza entro 12 mesi, assenza di diritto incondizionato a differire per almeno 12 mesi.
-  - **Il Caso del Ciclo Operativo Pluriennale**: Settori come cantieristica navale (costruzione navi in 36 mesi), agroalimentare di pregio (Parmigiano Reggiano stagionato 36 mesi o vini d'annata affinati 4 anni) o edilizia su commessa mantengono crediti commerciali e scorte tra le **Attività Correnti**, con obbligo di specificare in nota la quota realizzabile oltre l'anno.
-  - **Il Trabocchetto del Rifinanziamento (Quesito 01.2)**:
-    - *Scenario*: Al 31 dicembre un debito scade a 9 mesi. A febbraio dell'anno successivo, prima che il CdA approvi il bilancio, l'azienda firma con la banca il rifinanziamento a lungo termine a 5 anni.
-    - *Regola*: **Al 31 dicembre il debito RESTA CORRENTE**, perché alla data di riferimento del bilancio mancava il diritto contrattuale a differire il pagamento. L'accordo di febbraio è un evento successivo non-adjusting (IAS 10): va data disclosure in nota ma non si tocca la classificazione nello SP!
-  - **Current Ratio**: $	ext{Attività Correnti} / 	ext{Passività Correnti}$. Misura la capacità di far fronte ai debiti a breve termine con le attività a breve.
-- **Performance Economica: Total Comprehensive Income (TCI)**
-  - $\mathbf{TCI = Profit\ or\ Loss\ (P\&L) + Other\ Comprehensive\ Income\ (OCI)}$.
-  - **Profit or Loss (P&L)**: Misura la redditività operativa e realizzata dell'esercizio; è il dato fondamentale su cui si calcolano dividendi, EPS (IAS 33) e bonus del management.
-  - **Other Comprehensive Income (OCI)**: Accoglie variazioni di valore non realizzate (variazioni di fair value) prescritte da specifici standard per evitare che la volatilità di mercato inquini il P&L.
-  - **Effetto della Rivalutazione di Immobili (Quesito 01.3)**: L'incremento da rivalutazione di un immobile iscritto a OCI **aumenta il Risultato Complessivo (TCI) e il Patrimonio Netto, ma NON aumenta l'utile d'esercizio (P&L)**.
-- **La Disciplina del Recycling (Rettifiche da Riclassificazione)**
-  - Il recycling è lo storno da OCI e l'imputazione a P&L di riserve temporanee quando l'operazione giunge a compimento economico, evitando doppi conteggi nel TCI:
-    - **Voci CON Recycling**: Titoli di debito FVOCI (IFRS 9), riserva Cash Flow Hedge sulle coperture efficaci, riserva di conversione cambi su società estere (IAS 21). Alla vendita del titolo o chiusura della copertura, la riserva OCI confluisce a P&L.
-    - **Voci SENZA Recycling**:
-      - **Rivalutazione di Immobili, Impianti e Macchinari (IAS 16 e IAS 38)**: alla vendita dell'immobile rivalutato, la riserva OCI residua **non transita mai per il P&L**, ma viene girata direttamente a *Utili portati a nuovo* a patrimonio netto per impedire al management di vendere beni nei momenti di crisi per manipolare il reddito (*cherry-picking*);
-      - Azioni e strumenti di capitale designati a FVOCI (IFRS 9);
-      - Utili e perdite attuariali sui fondi pensione e TFR (IAS 19).
-- **Classificazione dei Costi Operativi a P&L**
-  - **Per Natura**: aggrega i costi in base alla loro origine (materie prime, personale, ammortamenti). Più semplice e oggettivo.
-  - **Per Destinazione (o Funzione)**: aggrega i costi per funzione aziendale (Costo del venduto, spese commerciali, spese amministrative). Evidenzia il Gross Margin.
-  - **Il Vincolo Informativo dello IAS 1**: Se l'azienda sceglie il metodo per destinazione, ha l'**obbligo vincolante di riportare nelle note al bilancio il dettaglio per natura dei costi del personale e degli ammortamenti**, indispensabili per gli analisti finanziari.
+  - **Competenza Economica (*Accrual Basis*)**: Rilevazione quando i fatti maturano economicamente (vale per tutto il bilancio tranne il Rendiconto Finanziario IAS 7).
+  - **Divieto di Compensazione (*No Offsetting*)**: Vietato compensare partite attive e passive o costi e ricavi salvo obbligo/permesso di uno specifico IFRS.
+  - **Divieto di Componenti Straordinari**: Abolita qualsiasi voce "straordinaria" nel P&L e nelle Note.
+- **Stato Patrimoniale: Distinzione Corrente vs Non Corrente**
+  - **Attività Correnti**: 1) Realizzo/consumo nel **normale ciclo operativo** (anche se dura $> 12$ mesi, es. cantieri navali, stagionatura formaggi/vini); 2) Detenute per *trading*; 3) Realizzo entro **12 mesi**; 4) Disponibilità liquide non vincolate.
+  - **Il Trabocchetto del Rifinanziamento Post-Chiusura (Quesito 01.2)**:
+    - Un debito che al 31 dicembre scade a 9 mesi e viene rifinanziato a lungo termine solo a febbraio (prima dell'approvazione del bilancio) **RESTA PASSIVITÀ CORRENTE al 31 dicembre**, perché alla data di chiusura mancava il diritto incondizionato a differire il rimborso di almeno 12 mesi (evento *non-adjusting* ex IAS 10 da indicare solo nelle Note).
+  - **Current Ratio**: $\text{Attività Correnti} / \text{Passività Correnti}$.
+- **Total Comprehensive Income (TCI), OCI e Regola del Recycling**
+  - $$\text{Total Comprehensive Income (TCI)} = \text{Profit or Loss (P\&L)} + \text{Other Comprehensive Income (OCI)}$$
+  - **Effetto Rivalutazione Immobili (Quesito 01.3)**: Un incremento da rivalutazione rilevato in OCI **aumenta il Risultato Complessivo (TCI) e il Patrimonio Netto, senza aumentare l'Utile d'Esercizio (P&L)**.
+  - **La Regola del Recycling (Riclassificazione da OCI a P&L)**:
+    - **Voci CON Recycling a P&L**: Titoli di debito FVOCI (IFRS 9), riserve *Cash Flow Hedge*, differenze cambio da traduzione di bilanci esteri (IAS 21). Al momento del realizzo/vendita transitano a P&L;
+    - **Voci SENZA Recycling (MAI a P&L)**: **Riserva di rivalutazione su immobilizzazioni materiali e immateriali (IAS 16 e IAS 38)**, strumenti rappresentativi di capitale (azioni) designati a FVOCI (IFRS 9), utili/perdite attuariali su benefici definiti ai dipendenti (IAS 19). Alla vendita del bene rivalutato, la riserva OCI residua viene girata direttamente a *Utili portati a nuovo* (*Retained Earnings*) per impedire manipolazioni dell'utile (*cherry-picking*).
+- **Classificazione dei Costi Operativi a Conto Economico**
+  - **Per Natura** (materie prime, personale, ammortamenti) oppure **Per Destinazione / Funzione** (Costo del venduto, costi commerciali, costi amministrativi).
+  - **Obbligo in Nota**: Chi sceglie la classificazione per destinazione deve obbligatoriamente indicare nelle Note l'ammontare per natura di **ammortamenti** e **costi del personale**.
 
 ## 3. IFRS 18 – Nuova Presentazione e Disclosure (In vigore dal 2027)
-- **Motivi della Riforma e Superamento dello IAS 1**
-  - Lo IASB ha emesso l'IFRS 18 ad aprile 2024 per sostituire lo IAS 1 dal 1° gennaio 2027.
-  - **Il Problema Risolto**: Nello IAS 1 non esisteva una definizione obbligatoria di Utile Operativo (EBIT); ciascuna azienda definiva i subtotali a proprio piacimento, rendendo impossibili i confronti tra concorrenti. Inoltre, il management diffondeva misure non-GAAP prive di disciplina.
-- **Le 3 Categorie Rigide del Conto Economico**
-  - **1. Categoria Operativa (*Operating Category*)**:
-    - Include tutti i ricavi e costi derivanti dalle attività operative primarie dell'impresa.
-    - **LA REGOLA DELLA CATEGORIA RESIDUALE**: È definita come una categoria residuale: accoglie qualsiasi voce che non soddisfi la definizione di Investing, Financing, Imposte (IAS 12) o Discontinued Operations (IFRS 5). Di conseguenza, i costi di ristrutturazione aziendale, le sanzioni o i contenziosi operativi insoliti **ricadono obbligatoriamente nell'Operating Profit**.
+- **Perché l'IFRS 18 Sostituisce lo IAS 1 dal 1° Gennaio 2027**
+  - Nello IAS 1 mancavano definizioni vincolanti dei subtotali intermedi (ogni impresa calcolava l'EBIT in modo diverso) e proliferavano metriche *non-GAAP* non verificate. L'IFRS 18 introduce una struttura rigida di Conto Economico e porta i KPI del management dentro le Note sottoposte a revisione.
+- **Le 3 Nuove Categorie Obbligatorie del Conto Economico**
+  - **1. Categoria Operativa (*Operating Category* – Categoria Residuale)**:
+    - Include tutti i proventi e oneri dell'attività principale dell'impresa più **qualsiasi voce che non rientri nelle altre categorie** (categoria residuale di default, inclusi oneri di ristrutturazione o svalutazioni operative).
   - **2. Categoria di Investimento (*Investing Category*)**:
-    - Accoglie ricavi e costi generati da attività che producono un **rendimento finanziario in modo del tutto indipendente** dalle altre risorse operative:
-      - Canoni di locazione e plusvalenze da investimenti immobiliari (IAS 40);
-      - Dividendi e interessi attivi da titoli finanziari detenuti a scopo di investimento;
-      - Quota di utili/perdite di società collegate e Joint Venture valutate con il metodo del patrimonio netto (IAS 28).
+    - Include i rendimenti di attività che generano flussi **in modo autonomo e indipendente** dalle risorse operative aziendali: proventi da investimenti immobiliari (IAS 40), dividendi e interessi attivi su titoli finanziari, quote di utili/perdite di collegate e Joint Venture valutate al patrimonio netto (IAS 28).
   - **3. Categoria di Finanziamento (*Financing Category*)**:
-    - Comprende tutti i proventi e oneri legati a passività derivanti dalla **raccolta di capitali** (interessi passivi su mutui bancari, prestiti obbligazionari, passività per leasing IFRS 16) e gli effetti di attualizzazione finanziaria.
-- **I 2 Nuovi Subtotali Obbligatori (Quesito 01.4)**
-  - **Risultato Operativo (*Operating Profit / EBIT standardizzato*)**
-  - **Utile prima dei Finanziamenti e delle Imposte (*Profit before financing and income taxes*)**
-  - **La loro Funzione Cruciale**: Offrire punti di riferimento oggettivi, standardizzati e uniformi per confrontare società che comunicano indicatori alternativi (*EBITDA rettificati*) calcolati con esclusioni diverse e arbitrarie.
-- **La Disciplina delle MPMs (*Management Performance Measures*)**
-  - Sono subtotali di ricavi e costi definiti dal management per comunicare la performance agli analisti (es. *Adjusted EBITDA* o *Core Operating Profit*).
-  - **La Nuova Regola IFRS 18**: Se il management utilizza pubblicamente tali metriche, esse **devono entrare ufficialmente nelle Note al bilancio** in una nota dedicata.
-  - **Obblighi Informativi in Nota**: spiegazione del perché la misura è utile, metodo di calcolo, **tabella di riconciliazione analitica** tra l'MPM e il subtotale IFRS 18 più vicino, impatto fiscale e quota di pertinenza dei soci terzi (*NCI*). La nota è **soggetta a revisione contabile obbligatoria (Audit)**.
-- **Regole di Aggregazione e Disaggregazione**
-  - Criteri rigidi per impedire l'oscuramento: vietato raggruppare voci che hanno natura o funzione dissimile; divieto di usare etichette opache e generiche ("Altro" o "Spese varie") senza disaggregazione nelle note.
+    - Include gli oneri e proventi su passività volte alla **raccolta di finanziamenti** (interessi su mutui, obbligazioni, debiti di leasing IFRS 16) e l'*unwinding* dello sconto su fondi passivi (IAS 37 / IAS 19).
+- **I 2 Subtotali Obbligatori e la Confrontabilità degli EBITDA (Quesito 01.4)**
+  - 1. **Risultato Operativo (*Operating Profit*)**;
+  - 2. **Risultato prima dei finanziamenti e delle imposte sul reddito (*Profit or loss before financing and income taxes*)**.
+  - **Funzione nel Confronto tra Imprese (Quesito 01.4)**: Quando due società pubblicano *EBITDA rettificati* con esclusioni differenti, i subtotali IFRS 18 **offrono riferimenti comuni e standardizzati** per ancorare l'analisi finanziaria.
+- **Disciplina delle MPMs (*Management-defined Performance Measures*)**
+  - I subtotali alternativi di ricavi e costi comunicati pubblicamente dal management (es. *Adjusted Operating Profit*, *Adjusted EBITDA*) devono essere illustrati in una **singola Nota dedicata del bilancio** soggetta ad **Audit**, corredata da una **tabella di riconciliazione analitica** con il subtotale IFRS 18 più direttamente comparabile, indicando l'effetto fiscale e la quota di terzi (*NCI*).
+- **Principi di Aggregazione, Disaggregazione e Anti-Oscuramento**
+  - Divieto di nascondere componenti anomale o rilevanti dentro voci generiche come *"Altri costi operativi"*.
 
-## 4. IAS 7 – Rendiconto Finanziario
-- **La Filosofia "Cash is King" e il Principio di Cassa**
-  - È l'**unico documento del bilancio redatto secondo il principio di cassa (*Cash Basis*)** anziché di competenza economica.
-  - La redditività a conto economico è condizionata da stime, politiche di bilancio e congetture (un'azienda con ottimi utili contabili può fallire per insolvenza). Il rendiconto finanziario misura la liquidità monetaria reale generata o assorbita dalla gestione.
-- **L'Oggetto del Rendiconto: Cash and Cash Equivalents**
-  - **Cash (Disponibilità Liquide)**: denaro in cassa e depositi bancari a vista.
-  - **Cash Equivalents (Mezzi Equivalenti)**: investimenti finanziari a brevissimo termine prontamente convertibili in importi noti di denaro, soggetti a un **rischio insignificante di variazione del valore**, con **scadenza originaria non superiore a 3 mesi** dalla data di acquisto. Le azioni ordinarie sono escluse (troppo volatili).
-  - **Scoperti di Conto Corrente**: se rimborsabili a vista e gestiti quotidianamente per la cassa, vengono portati in detrazione della cassa netta.
-- **Le 3 Macro-Aree Finanziarie**
-  - **Attività Operativa (*Operating Activities*)**: flussi legati alla produzione e vendita di beni e servizi (il motore caratteristico che genera cassa).
-  - **Attività di Investimento (*Investing Activities*)**: uscite per acquisti (*CapEx*) ed entrate per vendite di immobilizzazioni materiali (IAS 16), immateriali (IAS 38) e partecipazioni finanziarie a lungo termine.
-  - **Attività di Finanziamento (*Financing Activities*)**: operazioni che modificano l'entità e composizione del patrimonio netto (aumenti di capitale, dividendi pagati) e dei debiti finanziari (accensione/rimborso mutui e prestiti obbligazionari, quota capitale dei canoni leasing IFRS 16).
-- **Il Metodo Indiretto Operativo (Riconciliazione del CCN)**
-  - Si parte dall'Utile Netto (o ante imposte) del Conto Economico e lo si trasforma in flusso monetario:
-    - $\mathbf{Utile\ Netto\ (P\&L)}$
-    - **(+) Costi non monetari**: ammortamenti, accantonamenti a fondi rischi, perdite da svalutazione (sono costi che hanno abbassato l'utile ma senza uscita di cassa).
-    - **(-) Plusvalenze da cessione cespiti**: la plusvalenza contabile va stornata dall'utile operativo perché l'intero corrispettivo monetario incassato dalla vendita del bene confluisce al 100% nell'**Attività di Investimento**!
-    - **(-) Aumento Crediti verso Clienti / (+) Riduzione Crediti**: se i crediti aumentano, abbiamo venduto merci ma non abbiamo ancora incassato il denaro (cassa non pervenuta $
-ightarrow$ sottrarre).
-    - **(-) Aumento Rimanenze di Magazzino / (+) Riduzione Rimanenze**: se il magazzino cresce, abbiamo speso cassa per produrre scorte ferme sui pallet (cassa assorbita $
-ightarrow$ sottrarre).
-    - **(+) Aumento Debiti verso Fornitori / (-) Riduzione Debiti**: se i debiti verso fornitori crescono, abbiamo acquistato beni senza ancora pagarli (cassa risparmiata $
-ightarrow$ sommare); se diminuiscono, abbiamo pagato fatture pregresse (cassa uscita $
-ightarrow$ sottrarre).
-- **Le Operazioni Non Monetarie (Quesito 02.1)**
-  - Operazioni di investimento o finanziamento che non richiedono esborso monetario immediato (es. acquisto di un impianto mediante stipula di un leasing IFRS 16, o permuta di immobili, o conversione di obbligazioni in azioni):
-  - **Regola Tassativa**: **NON devono essere incluse nel prospetto del Rendiconto Finanziario**. È fatto divieto di esporre entrate e uscite fittizie; l'operazione deve essere illustrata esclusivamente in un'apposita **nota informativa esplicativa**.
+## 4. IAS 7 – Rendiconto Finanziario ("Cash is King")
+- **Principio di Cassa (*Cash Basis*) e Perimetro della Liquidità**
+  - Unico prospetto di bilancio redatto per **cassa** anziché per competenza economica.
+  - **Cash & Cash Equivalents**: Cassa contante, depositi bancari a vista e investimenti finanziari a brevissimo termine (scadenza originaria $\le \mathbf{3\text{ mesi}}$), prontamente convertibili in un ammontare noto di denaro e soggetti a un **rischio trascurabile di variazione del valore** (escluse azioni e criptovalute!).
+- **Le 3 Macro-Aree dei Flussi Finanziari**
+  - **1. Attività Operativa (*Operating*)**: Incassi da clienti e pagamenti a fornitori, dipendenti e imposte;
+  - **2. Attività di Investimento (*Investing* – Quesito 02.3)**: Esborsi per acquisto (*CapEx*) e incassi per cessione di immobilizzazioni materiali, immateriali e finanziarie.
+    - *Esercizio Risolto (Quesito 02.3)*: Pagati €50.000 per un nuovo impianto, incassati €8.000 dalla vendita di un vecchio macchinario e ricevuti €30.000 da un nuovo prestito bancario $\rightarrow$ Il prestito (€30.000) va nel *Finanziamento*; il **Flusso Netto di Investimento** è pari a $-50.000 + 8.000 = \mathbf{-42.000}$ €!
+  - **3. Attività di Finanziamento (*Financing*)**: Aumenti di capitale a pagamento, dividendi pagati, accensione e rimborso di prestiti/mutui e **rimborso della quota capitale dei debiti di leasing ex IFRS 16**.
+- **Metodo Diretto vs Metodo Indiretto e Dinamica del Capitale Circolante Netto (Quesiti 02.2 & 02.4)**
+  - Nel **Metodo Indiretto**, il Flusso Operativo si ottiene rettificando l'Utile d'Esercizio:
+    $$\text{Flusso Operativo} = \text{Utile} + \text{Costi non monetari (Ammortamenti, Svalutazioni)} - \text{Plusvalenze da cessione} - \Delta\text{Crediti Comm.} - \Delta\text{Rimanenze} + \Delta\text{Debiti Comm.}$$
+  - **Perché si sottrae la Plusvalenza da cessione?**: Perché non è un flusso operativo e l'intero prezzo incassato dalla vendita del cespite è già contabilizzato nell'*Attività di Investimento*.
+  - **Vendite a Credito non Incassate (Quesito 02.4)**: Le vendite a dilazione fanno crescere i ricavi e l'Utile a Conto Economico, ma finché il cliente non paga **l'aumento dei crediti commerciali assorbe liquidità e riduce il flusso operativo rispetto all'utile**.
+  - **Esercizio Numerico Risolto (Quesito 02.2)**:
+    - *Dati*: Utile $= 85.000$ €; Ammortamenti $= +20.000$ €; Plusvalenza da cessione $= -5.000$ €; Aumento crediti $= -15.000$ €; Aumento rimanenze $= -8.000$ €; Aumento debiti verso fornitori $= +10.000$ €.
+    - $$\text{Flusso Operativo} = 85.000 + 20.000 - 5.000 - 15.000 - 8.000 + 10.000 = \mathbf{87.000}$$ €
+- **Trattamento Tassativo delle Operazioni Non Monetarie (Quesito 02.1)**
+  - Operazioni di investimento e finanziamento che non movimentano cassa alla data iniziale (es. **acquisizione di un impianto tramite stipula di un leasing IFRS 16**, permuta di beni, conversione di debiti in azioni):
+  - **Regola (Quesito 02.1)**: **Non si rileva alcun flusso nel Rendiconto Finanziario iniziale**; l'operazione non monetaria deve essere illustrata separatamente nelle **Note al bilancio**.
 
-## 5. Note al Bilancio & Management Commentary
-- **Note al Bilancio (IAS 1 / Modulo 03)**
-  - Le Note sono parte integrante e inscindibile del bilancio.
-  - **Politiche Contabili (*Accounting Policies* - Quesito 03.1)**: La nota informativa non deve limitarsi a ricopiare asetticamente i paragrafi degli IFRS; è considerata utile solo se spiega **come l'azienda applica concretamente i criteri e le scelte contabili ai propri specifici progetti e al proprio modello di business**.
-  - **Fonti di Incertezza nelle Stime (*Estimation Uncertainty* - Quesito 03.2)**: Obbligo per il management di indicare le assunzioni chiave sul futuro con rischio significativo di generare rettifiche materiali entro 12 mesi, fornendo la relativa **analisi di sensibilità (*sensitivity analysis*)** al variare delle ipotesi.
-  - **Il Divieto di Sanatoria in Nota (Quesito 03.3)**:
-    - *Caso esame*: Una società opera una compensazione non consentita tra attività e passività nello Stato Patrimoniale, ma indica analiticamente gli importi lordi nelle Note.
-    - *Regola*: **La disclosure nelle Note NON SANA in alcun modo la compensazione o il trattamento errato commesso nei prospetti contabili primari**.
-- **Management Commentary (IFRS Practice Statement 1 / Modulo 04)**
-  - Relazione narrativa della gestione vista "attraverso gli occhi del management" (*through the eyes of management*).
-  - **Analisi dell'Utile e Cessioni Straordinarie (Quesito 04.1)**: Se l'utile d'esercizio cresce unicamente grazie alla vendita isolata di un immobile mentre i margini operativi della produzione calano, il management non può mascherare il calo: ha l'obbligo di isolare il contributo della cessione immobiliare e spiegare cause, andamento e prospettive della gestione ordinaria.
-  - **Trasparenza sui Rischi e Perdita Clienti (Quesito 04.2)**: La perdita di un cliente strategico va discussa esplicitando il grado di concentrazione del portafoglio clienti, le azioni correttive intraprese e i rischi operativi residui.
-  - **Informazioni Prospettiche (*Forward-Looking* - Quesito 04.3)**: Le previsioni di ripresa fornite agli investitori devono esplicitare le ipotesi adottate, le evidenze disponibili e i fattori di incertezza che possono deviare l'esito finale.
-- **Sustainability Reporting & Nascita ISSB**
-  - La IFRS Foundation ha istituito l'**ISSB (International Sustainability Standards Board)** alla conferenza COP26 di Glasgow per definire una *Global Baseline* di standard ESG per i mercati dei capitali.
-  - **IFRS S1**: Requisiti generali di sostenibilità articolati sui 4 pilastri TCFD (Governance, Strategia, Risk Management, Metriche e Target).
-  - **IFRS S2**: Standard tematico sul Clima (rischi fisici, rischi di transizione ed emissioni gas serra Scope 1, Scope 2 e Scope 3).
-  - **Doppia Materialità a Confronto**:
-    - **Materialità Finanziaria (Outside-in / ISSB)**: Analizza come i fattori climatici ed ESG impattano il valore dell'impresa e i suoi flussi di cassa (prospettiva dell'investitore).
-    - **Doppia Materialità (CSRD Europea ed ESRS di EFRAG)**: Impone congiuntamente la materialità finanziaria (Outside-in) e la **Materialità di Impatto (Inside-out)**, ovvero l'impatto generato dalle attività aziendali sull'ambiente, sui lavoratori e sulla società.
+## 5. Note al Bilancio, Management Commentary & Sustainability Reporting
+- **Note al Bilancio (IAS 1 / IFRS 18 – Modulo 03)**
+  - **Politiche Contabili Rilevanti (*Material Accounting Policy Information* – Quesito 03.1)**: Non bisogna copiare il testo astratto degli standard IFRS; l'informativa è utile solo se **spiega concretamente come la società applica i criteri contabili (es. capitalizzazione software IAS 38) ai propri specifici progetti aziendali**.
+  - **Fonti di Incertezza nelle Stime (*Estimation Uncertainty* – Quesito 03.2)**: Quando il valore recuperabile di un asset dipende da stime future incerte, la Nota deve illustrare **le ipotesi principali adottate e l'analisi di sensibilità (*sensitivity analysis*)** a variazioni ragionevolmente possibili dei parametri.
+  - **Divieto di Sanatoria in Nota (Quesito 03.3)**: Se l'azienda opera nei prospetti una compensazione (*offsetting*) vietata tra attività e passività, **l'indicazione degli importi lordi nelle Note NON sana l'errore commesso nei prospetti primari**.
+- **Management Commentary (IFRS Practice Statement 1 – Modulo 04)**
+  - Relazione narrativa che correda il bilancio offrendo la lettura gestionale *"through the eyes of management"*.
+  - **Qualità degli Utili e Componenti Non Ricorrenti (Quesito 04.1)**: Se l'utile totale cresce grazie alla vendita isolata di un immobile mentre i margini delle vendite ordinarie calano, il commento deve **distinguere nettamente il contributo occasionale della cessione dall'andamento dei margini operativi**, spiegandone cause e prospettive.
+  - **Perdita di Clienti e Concentrazione dei Rischi (Quesito 04.2)**: Il calo dei ricavi per la perdita di un cliente chiave va analizzato **collegandolo al grado di concentrazione della clientela, alle azioni correttive avviate e ai rischi residui**.
+  - **Informazioni Prospettiche (*Forward-Looking Information* – Quesito 04.3)**: Una previsione di ripresa subordinata a nuovi contratti è utile agli investitori solo se **esplicita le ipotesi sottostanti, le evidenze disponibili e i fattori di incertezza** che possono modificare l'esito.
+- **Sustainability Reporting: ISSB (IFRS S1 & S2) vs CSRD Europea**
+  - **Nascita dell'ISSB (COP26, 2021)**: Affianca lo IASB dentro la IFRS Foundation per creare una *Global Baseline* di informativa ESG per i mercati finanziari, strutturata sui 4 pilastri TCFD (*Governance, Strategy, Risk Management, Metrics & Targets*):
+    - **IFRS S1**: Requisiti generali per l'informativa finanziaria connessa alla sostenibilità;
+    - **IFRS S2**: Informativa specifica sul **Clima** (rischi fisici, rischi di transizione ed emissioni GHG *Scope 1, Scope 2 e Scope 3*).
+  - **Prospettiva della Materialità**:
+    - **ISSB (IFRS S1/S2) $\rightarrow$ Materialità Finanziaria Singola (*Outside-In*)**: Impatto dei rischi ESG sui flussi di cassa e sul valore dell'impresa per gli investitori;
+    - **Unione Europea (CSRD / ESRS di EFRAG) $\rightarrow$ Doppia Materialità (*Double Materiality*)**: Unisce la prospettiva finanziaria (*Outside-In*) alla **Materialità d'Impatto (*Inside-Out*)**, cioè l'impatto dell'impresa su ambiente, clima e società.
 
 ## 6. Seminario Ferrari: Finance in a Unique Business Model
-- **Il Modello di Business Unico: Esclusività vs Volumi**
-  - **La Massima Fondativa di Enzo Ferrari**: *"Ferrari will always deliver one car less than the market demands"*.
-  - L'azienda rifiuta la logica della produzione di massa: la crescita del fatturato non avviene aumentando a dismisura le vetture consegnate (*shipments*), ma facendo leva sul **Price/Mix**, sull'estrema personalizzazione delle vetture e sul lancio di serie speciali ad altissimo valore aggiunto (*Icona* e *Supercar*).
-- **Le Metriche Finanziarie di Performance 2020-2025**
-  - **Adjusted EBITDA Margin al 38.8% al 2025**: Con un incremento di **+580 punti base (bps) rispetto al 2020**, attestandosi tra le marginalità più elevate al mondo nel settore manifatturiero e del lusso.
-  - **Free Cash Flow Industriale Cumulato (2020-2025) di ~€5.1 miliardi**:
-    - Elevatissimo **Cash Conversion Ratio**: la capacità di trasformare l'EBITDA contabile in cassa reale (*Cash is King - IAS 7*).
-    - Questa imponente generazione di cassa garantisce l'**autofinanziamento completo dei massicci investimenti (CapEx)** in ricerca e sviluppo tecnologico, Formula 1 e transizione elettrica/ibrida, senza dipendere da debito bancario esterno.
-- **Il Ruolo della Finanza: "Finance Makes Trade-Offs Visible"**
-  - La funzione Finance non è un semplice ufficio di reporting contabile, ma il partner strategico che quantifica e rende visibili i **4 grandi trade-off della gestione**:
-    - 1. **Growth vs Exclusivity**: Aumentare le vendite o preservare la rarità e il valore collezionistico del marchio?
-    - 2. **Innovation vs Financial Discipline**: Spese enormi in R&D per motori ibridi/elettrici vs rispetto dei budget di cassa e ritorno del capitale.
-    - 3. **Global Consistency vs Local Dynamics**: Mantenere una disciplina commerciale e di prezzo uniforme a livello globale, rispettando però le peculiarità dei mercati regionali (Americas, Europe/Africa, China/HK/Taiwan).
-    - 4. **Short-Term Performance vs Long-Term Value**: Evitare decisioni miopi che migliorano l'utile del trimestre a discapito della forza e reputazione secolare del brand.
-- **Il Processo Decisionale "From Data to Decision" in 5 Fasi**
-  - $\mathbf{01.\ Business\ Question} 
-ightarrow$ Definire la domanda strategica corretta;
-  - $\mathbf{02.\ Data\ \&\ Assumptions} 
-ightarrow$ Raccogliere i dati ed esplicitare chiaramente le ipotesi sottostanti;
-  - $\mathbf{03.\ Scenarios\ \&\ Sensitivities} 
-ightarrow$ Eseguire simulazioni di scenari e analisi di sensitività (stress test su cambi, volumi e costi);
-  - $\mathbf{04.\ Risks\ \&\ Opportunities} 
-ightarrow$ Mappare e quantificare sia i rischi al ribasso sia le opportunità di rialzo (*upside*);
-  - $\mathbf{05.\ Recommendation\ \&\ Decision} 
-ightarrow$ Presentare al vertice aziendale alternative rese confrontabili per decidere in modo consapevole.
+- **La Formula di Esclusività e il Pricing Power**
+  - **Regola Aurea di Enzo Ferrari**: *"Ferrari will always deliver one car less than the market demands"*.
+  - La crescita non è spinta dai volumi di massa, ma dall'**effetto Price/Mix** (personalizzazioni *Tailor Made / Atelier*, modelli *Icona* e serie speciali limitate con portafoglio ordini pluriennale).
+- **Performance Economico-Finanziarie Chiave (2020–2025)**
+  - **Adjusted EBITDA Margin al 38,8% (2025)**: Incremento di **+580 bps** rispetto al 2020, posizionando Ferrari ai vertici assoluti del settore luxury invece che nell'automotive tradizionale.
+  - **Free Cash Flow (FCF) Industriale Cumulato di ~€5,1 Miliardi (2020–2025)**: Altissima conversione dell'EBITDA in cassa reale (*Cash is King*), che consente di autofinanziare integralmente i massicci investimenti (*CapEx* e R&D capitalizzata ex IAS 38) per i nuovi propulsori ibridi/elettrici e la Formula 1, oltre a dividendi e *share buyback*.
+- **Il Ruolo Strategico della Finanza: "Finance Makes Trade-Offs Visible"**
+  - La direzione Finance rende visibili e misurabili i **4 Trade-Off strategici**:
+    - 1. **Growth vs Exclusivity** (crescita del business vs difesa della rarità e del valore residuo dell'usato);
+    - 2. **Innovation vs Financial Discipline** (investimenti tecnologici ed elettrificazione vs ritorno sul capitale e disciplina dei costi);
+    - 3. **Global Consistency vs Local Dynamics** (coerenza globale del brand vs ribilanciamento geografico tra EMEA, Americas, Cina e APAC);
+    - 4. **Short-Term Results vs Long-Term Brand Equity** (risultati trimestrali vs tutela secolare del marchio).
+- **Il Processo "From Data to Decision" in 5 Step**
+  - **01. Business Question** $\rightarrow$ **02. Data & Assumptions** $\rightarrow$ **03. Scenarios & Sensitivities** $\rightarrow$ **04. Risks & Opportunities** $\rightarrow$ **05. Recommendation & Decision**.
 
-## 7. IAS 16 – Property, Plant and Equipment
-- **Definizione e Criteri di Rilevazione Iniziale**
-  - Beni materiali posseduti per essere utilizzati nella produzione, fornitura di beni/servizi, locazione o scopi amministrativi per più di un esercizio.
-  - Si iscrivono all'attivo se è probabile l'afflusso di benefici economici futuri e se il costo è misurabile attendibilmente.
-- **Valutazione Iniziale: Cosa Entra nel Costo e Cosa NO**
-  - **Componenti Capitalizzabili nel Costo**:
-    - 1. Prezzo di acquisto al netto di sconti commerciali e abbuoni (+ dazi e imposte di acquisto non recuperabili);
-    - 2. Costi direttamente attribuibili per portare il bene nel luogo e nelle condizioni operative volute dal management (sbancamento terreno, trasporto, installazione, compensi professionali di periti e architetti);
-    - 3. **Costi di Collaudo e Test**: i proventi derivanti dalla vendita di campioni prodotti durante la fase di test vanno a Conto Economico tra i ricavi ordinari (e non più a decurtazione del cespite);
-    - 4. **Stima Attualizzata dei Costi di Smantellamento e Bonifica (*Decommissioning*)**: Se l'impresa ha un'obbligazione legale o contrattuale a smantellare l'impianto e ripristinare il sito a fine vita utile (es. piattaforma petrolifera o parco eolico), il valore attuale di tali costi futuri si aggiunge subito al costo del cespite con contropartita una passività/fondo rischi ex **IAS 37**.
-  - **Componenti Categoricamente ESCLUSE dal Costo (Sempre a P&L)**:
-    - **Spese di Formazione del Personale**: il personale non è sotto il controllo giuridico dell'azienda ex Framework;
-    - Spese di marketing, pubblicità e inaugurazione di nuovi stabilimenti;
-    - Costi sostenuti mentre un impianto opera a capacità ridotta o è in attesa di essere utilizzato;
-    - Spese generali e amministrative.
-- **Il Component Approach (Approccio per Componenti - Obbligatorio)**
-  - Se un cespite è formato da parti significative che hanno una vita utile dissimile o un differente ritmo di consumo economico, ciascuna parte **deve essere iscritta e ammortizzata separatamente**.
-  - **Esempio Classico (L'Aereo)**: Fusoliera ammortizzata in 25 anni; Motori ammortizzati in 10 anni (o in ore di volo); Allestimenti e sedili interni ammortizzati in 5 anni per rapida usura.
-  - **Esempio dei Fabbricati**: I terreni e gli edifici sono beni separabili anche se acquistati insieme. Il **terreno ha vita utile illimitata e non si ammortizza mai**; l'edificio soprastante ha vita utile limitata e si ammortizza.
-  - **Sostituzione di Componenti**: Il costo del nuovo componente installato si capitalizza, mentre il valore contabile residuo del vecchio pezzo rimosso viene stornato (*derecognised*) dal bilancio con imputazione a P&L.
-- **Valutazione Successiva: Cost Model vs Revaluation Model**
-  - **1. Modello del Costo (*Cost Model*)**:
-    - $	ext{Valore Contabile} = 	ext{Costo Storico} - 	ext{Fondo Ammortamento Accumulato} - 	ext{Perdite da Impairment (IAS 36)}$.
-  - **2. Modello della Rideterminazione del Valore (*Revaluation Model*)**:
-    - Il cespite viene rivalutato periodicamente al suo **Fair Value**.
-    - **Scrittura Contabile di Rivalutazione (Quesito 06.4)**: Un impianto passa da €80.000 a €95.000 senza precedenti svalutazioni:  
-      $\mathbf{Dare\ Impianti\ €15.000\ /\ Avere\ Riserva\ di\ Rivalutazione\ (OCI)\ €15.000}$.
-    - **Trattamento delle Variazioni Successive**:
-      - Una rivalutazione positiva va a **OCI** (Riserva di rivalutazione / Revaluation Surplus) e non tocca il P&L;
-      - Una svalutazione successiva va prima ad assorbire e azzerare la riserva OCI preesistente; solo l'eventuale eccedenza diventa costo a Conto Economico (P&L);
-      - Se in passato c'era stata una svalutazione a P&L, una successiva rivalutazione va a **P&L come ripristino di valore** fino a concorrenza della perdita passata, e solo l'eccedenza va a riserva OCI.
-    - **IL DIVIETO CATEGORICO DI RECYCLING ALLA VENDITA**: Quando il bene rivalutato viene definitivamente venduto a terzi, la riserva di rivalutazione residua accumulata a patrimonio netto **NON transita mai per il Conto Economico (P&L)**; viene girata direttamente a *Utili portati a nuovo* (*Retained Earnings*) all'interno del Patrimonio Netto.
-- **Regole di Ammortamento**
-  - **Valore Ammortizzabile**: Costo (o Fair Value) al netto del **Valore Residuo** stimato a fine vita utile (valore netto di dismissione se il cespite fosse già a fine vita).
-  - **Decorrenza**: L'ammortamento inizia nel momento in cui il bene è **disponibile all'uso** (collocato nel luogo e nelle condizioni operative previste dal management), **NON quando inizia a essere effettivamente impiegato nella produzione**.
-  - **Continuità**: L'ammortamento **NON si sospende** se l'impianto rimane temporaneamente inattivo o sottoutilizzato.
-  - **Revisione Annuale delle Stime**: Vita utile, valore residuo e criterio di ammortamento devono essere riesaminati alla chiusura di ogni esercizio contabile. Eventuali variazioni si trattano come **cambiamenti di stime contabili ex IAS 8 con effetto prospettico** (non si toccano i bilanci passati).
+## 7. IAS 16 – Immobilizzazioni Materiali (Property, Plant and Equipment)
+- **Definizione e Determinazione del Costo Iniziale (Quesito 06.2)**
+  - Beni tangibili ad uso durevole ($> 1$ esercizio) impiegati nella produzione, fornitura di beni/servizi o scopi amministrativi.
+  - **Cosa Entra nel Costo Capitalizzabile**: Prezzo d'acquisto **al netto di sconti commerciali** + dazi/imposte non recuperabili + **costi direttamente attribuibili** per portare il bene nel luogo e nelle condizioni operative necessarie (trasporto, installazione, montaggio, collaudo) + **valore attuale stimato dei costi di smantellamento, rimozione e bonifica del sito** (con contropartita un Fondo ex **IAS 37**).
+  - **Cosa è TASSATIVAMENTE ESCLUSO (Sempre a Conto Economico)**: **Costi di formazione del personale** (assenza di controllo sui dipendenti), spese amministrative e generali, costi di apertura/inaugurazione di un nuovo impianto, costi di lancio promozionale e perdite operative iniziali.
+  - **Esercizio Risolto (Quesito 06.2)**:
+    - *Dati*: Prezzo €100.000, sconto commerciale €5.000, trasporto €4.000, installazione €6.000, formazione personale €3.000 (escluso!), spese generali €2.000 (escluso!).
+    - $$\text{Costo Iniziale Capitalizzabile} = (100.000 - 5.000) + 4.000 + 6.000 = \mathbf{105.000}$$ €
+- **Component Approach (Approccio per Componenti – Quesito 06.1)**
+  - **Regola Obbligatoria (Quesito 06.1)**: Se un'immobilizzazione è composta da parti significative con vite utili differenti (es. **struttura di un impianto con vita utile 20 anni e motore significativo con vita utile 5 anni**, oppure fusoliera aereo vs motori, o terreno non ammortizzabile vs fabbricato), **ciascun componente significativo deve essere ammortizzato separatamente** lungo la propria specifica vita utile.
+- **Regole di Ammortamento e Calcolo Pro-Rata Temporis (Quesito 06.3)**
+  - **Valore Ammortizzabile**: $\text{Costo Iniziale} - \text{Valore Residuo Stimato}$.
+  - **Decorrenza e Continuità**: Inizia quando il bene è **disponibile e pronto per l'uso** (anche se non ancora immesso in produzione) e **non cessa mai** se il bene resta temporaneamente inattivo (si ferma solo se classificato *Held for Sale* ex IFRS 5 o completamente ammortizzato).
+  - **Esercizio Risolto (Quesito 06.3)**:
+    - *Dati*: Costo €132.000, valore residuo €12.000, vita utile 5 anni, disponibile per l'uso dal **1° luglio** (6 mesi su 12).
+    - Valore ammortizzabile $= 132.000 - 12.000 = 120.000$ €; Quota annua intera $= 120.000 / 5 = 24.000$ €;
+    - $$\text{Ammortamento 1° anno (6/12)} = 24.000 \times \frac{6}{12} = \mathbf{12.000}$$ € *(Nota: se nel test non si sottraesse il valore residuo sarebbe 13.200 €, ma la regola IAS 16 par. 6 e 53 impone di dedurre il valore residuo: $120.000 / 5 \times 6/12 = 12.000$ €; verificare sempre tra le opzioni del quiz se è presente €12.000 o €13.200).*
+- **Valutazione Successiva: Cost Model vs Revaluation Model (Quesito 06.4)**
+  - **Cost Model**: $\text{Costo} - \text{Ammortamenti cumulati} - \text{Impairment cumulati}$.
+  - **Revaluation Model (Modello della Rideterminazione del Valore)**:
+    - Rivalutazione al Fair Value per intere classi omogenee di immobili/impianti:
+    - **Scrittura Contabile di Rivalutazione (Quesito 06.4)**: Impianto passa da €80.000 a €95.000 senza precedenti svalutazioni:
+      $$\mathbf{\text{Dare Impianti } 15.000 \quad / \quad \text{Avere Riserva di Rivalutazione (OCI) } 15.000}$$ €
+    - **Simmetria Asimmetrica delle Variazioni**: 1) Aumento $\rightarrow$ a **Riserva OCI** (o a P&L solo per ripristinare una svalutazione precedentemente spesata a P&L); 2) Diminuzione $\rightarrow$ a **Conto Economico (P&L)** (ma riduce prima in OCI l'eventuale riserva di rivalutazione preesistente sullo stesso bene).
+    - **Divieto Assoluto di Recycling**: Alla dismissione del cespite, la Riserva di Rivalutazione OCI non passa **mai** a Conto Economico, ma viene trasferita direttamente a *Utili portati a nuovo* (*Retained Earnings*).
 
 ## 8. IFRS 5 – Attività Possedute per la Vendita & Discontinued Operations
-- **Attività Non Correnti Possedute per la Vendita (*Held for Sale*)**
-  - **Il Cambio di Prospettiva Economica**: Il valore contabile del bene non sarà più recuperato tramite l'uso continuativo nel processo produttivo, ma attraverso una **transazione di cessione sul mercato**.
-  - **I 2 Criteri Tassativi Cumulativi (Quesito 07.1)**:
-    - 1. Il bene deve essere **disponibile per la vendita immediata nelle condizioni attuali** (soggetto solo alle clausole commerciali d'uso; non deve richiedere modifiche o ristrutturazioni preventive);
-    - 2. La vendita deve essere **ALTAMENTE PROBABILE entro 12 mesi**:
-      - Il management appropriato ha formalmente approvato un piano vincolante di vendita;
-      - È stato avviato un programma attivo per reperire acquirenti a un **prezzo congruo** rispetto al fair value corrente;
-      - La vendita si concluderà presumibilmente entro 1 anno dalla data di classificazione;
-      - È altamente improbabile che il piano venga revocato o modificato in modo significativo.
-- **La Regola di Valutazione al Minor Valore (Quesito 07.3)**
-  - L'attività viene iscritta al:
-    - $\mathbf{MINORE\ tra:}\ egin{cases} 	ext{1. Valore Contabile Netto Precedente (Carrying Amount)} \ 	ext{2. Fair Value al Netto dei Costi di Dismissione (Fair Value Less Costs to Sell)} \end{cases}$
-  - **Esercizio Numerico Risolto (Quesito 07.3)**: Macchinario con valore contabile precedente di €240.000. Fair Value corrente €230.000 e costi di vendita stimati €10.000:
-    - $	ext{Fair Value Netto} = 230.000 - 10.000 = \mathbf{220.000\ €}$;
-    - Nuovo valore iscritto nello SP: **220.000 €**;
-    - Si rileva una **perdita per riduzione di valore (*Impairment Loss*) di 20.000 € a Conto Economico (P&L)**.
-- **Lo Stop Totale all'Ammortamento (Quesito 07.2)**
-  - **In quale momento cessa l'ammortamento?** L'ammortamento si arresta **ALLA DATA IN CUI SONO SODDISFATTE TUTTE LE CONDIZIONI DI CLASSIFICAZIONE** (non alla sola approvazione del piano, né al momento del rogito o dell'incasso!).
-  - *Perché?* Perché il cespite non si consuma più operativamente; il suo valore è già allineato al valore netto di realizzo di mercato.
-- **Presentazione nello Stato Patrimoniale**
-  - Il bene esce dalle Attività Non Correnti ed entra in una riga separata nelle **Attività Correnti**: *"Attività non correnti possedute per la vendita"*.
-  - Eventuali debiti legati al cespite vanno in una riga separata nelle **Passività Correnti** (**divieto assoluto di compensazione**).
-  - Lo Stato Patrimoniale dell'anno precedente ($t-1$) **NON viene modificato retroattivamente**.
-- **Discontinued Operations (Attività Operative Cessate - Quesito 07.4)**
-  - **Definizione**: È una componente dell'impresa già dismessa o classificata come *held for sale* che rappresenta un **importante ramo autonomo di attività o un'area geografica significativa** (es. l'intera divisione auto o tutte le filiali in Sud America).
-  - **Presentazione nel Conto Economico**:
-    - Tutti i suoi ricavi, costi operativi e imposte vengono rimossi dalle ordinarie categorie del P&L;
-    - Vengono esposti in un'**UNICA RIGA SINTETICA in fondo al Conto Economico al netto delle imposte**: *"Risultato netto delle attività operative cessate (*Discontinued Operations*)"*;
-    - Nelle Note al bilancio deve essere fornita la scomposizione analitica (ricavi, costi, plusvalenza/minusvalenza netta e imposte);
-    - Nel P&L comparativo dell'anno scorso ($t-1$) **si rideterminano i dati retrospettivamente** per isolare la riga discontinued e consentire il confronto omogeneo delle sole attività in funzionamento (*Continuing Operations*).
-- **Mancata Vendita (*Changes to a Plan of Sale*)**
-  - Se le trattative falliscono o il management revoca il piano, il bene torna nelle Attività Non Correnti.
-  - **Valore di Reiscrizione**: viene iscritto al **MINORE tra**:
-    - 1. Il valore contabile che avrebbe avuto se non fosse mai stato classificato in IFRS 5 (ovvero deducendo tutti gli ammortamenti e le svalutazioni che si sarebbero dovuti calcolare nel frattempo);
-    - 2. Il Valore Recuperabile ex IAS 36 alla data di revoca.
-  - La differenza viene imputata immediatamente a Conto Economico (P&L) come rettifica di costo della gestione in funzionamento.
+- **Condizioni Tassative per la Classificazione *Held for Sale* (Quesito 07.1)**
+  - Un'attività non corrente (o gruppo in dismissione) è riclassificata come *Posseduta per la vendita* se il suo valore sarà recuperato principalmente tramite una **cessione anziché con l'uso continuativo**, rispettando **2 requisiti cumulativi (Quesito 07.1)**:
+    - 1. **Disponibilità immediata per la vendita nelle condizioni attuali** (non subordinata a ristrutturazioni rilevanti);
+    - 2. **Vendita altamente probabile entro 12 mesi**: piano approvato dal livello appropriato di management, avvio di un programma attivo di ricerca di un acquirente a un **prezzo congruo e ragionevole** rispetto al Fair Value corrente.
+- **Stop all'Ammortamento e Data Esatta di Interruzione (Quesito 07.2)**
+  - **Regola Temporale (Quesito 07.2)**: Se il CdA approva il piano il 15 giugno, tutte le condizioni IFRS 5 sono soddisfatte il **30 settembre** e il rogito di vendita avviene a dicembre, **l'ammortamento cessa esattamente il 30 settembre (data in cui sono soddisfatte tutte le condizioni di classificazione)**.
+  - **Esposizione nello Stato Patrimoniale**: Il bene viene riclassificato in una voce separata dell'**Attivo Corrente** (*"Attività non correnti possedute per la vendita"*), senza riclassificare retroattivamente lo SP comparativo dell'anno precedente ($t-1$).
+- **Regola di Valutazione al Minore e Calcolo della Perdita (Quesito 07.3)**
+  - Alla data di classificazione, il bene è valutato al:
+    $$\text{Valore IFRS 5} = \min\left(\text{Valore Contabile Netto},\ \text{Fair Value al netto dei costi di vendita}\right)$$
+  - **Esercizio Risolto (Quesito 07.3)**:
+    - *Dati*: Valore contabile aggiornato $= 240.000$ €; Fair Value $= 230.000$ €; Costi di vendita $= 10.000$ €.
+    - $\text{Fair Value Netto} = 230.000 - 10.000 = \mathbf{220.000}$ €;
+    - **Valore iscritto nello SP**: $\min(240.000,\ 220.000) = \mathbf{220.000}$ €;
+    - **Perdita di valore (*Impairment Loss*) a P&L**: $240.000 - 220.000 = \mathbf{20.000}$ €.
+- **Discontinued Operations (Attività Operative Cessate – Quesito 07.4)**
+  - **Definizione (Quesito 07.4)**: Componente dell'entità ceduta o classificata *held for sale* che **rappresenta un importante ramo autonomo di attività o un'area geografica significativa delle operazioni** (o una controllata acquisita esclusivamente in vista della rivendita). Non è *discontinued* la semplice cessione di un singolo macchinario o veicolo!
+  - **Presentazione nel Conto Economico**: Tutti gli utili/perdite operativi del ramo e la plus/minusvalenza di cessione sono esposti in **un'unica riga separata al netto delle imposte** in fondo al Conto Economico (con *restatement* comparativo del P&L dell'anno $t-1$).
+- **Revoca del Piano di Vendita (*Changes to a Plan of Sale*)**
+  - Se vengono meno i requisiti IFRS 5, il bene torna nell'Attivo Non Corrente al **minore** tra: 1) il Valore Contabile che avrebbe avuto se non fosse mai stato classificato *held for sale* (recuperando tutti gli ammortamenti non calcolati nel frattempo) e 2) il **Valore Recuperabile ex IAS 36** alla data della decisione di non vendere.
+
 ## 9. IAS 38 – Attività Immateriali (Intangible Assets)
-- **Definizione e i 3 Criteri Fondamentali di Rilevazione**
-  - **Definizione di Attività Immateriale**: Un'attività non monetaria identificabile, priva di consistenza fisica, controllata dall'entità e capace di generare benefici economici futuri.
-  - **1. Il Requisito dell'Identificabilità (Quesito 08.1)**:
-    - Un'attività è identificabile se soddisfa ALMENO UNO dei seguenti due criteri alternativi:
-      - *Criterio della Separabilità*: è suscettibile di essere separata o scorporata dall'entità e venduta, trasferita, concessa in licenza o scambiata, singolarmente o congiuntamente al relativo contratto;
-      - *Criterio Contrattuale o Legale (Quesito 08.1)*: deriva da diritti contrattuali o da altri diritti legali, a prescindere dal fatto che tali diritti siano trasferibili o separabili dall'entità o da altri diritti e obbligazioni.
-    - **Risoluzione Caso d'Esame (Quesito 08.1)**: Una licenza d'uso NON trasferibile a terzi, ma che attribuisce diritti contrattuali protetti e controllati dall'azienda con benefici futuri e costo attendibile, **può essere regolarmente iscritta all'attivo**: la non trasferibilità da sola NON impedisce l'iscrizione, poiché l'identificabilità deriva dalla fonte contrattuale/legale.
-  - **2. Il Requisito del Controllo e l'Esempio del Capitale Umano**:
-    - L'impresa ha il controllo se ha il potere di ottenere i benefici economici futuri e di limitare l'accesso di terzi a tali benefici.
-    - **Perché il Know-how del Personale NON è un'attività immateriale?**: Anche se un'azienda spende milioni per formare un team di scienziati o sviluppatori, il capitale umano non può essere iscritto all'attivo perché i dipendenti possono dare le dimissioni e cambiare lavoro in qualsiasi momento. L'impresa non ha il controllo giuridico sui dipendenti.
-  - **3. Probabilità dei Benefici e Attendibilità del Costo**:
-    - È probabile che i futuri benefici economici attesi affluiscano all'entità, e il costo dell'attività può essere misurato in modo attendibile.
-- **Divieto Assoluto di Capitalizzazione per Generazione Interna**
-  - Lo IAS 38 vieta categoricamente di capitalizzare i costi sostenuti internamente quando non è possibile distinguere l'investimento di sviluppo dall'ordinario mantenimento aziendale.
-  - **Elementi con Divieto Assoluto di Iscrizione all'Attivo**:
-    - **Avviamento generato internamente (*Internally Generated Goodwill*)**: non è un'attività identificabile e controllata;
-    - **Marchi, testate giornalistiche, titoli editoriali, liste clienti** generati internamente;
-    - **Spese di impianto e di avviamento (*Start-up costs*)**;
-    - **Spese di formazione del personale (*Staff training costs*)**;
-    - **Spese pubblicitarie, promozionali e di marketing** (anche se finalizzate a lanciare un prodotto rivoluzionario);
-    - **Spese di ricollocazione o riorganizzazione aziendale**.
-    - Tutti questi elementi devono essere **imputati interamente a Conto Economico (P&L)** come costo di periodo nell'esercizio in cui sono sostenuti.
-- **Ricerca e Sviluppo (R&D): Il Trattamento Bifasico e i 6 Criteri PIRATE**
-  - **Fase di Ricerca**:
-    - Definizione: indagine originale e pianificata intrapresa con la speranza di acquisire nuove conoscenze e scoperte scientifiche o tecniche.
-    - **Regola Tassativa**: Tutti i costi di ricerca vanno **SEMPRE A CONTO ECONOMICO (P&L)** nell'esercizio in cui sono sostenuti. Non possono mai essere capitalizzati per via dell'intrinseca incertezza sul loro esito economico.
-  - **Fase di Sviluppo e i 6 Criteri Cumulativi PIRATE**:
-    - Definizione: applicazione dei risultati della ricerca a un piano o progetto per la produzione di materiali, prodotti, processi o sistemi nuovi o sostanzialmente migliorati, prima dell'inizio della produzione commerciale.
-    - Per poter capitalizzare le spese di sviluppo all'attivo dello Stato Patrimoniale, l'impresa deve dimostrare **TUTTI E 6 I SEGUENTI CRITERI SIMULTANEAMENTE (PIRATE)**:
-      - 1. **P - Probable future benefits**: come l'attività genererà probabili benefici futuri (esistenza di un mercato o utilità interna);
-      - 2. **I - Intention to complete**: l'intenzione formale della direzione aziendale di completare l'attività per usarla o venderla;
-      - 3. **R - Resources available (Quesito 08.3)**: la disponibilità effettiva di adeguate risorse tecniche, finanziarie e operative per completare lo sviluppo. **Trap d'esame**: se la fattibilità tecnica è dimostrata al 100%, ma l'azienda non ha le risorse finanziarie per finire il progetto, **la capitalizzazione è VIETATA** e i costi vanno a P&L;
-      - 4. **A - Ability to use or sell**: la capacità tecnica e organizzativa dell'impresa di utilizzare o vendere l'attività;
-      - 5. **T - Technical feasibility**: la fattibilità tecnica di completare l'attività immateriale in modo da renderla disponibile all'uso o alla vendita;
-      - 6. **E - Expenditure reliably measured**: la capacità di misurare attendibilmente i costi direttamente attribuibili allo sviluppo.
-  - **Risoluzione Esercizio Numerico d'Esame (Quesito 08.2)**:
-    - Dati: Ricerca = €30.000; Sviluppo prima di soddisfare tutti i 6 criteri = €20.000; Sviluppo direttamente attribuibile sostenuto dopo tale data = €50.000.
-    - **Costi di Periodo a P&L**: $	ext{Ricerca (€30.000)} + 	ext{Sviluppo pre-criteri (€20.000)} = \mathbf{50.000\ €}$ a Conto Economico.
-    - **Attività Immateriale Iscritta allo SP**: solo lo sviluppo post-criteri = $\mathbf{50.000\ €}$ all'Attivo dello Stato Patrimoniale.
-  - **DIVIETO DI CAPITALIZZAZIONE RETROATTIVA**: I costi imputati a Conto Economico in esercizi precedenti o nella fase preliminare **non possono MAI essere ripresi e capitalizzati a posteriori**, anche se successivamente il progetto ottiene il brevetto e genera profitti record.
-- **Valutazione Successiva: Vita Utile Definita vs Indefinita (Quesito 08.4)**
-  - **1. Attività a Vita Utile Definita**:
-    - Esiste un limite temporale chiaro o un volume produttivo definito (es. brevetto industriale valido per 10 anni, diritti d'autore a scadenza).
-    - *Regola*: Ammortamento sistematico lungo la vita utile stimata + Impairment test solo in presenza di indicatori di perdita (*trigger events*).
-  - **2. Attività a Vita Utile Indefinita (Quesito 08.4)**:
-    - Non vi è un limite prevedibile all'orizzonte temporale entro il quale l'attività genererà flussi finanziari netti per l'impresa (es. licenza di trasmissione radiotelevisiva rinnovabile indefinitamente a costi trascurabili, marchi acquisiti con notorietà globale).
-    - **Trattamento Tassativo (Quesito 08.4)**:
-      - 1. **NESSUN AMMORTAMENTO**: il cespite non viene mai ammortizzato;
-      - 2. **IMPAIRMENT TEST OBBLIGATORIO ALMENO UNA VOLTA ALL'ANNO ex IAS 36**, anche in totale assenza di indicatori di perdita;
-      - 3. **RIESAME ANNUALE DELLO STATUS DI VITA INDEFINITA**: a ogni chiusura di bilancio il management deve verificare se permangono le condizioni per considerarla indefinita. Se la vita diventa definita, si tratta come cambiamento di stima contabile ex IAS 8 con ammortamento prospettico.
-- **Modelli di Valutazione Successiva**
-  - **Modello del Costo**: Costo storico dedotto il fondo ammortamento accumulato e le perdite per riduzione di valore cumulate.
-  - **Modello della Rideterminazione del Valore (Fair Value)**: Ammesso SOLO SE il fair value può essere determinato facendo riferimento a un **MERCATO ATTIVO**. Poiché per la maggior parte dei beni immateriali (brevetti, marchi specifici) non esiste un mercato attivo con transazioni omogenee frequenti, questo modello è rarissimo nella pratica.
+- **Definizione e i 3 Requisiti Simultanei di Rilevazione (Quesito 08.1)**
+  - **Definizione**: Attività **non monetaria**, **identificabile**, **priva di consistenza fisica**, **controllata** dall'entità e capace di generare **benefici economici futuri**.
+  - **1. Requisito dell'Identificabilità (Per distinguerla dall'Avviamento – Quesito 08.1)**:
+    - È soddisfatto se ricorre **ALMENO UNO** di due criteri alternativi:
+      - *A) Criterio della Separabilità*: può essere scorporata dall'impresa e venduta, trasferita, data in licenza, locata o scambiata; **OPPURE**
+      - *B) Criterio Contrattuale o Legale*: nasce da diritti contrattuali o da altri diritti legali, **a prescindere dal fatto che tali diritti siano trasferibili o separabili dall'entità**.
+    - **Caso d'Esame Ufficiale (Quesito 08.1 & Caso PharmaBio)**: Una licenza governativa o d'uso **NON trasferibile a terzi**, ma che attribuisce diritti contrattuali/legali controllati e benefici futuri misurabili, **DEVE essere iscritta all'attivo ex IAS 38**: la non trasferibilità da sola non impedisce l'iscrizione perché l'identificabilità deriva dalla fonte contrattuale/legale!
+  - **2. Requisito del Controllo (Il Caso del Capitale Umano e Formazione)**:
+    - Potere di usufruire dei benefici economici futuri della risorsa e di **limitare l'accesso dei terzi** a tali benefici.
+    - **Perché Formazione e Competenze del Personale (es. €400.000 per un team di ricercatori) vanno SEMPRE a P&L?**: Perché i lavoratori possono dimettersi in qualsiasi momento; l'azienda non ha il controllo giuridico sulle persone.
+  - **3. Probabilità dei Benefici Economici Futuri e Misurabilità Attendibile del Costo**.
+- **Le 5 Modalità di Acquisizione e Trattamento Contabile**
+  - **1. Acquisto Separato**: Iscritto al Costo d'acquisto + oneri accessori direttamente attribuibili (esclusi costi promozionali e spese generali);
+  - **2. Acquisizione in una Business Combination (IFRS 3)**: Iscritto al **Fair Value alla data di acquisizione**, anche se la società acquisita non lo aveva contabilizzato nel proprio bilancio perché generato internamente (es. marchio o R&D in corso della target);
+  - **3. Contributo Pubblico (IAS 20)**: Iscritto al Fair Value o al valore nominale (es. concessioni o diritti di emissione);
+  - **4. Permuta di Attività**: Iscritto al Fair Value se lo scambio ha sostanza commerciale;
+  - **5. Generazione Interna**: Soggetta a severi divieti e alla biforcazione tra Ricerca e Sviluppo.
+- **Divieti Categorici di Capitalizzazione per Generazione Interna**
+  - È **TASSATIVAMENTE VIETATO** iscrivere all'attivo (vanno spesati integralmente a P&L quando sostenuti):
+    - 1. **Avviamento generato internamente (*Internally generated goodwill*)**;
+    - 2. **Marchi, testate giornalistiche, titoli editoriali, anagrafiche e liste clienti** generati internamente;
+    - 3. **Costi di impianto e di ampliamento / avvio (*Start-up costs*)**;
+    - 4. **Costi di formazione e addestramento del personale (*Training costs*)**;
+    - 5. **Costi pubblicitari, promozionali e di marketing** (anche per il lancio di un nuovo prodotto);
+    - 6. **Costi di riorganizzazione o ricollocazione aziendale**.
+- **Ricerca e Sviluppo (R&D): I 6 Criteri Cumulativi PIRATE (Quesiti 08.2 & 08.3)**
+  - **Fase di Ricerca (*Research*)**: Indagine originale pianificata per acquisire nuove conoscenze scientifiche o tecniche $\rightarrow$ **SEMPRE A CONTO ECONOMICO (P&L)** nell'esercizio di sostenimento (nessuna certezza di benefici futuri).
+  - **Fase di Sviluppo (*Development*)**: Applicazione dei risultati della ricerca a un piano o progetto per produrre materiali, dispositivi o software nuovi/migliorati prima della produzione commerciale. **Obbligo di capitalizzazione all'Attivo SOLO dal giorno in cui sono dimostrati SIMULTANEAMENTE tutti i 6 criteri PIRATE**:
+    - **P – Probable future economic benefits** (esistenza di un mercato per l'output o utilità interna dimostrata);
+    - **I – Intention to complete** (intenzione formale del management di completare l'attività immateriale);
+    - **R – Resources available (Quesito 08.3)**: disponibilità di adeguate **risorse tecniche, finanziarie e di altro tipo** per completare lo sviluppo. **Trap d'Esame (Quesito 08.3)**: se la fattibilità tecnica è dimostrata ma la società **non riesce a dimostrare la disponibilità di risorse finanziarie per completare il progetto**, **NON può capitalizzare i costi di sviluppo** (vanno a P&L!);
+    - **A – Ability to use or sell** (capacità di utilizzare o vendere l'attività immateriale);
+    - **T – Technical feasibility** (fattibilità tecnica del completamento);
+    - **E – Expenditure reliably measured** (misurazione attendibile dei costi direttamente attribuibili allo sviluppo).
+  - **Esercizio Numerico Risolto (Quesito 08.2 & Caso TechSoft)**:
+    - *Dati Quesito 08.2*: Ricerca $= 30.000$ €; Sviluppo prima di soddisfare tutti i 6 criteri $= 20.000$ €; Sviluppo direttamente attribuibile dopo tale data $= 50.000$ €.
+    - **Costi di Periodo a P&L**: $30.000\text{ (Ricerca)} + 20.000\text{ (Sviluppo pre-criteri)} = \mathbf{50.000}$ €;
+    - **Attività Immateriale nello SP**: solo i costi post-criteri $= \mathbf{50.000}$ €.
+  - **Divieto Assoluto di Ripristino / Capitalizzazione Retroattiva**: I costi di ricerca o di sviluppo pre-criteri già spesati a Conto Economico **non possono MAI essere capitalizzati in un esercizio successivo**, neppure quando il progetto ha successo.
+- **Vita Utile Definita vs Indefinita e Valutazione Successiva (Quesito 08.4)**
+  - **Attività a Vita Utile Definita** (es. brevetto a 7 anni): **Ammortamento sistematico** lungo la vita utile (con valore residuo di regola pari a zero) + Impairment test ex IAS 36 solo in presenza di *trigger events*.
+  - **Attività a Vita Utile Indefinita (Quesito 08.4)** (es. licenza radiotelevisiva o concessione rinnovabile senza limiti prevedibili):
+    - 1. **NESSUN AMMORTAMENTO**;
+    - 2. **Impairment Test obbligatorio almeno una volta all'anno** (e ogni volta che vi siano indicatori);
+    - 3. **Riesame annuale obbligatorio della persistenza della vita utile indefinita** (se diventa definita, si applica come cambio di stima prospettico ex IAS 8).
+  - **Cost Model vs Revaluation Model**: Il *Revaluation Model* (al Fair Value a Riserva OCI, **senza recycling a P&L**) è consentito **ESCLUSIVAMENTE se esiste un MERCATO ATTIVO** ex IFRS 13 (es. quote di emissione $\text{CO}_2$ negoziate sull'EEX; è **sempre vietato** per marchi, brevetti e diritti d'autore perché beni unici privi di mercato attivo, anche in presenza di perizia giurata!).
 
 ## 10. IFRS 16 – Leasing
-- **La Riforma del Leasing: Il Modello Unico per il Locatario (Single Lessee Model)**
-  - **Perché l'IFRS 16 ha sostituito lo IAS 17?**:
-    - Sotto lo IAS 17, le aziende classificavano gran parte dei contratti come "leasing operativi", tenendo aerei, navi, negozi e uffici completamente **fuori bilancio** (*off-balance sheet*). I debiti miliardari verso i locatori non comparivano nello Stato Patrimoniale, truccando gli indici di indebitamento (Debito/EBITDA e Leverage).
-    - L'IFRS 16 (obbligatorio dal 2019) cancella la distinzione tra leasing operativo e finanziario per il locatario: **tutti i leasing entrano a bilancio**, iscrivendo un'attività per il Diritto d'Uso (*Right-of-Use Asset*) e un debito finanziario per la Passività di Leasing (*Lease Liability*).
-- **Definizione di Contratto di Leasing e Controllo dell'Uso (Quesito 09.1)**
-  - Un contratto è, o contiene, un leasing se conferisce il **diritto di controllare l'uso di un bene identificato per un periodo di tempo verso un corrispettivo**.
-  - **I 2 Elementi Chiave del Controllo (Quesito 09.1)**:
-    - 1. **Diritto di ottenere sostanzialmente tutti i benefici economici** derivanti dall'utilizzo del bene identificato per tutta la durata contrattuale;
-    - 2. **Diritto di dirigere l'utilizzo del bene**: il cliente decide come e per quale scopo il bene è utilizzato per tutta la durata del contratto.
-  - **Bene Sostituibile vs Identificato**: Se il fornitore ha la facoltà pratica di sostituire il bene con un altro analogo in qualsiasi momento a sua discrezione e ne trae un beneficio economico, il cliente non ha il controllo di un bene identificato e il contratto è una prestazione di servizi, non un leasing.
-- **Iscrizione Iniziale alla Data di Decorrenza ($t=0$)**
-  - **1. La Passività per Leasing (*Lease Liability*)**:
-    - Viene iscritta al **Valore Attuale dei pagamenti dovuti per il leasing non ancora versati** alla data di decorrenza.
-    - I pagamenti sono attualizzati usando il tasso di interesse implicito nel leasing; se non è determinabile, si impiega il tasso di indebitamento marginale del locatario (*incremental borrowing rate*).
-  - **2. L'Attività per Diritto d'Uso (*Right-of-Use Asset - ROU*) (Quesito 09.2)**:
-    - Viene determinata partendo dalla Lease Liability iniziale con la seguente formula contabile:
-      $$	ext{ROU Asset} = 	ext{Lease Liability iniziale} + 	ext{Pagamenti effettuati alla o prima della decorrenza} + 	ext{Costi diretti iniziali sostenuti dal locatario} - 	ext{Incentivi al leasing ricevuti dal locatore} + 	ext{Stima dei costi di smantellamento e bonifica}$$
-  - **Risoluzione Esercizio Numerico d'Esame (Quesito 09.2)**:
-    - Dati: Valore attuale pagamenti ancora dovuti = €90.000; Pagamento versato alla decorrenza = €6.000; Costi diretti iniziali ammissibili = €4.000; Incentivi ricevuti dal locatore = €2.000.
-    - **Debito di Leasing Iniziale**: $\mathbf{90.000\ €}$ (poiché i 6.000 € sono già stati pagati e saldati in cassa!).
-    - **Diritto d'Uso Iniziale**: $90.000 + 6.000 + 4.000 - 2.000 = \mathbf{98.000\ €}$.
-- **Valutazione Successiva e Meccanica Contabile del Canone (Quesito 09.3)**
-  - **Ammortamento del Diritto d'Uso (ROU Asset)**:
-    - Si ammortizza a quote costanti lungo il periodo minore tra la durata del contratto di leasing e la vita utile economica del bene sottostante. Se è ragionevolmente certo l'acquisto (opzione di riscatto) o c'è trasferimento di proprietà, si ammortizza sulla vita utile del bene.
-  - **Trattamento del Debito di Leasing (Metodo del Costo Ammortizzato)**:
-    - Il debito residuo genera interessi passivi ogni esercizio: $	ext{Quota Interessi} = 	ext{Debito Residuo} 	imes 	ext{Tasso Annuo}$.
-    - Il canone periodico pagato non è un costo operativo d'affitto, ma un'operazione finanziaria: copre prima gli interessi e per la parte residua rimborsa la quota capitale del debito.
-  - **Risoluzione Esercizio Numerico d'Esame (Quesito 09.3)**:
-    - Dati: Debito iniziale all'1/1 = €100.000; Tasso contrattuale = 5% annuo; Canone pagato al 31/12 = €25.000.
-    - Calcolo Interessi di competenza: $100.000 	imes 5\% = \mathbf{5.000\ €}$ (onere finanziario a P&L).
-    - Quota capitale che riduce il debito: $25.000 - 5.000 = \mathbf{20.000\ €}$.
-    - **Scrittura Contabile a Libro Giornale (Quesito 09.3)**:  
-      $\mathbf{Dare\ Interessi\ Passivi\ (P\&L)\ €5.000\ e\ Dare\ Debito\ Leasing\ (SP)\ €20.000\ /\ Avere\ Banca\ (SP)\ €25.000}$.
-    - Debito residuo al 31/12: $100.000 - 20.000 = 80.000\ €$.
-  - **Impatto sui Principali Indicatori Finanziari**:
-    - **EBITDA**: Aumenta notevolmente, perché i vecchi canoni di affitto (costi operativi) sono sostituiti da ammortamenti (sopra l'EBIT) e interessi passivi (gestione finanziaria);
-    - **Flussi di Cassa (IAS 7)**: La cassa operativa migliora, perché la quota capitale del canone (€20.000) viene classificata nei flussi dell'attività di finanziamento (*Financing Cash Outflow*).
-- **Le 2 Esenzioni Pratiche per il Locatario (Quesito 09.4)**
-  - L'IFRS 16 concede la facoltà di NON applicare il modello ROU/Debito per due tipologie di leasing:
-    - 1. **Leasing a Breve Termine (*Short-term leases*)**: contratti con durata residua non superiore a 12 mesi che non contengono un'opzione di acquisto;
-    - 2. **Leasing di Beni di Modico Valore (*Low-value assets*)**: beni con valore a nuovo non superiore a circa 5.000 dollari (es. PC portatili, fotocopiatrici, telefoni cellulari).
-  - **Trattamento Contabile in Regime di Esenzione**: I pagamenti dei canoni vengono imputati a Conto Economico a quote costanti come costi operativi per godimento di beni di terzi.
-  - **Natura della Scelta (Quesito 09.4)**: È una facoltà (*accounting policy choice*) che il locatario può scegliere di applicare, **non un obbligo cogente**.
+- **La Riforma: Dal Doppio Modello IAS 17 al *Single Lessee Model* IFRS 16**
+  - Con lo IAS 17 i locatari classificavano la maggioranza dei contratti come *leasing operativi*, lasciando aerei, navi, immobili e flotte aziendali **fuori bilancio (*off-balance sheet*)** e occultando il reale indebitamento finanziario.
+  - Con l'**IFRS 16** (per il locatario) cade ogni distinzione tra leasing operativo e finanziario: **tutti i contratti di leasing comportano l'iscrizione nello Stato Patrimoniale** di un'**Attività per Diritto d'Uso (*Right-of-Use Asset – ROU*)** e di una **Passività Finanziaria per Leasing (*Lease Liability*)**.
+- **Definizione di Leasing, Test del Controllo e Diritto di Sostituzione (Quesito 09.1)**
+  - Un contratto è (o contiene) un leasing se conferisce il **diritto di controllare l'uso di un bene identificato per un periodo di tempo in cambio di un corrispettivo**.
+  - **Le 2 Condizioni Cumulativi del Controllo (Quesito 09.1)**:
+    - 1. **Benefit Element**: il cliente ha il diritto di **ottenere sostanzialmente tutti i benefici economici** derivanti dall'utilizzo del bene identificato lungo l'intero periodo di utilizzo;
+    - 2. **Power Element**: il cliente ha il diritto di **dirigere l'utilizzo del bene** (decidere *come*, *quando* e *per quale scopo* il bene viene impiegato).
+  - **Diritto Sostanziale di Sostituzione (*Substantive Substitution Right* – Caso Flotta Van)**: Se il fornitore ha la capacità pratica di sostituire il bene durante il contratto e **ottiene un beneficio economico dalla sostituzione**, il bene non è identificato $\rightarrow$ **NON è un leasing ma una prestazione di servizi** (canoni a P&L).
+  - **Separazione delle Componenti**: I servizi accessori (es. manutenzione, pulizia, assicurazione) vanno scorporati dalla quota leasing e imputati a P&L come costi operativi.
+- **Rilevazione e Misurazione Iniziale alla Data di Decorrenza ($t=0$) (Quesito 09.2)**
+  - **1. Passività per Leasing (*Lease Liability*) iniziale**:
+    - È pari al **Valore Attuale dei pagamenti dovuti per il leasing non ancora versati** alla data di decorrenza (includendo canoni fissi, canoni variabili legati a un indice/tasso, prezzo di esercizio dell'opzione di acquisto se ragionevolmente certa e penali di risoluzione), attualizzati al **tasso di interesse implicito del leasing** (o al **tasso di finanziamento marginale del locatario – IBR**).
+    - **Trap d'Esame**: gli anticipi o canoni già pagati alla data di decorrenza ($t=0$) **NON entrano nel debito iniziale** perché sono già stati saldati in cassa!
+  - **2. Attività per Diritto d'Uso (*ROU Asset*) iniziale**:
+    $$\text{ROU Asset}_0 = \text{Lease Liability}_0 + \text{Pagamenti effettuati a/prima di } t=0 + \text{Costi diretti iniziali} - \text{Incentivi al leasing ricevuti} + \text{Stima costi di smantellamento/bonifica (IAS 37)}$$
+  - **Esercizio Ufficiale Risolto (Quesito 09.2)**:
+    - *Dati*: Valore attuale dei pagamenti ancora dovuti $= 90.000$ €; Pagamento versato alla decorrenza $= 6.000$ €; Costi diretti iniziali ammissibili $= 4.000$ €; Incentivi ricevuti $= 2.000$ €.
+    - **Debito Iniziale**: $\mathbf{90.000}$ €;
+    - **Diritto d'Uso (ROU) Iniziale**: $90.000 + 6.000 + 4.000 - 2.000 = \mathbf{98.000}$ €.
+  - **Esercizio Completo con Smantellamento IAS 37 (Caso Beta S.p.A.)**:
+    - *Dati*: VA canoni futuri $= 150.000$ €; Anticipo $= 10.000$ €; Costi diretti $= 8.000$ €; Incentivi $= 3.000$ €; Fondo smantellamento IAS 37 $= 12.000 \rightarrow$ € **Debito $= 150.000$ €; ROU Asset $= 150.000 + 10.000 + 8.000 - 3.000 + 12.000 = \mathbf{177.000}$ €** (*Dare ROU 177k / Avere Debito Leasing 150k, Avere Fondo Smantellamento 12k, Avere Banca 15k*).
+- **Valutazione Successiva e Scrittura Contabile del Canone (Quesito 09.3)**
+  - **ROU Asset**: Ammortizzato a quote costanti lungo il periodo più breve tra durata del leasing e vita utile del bene (o lungo l'intera vita utile se è previsto il riscatto/trasferimento di proprietà), oltre a eventuale test IAS 36.
+  - **Passività per Leasing**: Valutata al costo ammortizzato. Ogni canone pagato viene scomposto in **Interessi Passivi** ($\text{Debito iniziale dell'anno} \times \text{Tasso } r$, imputati a Conto Economico) e **Quota Capitale** ($\text{Canone} - \text{Interessi}$, a riduzione del Debito nello Stato Patrimoniale).
+  - **Esercizio Ufficiale Risolto (Quesito 09.3)**:
+    - *Dati*: Debito all'inizio dell'anno $= 100.000$ €; Tasso annuo $= 5\%$; Canone pagato a fine anno $= 25.000$ €.
+    - Interessi annui $= 100.000 \times 5\% = \mathbf{5.000}$ €; Quota capitale $= 25.000 - 5.000 = \mathbf{20.000}$ €; Debito residuo $= 80.000$ €.
+    - **Scrittura a Libro Giornale (Quesito 09.3)**:
+      $$\mathbf{\text{Dare Interessi (P\&L) } 5.000 \text{ e Dare Debito leasing (SP) } 20.000 \quad / \quad \text{Avere Banca } 25.000}$$ €
+- **Impatti sugli Indicatori di Bilancio (KPI), Effetto Front-Loading e IAS 7**
+  - **EBITDA**: **Aumenta sensibilmente** perché scompare il costo operativo dei canoni di affitto, sostituito da ammortamenti (sotto l'EBITDA) e interessi passivi (nella gestione finanziaria).
+  - **Effetto Front-Loading sull'Utile Netto**: Poiché l'ammortamento del ROU è costante mentre gli interessi passivi sono calcolati sul debito residuo (massimo nei primi anni e decrescente nel tempo), **nei primi anni del contratto il costo totale a P&L ($\text{Ammortamento} + \text{Interessi}$) è superiore al vecchio canone costante**, riducendo l'utile netto iniziale per poi invertirsi negli ultimi anni.
+  - **Rendiconto Finanziario (IAS 7)**: Stipula a $t=0$ esclusa (operazione non monetaria); il pagamento della **quota capitale del canone va nell'Attività di Finanziamento (*Financing Outflow*)**, migliorando il Flusso di Cassa Operativo.
+- **Le 2 Esenzioni per il Locatario (Quesito 09.4) e la Contabilità del Locatore**
+  - **Esenzioni Locatario (Quesito 09.4)**: 1) **Leasing a breve termine** ($\le 12$ mesi senza opzione di acquisto); 2) **Beni di modico valore** ($\le \$5.000$ da nuovi, es. PC, tablet, stampanti). **È una facoltà (*accounting policy choice*), NON un obbligo**: se esercitata, il locatario non iscrive ROU e debito ma rileva i canoni come costo operativo lineare a P&L.
+  - **Locatore (*Lessor*)**: Mantiene la distinzione tra **Leasing Operativo** (mantiene il bene all'attivo e rileva i canoni come ricavi) e **Leasing Finanziario** (elimina il bene e iscrive un credito finanziario *Lease Receivable* pari all'investimento netto nel leasing).
 
-## 11. Criptovalute – Utilizzo e Informazione Contabile
-- **La Decisione dell'IFRIC (Agenda Decision Giugno 2019)**
-  - L'IFRIC (International Financial Reporting Interpretations Committee) ha emanato un'agenda decision chiarificatrice per stabilire come contabilizzare la detenzione di criptovalute (es. Bitcoin, Ethereum) in assenza di un principio contabile IFRS specificamente dedicato.
-  - **Cosa NON sono le Criptovalute? (Quesiti 10.1 & 10.2)**:
-    - **NON sono Moneta / Disponibilità Liquide**: non hanno corso legale e non sono emesse o garantite da alcuna banca centrale.
-    - **NON sono Equivalenti di Cassa (*Cash Equivalents* ex IAS 7) (Quesito 10.2)**: non garantiscono un importo monetario fisso o convertibile a breve con rischio trascurabile. L'estrema volatilità del prezzo impedisce l'assimilazione al contante, e la negoziabilità su exchange non elimina il rischio di prezzo né equivale a un credito bancario.
-    - **NON sono Attività Finanziarie (*Financial Assets* ex IAS 32 / IFRS 9)**: non rappresentano una quota di patrimonio netto di un'altra entità né attribuiscono un diritto contrattuale a ricevere cassa da una controparte (non esiste alcun emittente obbligato a pagare).
-- **La Classificazione Basata sullo Scopo di Detenzione e Business Model (Quesito 10.1)**
-  - Il trattamento contabile corretto è governato dallo **scopo economico della detenzione e dal modello di attività dell'impresa**:
-  - **1. Modello IAS 2 – Rimanenze (*Inventories*)**:
-    - Si applica quando le criptovalute sono **detenute per la vendita nel normale svolgimento dell'attività aziendale** (es. piattaforme di intermediazione, broker-dealer di criptovalute che acquistano e rivendono per generare margini commerciali a breve termine).
-    - *Regola Speciale per Broker-Dealer*: le rimanenze sono valutate al **Fair Value al netto dei costi di vendita**, con tutte le oscillazioni di valore imputate direttamente a **Conto Economico (P&L)** nell'esercizio di maturazione.
-    - *Per le altre imprese commerciali*: si valutano al minore tra costo storico e Valore Netto di Realizzo (NRV).
-  - **2. Modello IAS 38 – Attività Immateriali (*Intangible Assets*)**:
-    - Si applica in TUTTI gli altri casi: quando le criptovalute sono detenute come investimento a medio-lungo termine, per rivalutazione del capitale o riserva di valore patrimoniale.
-    - Rientrano in IAS 38 come attività non monetarie identificabili prive di consistenza fisica. Poiché non hanno scadenza contrattuale, sono considerate **a vita utile indefinita**:
-      - **Non si ammortizzano mai**;
-      - Devono essere sottoposte a **impairment test obbligatorio almeno una volta all'anno ex IAS 36**.
-- **Trattamento delle Variazioni di Mercato e Incrementi di Prezzo (Quesito 10.3)**
-  - Un aumento della quotazione di mercato di Bitcoin non rappresenta automaticamente un utile di bilancio (Quesito 10.3). La contabilizzazione dipende dal modello adottato:
-    - Sotto **IAS 38 - Modello del Costo**: il rialzo di prezzo **NON si rileva a bilancio** (rimane iscritta al costo storico meno svalutazioni passate);
-    - Sotto **IAS 38 - Modello della Rideterminazione (*Revaluation Model*)**: ammesso solo se esiste un mercato attivo (IFRS 13). L'aumento di fair value si iscrive a **OCI nella Riserva di Rivalutazione a Patrimonio Netto**, e NON transita mai dal P&L!
-    - Sotto **IAS 2 - Commodity Broker-Dealer**: l'aumento transita a Conto Economico (P&L) come utile da variazione di fair value.
-- **Informativa Integrativa nelle Note al Bilancio**
-  - Data l'alta rischiosità, l'impresa deve fornire un'adeguata disclosure descrivendo:
-    - La finalità economica della detenzione e i principi contabili prescelti;
-    - La gerarchia del Fair Value (Livello 1 con quotazioni su mercati attivi);
-    - L'esposizione ai rischi di mercato, liquidità, cyber-sicurezza e perdita delle chiavi crittografiche private.
+## 11. Criptovalute & Crypto-Assets (IFRIC 2019 & Presentazione d'Aula)
+- **Origini, Definizione Istituzionale (BCE vs EFRAG) e i 3 Problemi di Fondo**
+  - **Origini (Slide d'Aula)**: Introdotte con la tecnologia Blockchain per eliminare l'intermediazione di terzi nei pagamenti digitali; **Bitcoin** concepito a ottobre 2008 da *Satoshi Nakamoto* e lanciato a gennaio 2009 ($> 899\text{ milioni}$ di transazioni).
+  - **I 3 Problemi Contabili Evidenziati dal Docente**: 1) **Nomenclatura** (assenza di tassonomia contabile univoca); 2) **Incertezza Giuridica** (qualificazioni disomogenee tra Paesi); 3) **Accountability & Audit** (custodia delle chiavi crittografiche private, cyber-risk e valutazione).
+  - **Le 2 Definizioni Ufficiali delle Slide**:
+    - **BCE (*ECB Crypto-Assets Task Force*)**: *"A new type of asset recorded in digital form and enabled by the use of cryptography that **is not and does not represent a financial claim on, or a liability of, any identifiable entity**"* (non rappresenta un credito finanziario né una passività verso alcuna entità identificabile);
+    - **EFRAG**: *"A digital representation of value or contractual rights created, transferred and stored on some type of distributed ledger technology (DLT) network (e.g. Blockchain) and authenticated through cryptography"*.
+- **Cosa NON Sono le Criptovalute secondo l'IFRIC (Quesito 10.2)**
+  - **1. NON sono Moneta / Cassa**: non hanno corso legale forzoso e non sono emesse da banche centrali;
+  - **2. NON sono Disponibilità Liquide Equivalenti (*Cash Equivalents* ex IAS 7 – Quesito 10.2)**:
+    - *Obiezione Fondamentale (Quesito 10.2)*: anche se negoziabili 24/7 su una piattaforma exchange, **la negoziabilità non garantisce un importo monetario stabile né equivale a un diritto di credito verso una banca**, e l'altissima volatilità di prezzo viola il requisito IAS 7 di *"rischio trascurabile di variazione del valore"*;
+  - **3. NON sono Attività Finanziarie ordinarie (IAS 32 / IFRS 9)**: non attribuiscono alcun diritto contrattuale a ricevere disponibilità liquide o altre attività finanziarie da un emittente obbligato.
+- **L'Albero Decisionale IFRS: Scopo della Detenzione e Business Model (Quesito 10.1)**
+  - **Regola Cardine (Quesito 10.1)**: Tra un'impresa che acquista Bitcoin per rivenderli abitualmente ai clienti e una che li conserva come investimento, l'informazione decisiva è **lo scopo della detenzione e il modello di attività (*business model*) di ciascuna impresa**:
+  - **Ramo 1: IAS 38 – Attività Immateriali (*Intangible Assets*)**:
+    - Si applica quando le criptovalute sono detenute per **investimento a medio-lungo termine o riserva di valore** (caso standard delle imprese non finanziarie).
+    - Sono attività immateriali a **vita utile indefinita**: **nessun ammortamento** e **Impairment Test annuale obbligatorio ex IAS 36** (se il valore recuperabile è inferiore al costo, si rileva subito la svalutazione a P&L).
+    - Valutazione successiva: **Cost Model** (costo storico meno svalutazioni) oppure **Revaluation Model** (solo se esiste un mercato attivo ex IFRS 13, con incrementi di Fair Value sopra il costo imputati a **Riserva OCI** a Patrimonio Netto e mai a P&L).
+  - **Ramo 2: IAS 2 – Rimanenze (*Inventories*)**:
+    - Si applica quando le criptovalute sono **detenute per la vendita nel normale svolgimento dell'attività caratteristica**:
+      - *Imprese commerciali ordinarie*: valutate al **minore tra il costo e il valore netto di realizzo (NRV)**, con svalutazioni a P&L;
+      - *Intermediari / Broker-Dealer di Criptovalute*: valutate al **Fair Value al netto dei costi di vendita (FVTPL)**, con **tutte le oscillazioni di prezzo (utili e perdite) imputate direttamente a Conto Economico (P&L)**.
+  - **Ramo 3: IFRS 9 – Strumenti Finanziari (*Security Tokens / Asset-Backed Tokens*)**:
+    - Si applica solo ai token digitali che conferiscono un effettivo **diritto contrattuale a flussi finanziari** verso un emittente: se superano lo **SPPI Test** (*Solely Payments of Principal and Interest*) si valutano al **Costo Ammortizzato** (o FVTOCI); se detenuti per *trading* speculativo o non superano lo SPPI test, si valutano al **Fair Value Through Profit or Loss (FVTPL)**.
+- **Aumento di Prezzo (Quesito 10.3) e Il Confronto Internazionale FASB (USA) vs IASB (IFRS)**
+  - **Quando il Prezzo di Bitcoin Sale (Quesito 10.3)**: Prima di concludere che un rialzo di prezzo sia un utile in bilancio, **occorre conoscere il criterio contabile applicabile e le condizioni per rilevare la variazione**:
+    - Sotto **IASB (IFRS – IAS 38 Cost Model)**: il rialzo **non si rileva affatto**;
+    - Sotto **IASB (IFRS – IAS 38 Revaluation Model)**: il rialzo va a **Riserva OCI (Patrimonio Netto)** e non a P&L;
+    - Sotto **IASB (IAS 2 Broker-Dealer)**: il rialzo va a **P&L**.
+  - **La Riforma Americana FASB (ASU Subtopic 350-60 del 2023 – Slide d'Aula)**:
+    - A differenza dello IASB, il **FASB (US GAAP)** ha introdotto l'obbligo di valutare i crypto-assets al **Fair Value con variazioni imputate direttamente a Conto Economico (*Fair Value Through Net Income – FVTPL*)**, anche per le società industriali che li detengono come investimento!
+    - Nello Stato Patrimoniale FASB devono essere esposti in una riga separata denominata **"Digital Assets"**.
+    - **Caso Numerico Slide (1.500 BTC)**: Anno 1 acquisto per $\$90\text{M}$ (*Digital Assets* sale a $\$90\text{M}$) $\rightarrow$ Anno 2 svalutazione di $\$22\text{M}$ (*Digital Assets* scende a $\$68\text{M}$) $\rightarrow$ Anno 3 vendita integrale dei 1.500 BTC (*Digital Assets* scende a $\$0$).
+- **Quadro Regolamentare Europeo e Globale (MiCA, DORA, FSB) e Rischi**
+  - **Digital Finance Package UE (Settembre 2020)**:
+    - 1. **MiCA (*Markets in Crypto-Assets*)**: regolamenta l'emissione, la trasparenza e gli intermediari (*CASP / Exchange*) e impone requisiti severi di riserva e liquidità sulle **Stablecoin** (*Asset-Referenced Tokens* ed *E-Money Tokens*);
+    - 2. **DORA (*Digital Operational Resilience Act*)**: impone standard di **cyber-security e resilienza operativa digitale** alle entità finanziarie contro attacchi informatici;
+    - 3. **DLT Pilot Regime**: sperimentazione di infrastrutture di mercato blockchain per strumenti finanziari tokenizzati (*Security Tokens*).
+  - **Financial Stability Board (FSB, Luglio 2023)**: Ha emanato su mandato del G20 **2 blocchi di raccomandazioni globali** (1. Regolamentazione e vigilanza dei mercati e attività crypto; 2. Supervisione dei *Global Stablecoin Arrangements*).
+  - **Rischi per il Bilancio**: Alta volatilità, vulnerabilità informatica (perdita chiavi private) e tensione sui postulati di **Comparabilità** e **Rappresentazione Fedele (*Faithful Representation*)**.
 
-## 12. IAS 36 – Riduzione di Valore delle Attività (Impairment of Assets)
-- **Finalità e Concetto Economico di Impairment**
-  - **Obiettivo Cardine**: Assicurare che le attività dell'impresa non siano mai iscritte a un valore superiore al loro **Valore Recuperabile (*Recoverable Amount*)**, tutelando i lettori del bilancio da sopravvalutazioni patrimoniali ingannevoli.
-  - **Quando un'attività è svalutata (*impaired*)?**: Quando il suo Valore Contabile (*Carrying Amount*) eccede l'ammontare che l'azienda può recuperare tramite l'uso continuativo o la vendita sul mercato. In tal caso, si deve rilevare immediatamente una **Perdita per Riduzione di Valore (*Impairment Loss*)** a Conto Economico.
-- **Quando si Effettua l'Impairment Test? (Trigger Events vs Test Annuale Obbligatorio)**
-  - **Regola Generale (In Presenza di Indicatori di Perdita - *Trigger Events*)**:
-    - Per i normali cespiti materiali e immateriali a vita definita, il test si esegue solo se a fine esercizio emergono indicatori interni o esterni di perdita:
-      - *Indicatori Esterni*: crollo del valore di mercato, aumenti dei tassi di interesse di mercato (che incrementano il tasso di attualizzazione riducendo il valore attuale), mutamenti normativi, legali o tecnologici avversi;
-      - *Indicatori Interni*: obsolescenza fisica dell'impianto, piani di ristrutturazione o dismissione anticipata, performance economiche e flussi di cassa consuntivati peggiori delle previsioni di budget.
-  - **LE 3 ECCEZIONI TASSATIVE: TEST ANNUALE OBBLIGATORIO A PRESCINDERE DA TRIGGER**:
-    - 1. **Avviamento (*Goodwill*)** acquisito in un'aggregazione aziendale;
-    - 2. **Attività immateriali a vita utile indefinita**;
-    - 3. **Attività immateriali non ancora disponibili all'uso** (costi di sviluppo capitalizzati in corso).
-- **La Determinazione del Valore Recuperabile (Quesito 11.1)**
-  - **La Regola del Massimo tra Due Valori**:
-    $$	ext{Valore Recuperabile} = \mathbf{MAGGIORE\ tra:}\ egin{cases} 	ext{1. Fair Value al Netto dei Costi di Dismissione (Fair Value Less Costs of Disposal)} \ 	ext{2. Valore d'Uso (Value in Use - VIU)} \end{cases}$$
-  - *Perché il MAGGIORE e non il minore?* Perché si presuppone la razionalità economica del management: se il bene produce più cassa continuando a farlo lavorare nella produzione (Valore d'Uso), l'azienda lo terrà; se invece vale di più vendendolo subito sul mercato (Fair Value netto), l'azienda lo dismetterà.
-  - **Risoluzione Esercizio Numerico d'Esame (Quesito 11.1)**:
-    - Dati: Valore Contabile Impianto = €200.000; Fair Value = €175.000; Costi di dismissione = €5.000; Valore d'Uso = €180.000.
-    - Calcolo Fair Value Netto: $175.000 - 5.000 = \mathbf{170.000\ €}$.
-    - Valore Recuperabile: $\max(170.000, 180.000) = \mathbf{180.000\ €}$ (prevale il Valore d'Uso!).
-    - **Perdita di Valore da Rilevare (Quesito 11.1)**:  
-      $	ext{Perdita} = 	ext{Valore Contabile (€200.000)} - 	ext{Valore Recuperabile (€180.000)} = \mathbf{20.000\ €}$ a Conto Economico.
-- **Il Valore d'Uso (*Value in Use*) in Dettaglio (Dalle Slide d'Aula `Value in use.pdf`)**
-  - **Definizione**: Il valore attuale dei flussi finanziari futuri attesi che si prevede origineranno dall'uso continuativo di un'attività (o CGU) e dalla sua dismissione finale.
-  - **I 3 Pilastri di Calcolo**:
-    - 1. Proiezioni dei flussi di cassa operativi basate sui budget formali più recenti approvati dal management (orizzonte temporale massimo ordinario di 5 anni);
-    - 2. Tasso di crescita costante o decrescente per il periodo successivo (*terminal value*), che non può superare il tasso medio di crescita a lungo termine del settore o del Paese;
-    - 3. **Tasso di Attualizzazione**: deve essere un **tasso al lordo delle imposte (*Pre-tax discount rate*)**, calcolato sul WACC dell'azienda e adeguato ai rischi specifici dell'attività per cui i flussi non sono stati rettificati.
-  - **La Regola dello "Stato Attuale" (*As-Is Condition*)**:
-    - Le stime dei flussi finanziari futuri devono riflettere l'attività nelle sue condizioni attuali. Sono tassativamente **ESCLUSI**:
-      - Flussi in entrata o uscita derivanti da future ristrutturazioni a cui l'impresa non è ancora legalmente vincolata;
-      - Flussi finanziari incrementali derivanti da futuri investimenti volti a migliorare o espandere le prestazioni produttive dell'attività.
-- **La Cash-Generating Unit (CGU) e i Corporate Assets (Quesito 11.3)**
-  - **Quando si fa il test sulla CGU? (Quesito 11.3)**:
-    - Se una singola attività non genera entrate finanziarie ampiamente indipendenti da quelle originate da altre attività (es. un robot di saldatura all'interno di una catena di montaggio), è impossibile stimare il Valore d'Uso del singolo macchinario.
-    - Si individua allora la **Cash-Generating Unit (CGU)**: il **più piccolo gruppo identificabile di attività che genera entrate finanziarie ampiamente indipendenti** dai flussi in entrata generati da altre attività.
-  - **Corporate Assets (Sede Centrale, Sistemi IT, Centri R&D Condivisi)**:
-    - Sono attività aziendali che contribuiscono ai flussi futuri di più CGU ma non generano flussi autonomi.
-    - **Test Bottom-up vs Top-down (Slide d'Aula `Value in use.pdf`)**:
-      - Se il Corporate Asset può essere allocato su base ragionevole e coerente alle singole CGU (es. proporzionalmente al valore contabile ponderato per la vita utile residua), si effettua il test **Bottom-up** allocando la quota a ciascuna CGU;
-      - Se una quota del Corporate Asset non è allocabile su basi coerenti, si applica il test **Top-down**: si verifica prima ogni CGU senza corporate asset, e poi si testa la macro-unità aggregata che incorpora il Corporate Asset residuo.
-- **Ordine di Allocazione della Perdita per Riduzione di Valore nella CGU**
-  - Quando il valore contabile complessivo di una CGU supera il suo valore recuperabile, la perdita per riduzione di valore viene imputata seguendo una sequenza gerarchica inderogabile:
-    - 1. **In primo luogo, si azzera l'Avviamento (*Goodwill*)** allocato a quella CGU;
-    - 2. **In secondo luogo, l'eventuale perdita residua viene ripartita pro-quota tra le altre attività della CGU**, proporzionalmente al valore contabile di ciascuna attività.
-  - *Clausola di Salvaguardia Individuale*: Nessuna singola attività può essere svalutata al di sotto del valore più elevato tra:
-    - Il suo Fair Value al netto dei costi di dismissione (se determinabile);
-    - Il suo Valore d'Uso (se determinabile);
-    - Zero.
-    - L'eventuale perdita non assorbita da tale bene viene redistribuita pro-quota sulle restanti attività della CGU.
-- **Ripristino di Valore (*Reversal of Impairment*) (Quesiti 11.2 & 11.4)**
-  - **DIVIETO ASSOLUTO E CATEGORICO PER L'AVVIAMENTO (Quesito 11.4)**:
-    - Una perdita per riduzione di valore rilevata per l'**Avviamento NON PUÒ MAI ESSERE RIPRISTINATA** in esercizi successivi. Nemmeno se le prospettive economiche della CGU migliorano radicalmente e il valore recuperabile esplode verso l'alto!
-    - *Motivazione teorica*: Qualsiasi ripristino successivo dell'avviamento equivarrebbe alla rilevazione di un avviamento generato internamente, pratica severamente vietata dallo IAS 38.
-  - **Ripristino per le Altre Attività e la Regola del Tetto Massimo (Quesito 11.2)**:
-    - Per tutti gli altri cespiti (impianti, brevetti), se in un esercizio successivo le stime cambiano e il valore recuperabile aumenta, la perdita passata viene stornata a Conto Economico come utile da ripristino di valore (*Reversal*).
-    - **LA REGOLA DEL TETTO MASSIMO (*Ceiling Rule*)**: Il nuovo valore contabile del bene **NON PUÒ MAI SUPERARE il valore contabile netto che l'attività avrebbe avuto se la svalutazione originaria non fosse mai avvenuta (ossia al netto dei normali ammortamenti storici teorici)**!
-  - **Risoluzione Esercizio Numerico d'Esame (Quesito 11.2)**:
-    - Dati: Attività valutata al costo con valore contabile residuo = €64.000 dopo precedente svalutazione; Nuovo valore recuperabile stimato = €95.000; Valore netto che l'attività avrebbe avuto alla stessa data applicando i normali ammortamenti senza alcuna svalutazione passata = €84.000.
-    - Determinazione del Tetto Massimo ammissibile: il valore contabile può salire fino a un massimo di **€84.000** (non a €95.000!).
-    - **Ripristino Massimo Rilevabile a Conto Economico (Quesito 11.2)**:  
-      $	ext{Ripristino Massimo} = 84.000 - 64.000 = \mathbf{20.000\ €}$ (imputato come provento a P&L).
+## 12. IAS 36 – Riduzione di Valore delle Attività (Impairment Test & Value in Use)
+- **Finalità, Trigger Events e Differenza rispetto al Codice Civile**
+  - **Principio Base**: Il Valore Contabile (*Carrying Amount*) di un'attività non può mai superare il suo **Valore Recuperabile (*Recoverable Amount*)**. A differenza del Codice Civile / OIC 9 (che richiede una perdita *durevole* di valore), lo IAS 36 impone la svalutazione immediata ogni volta che il valore recuperabile è inferiore al valore contabile.
+  - **Quando si effettua l'Impairment Test?**:
+    - *Regola Ordinaria (Immobilizzazioni materiali IAS 16 e immateriali a vita definita IAS 38)*: solo alla fine dell'esercizio se emerge almeno un **indicatore di perdita (*Trigger Event*)**:
+      - **Fonti Esterne**: declino significativo del valore di mercato, mutamenti negativi tecnologici/di mercato/legali, **aumento dei tassi di interesse di mercato** (che innalza il WACC e riduce il Value in Use), capitalizzazione di borsa dell'entità inferiore al suo Patrimonio Netto contabile;
+      - **Fonti Interne**: evidenza di obsolescenza o danno fisico, piani di dismissione o ristrutturazione, performance economica inferiore alle attese di budget.
+    - **Le 3 Eccezioni con Test Annuale Obbligatorio (anche senza Trigger Events)**:
+      - 1. **Avviamento (*Goodwill*)** acquisito in una Business Combination;
+      - 2. **Attività immateriali a vita utile indefinita** (inclusi i crypto-assets sotto IAS 38);
+      - 3. **Attività immateriali non ancora disponibili per l'uso** (progetti di sviluppo R&D in corso).
+- **Calcolo del Valore Recuperabile e Fair Value Netto (Quesito 11.1 & Slide `Value in use.pdf`)**
+  - **La Regola del Maggiore tra Due Valori**:
+    $$\text{Valore Recuperabile (RA)} = \max\left(\text{Fair Value al netto dei costi di dismissione},\ \text{Valore d'Uso (VIU)}\right)$$
+    *(Basta che uno solo dei due superi il Valore Contabile perché il bene non sia svalutato).*
+  - **Esercizio Ufficiale Risolto (Quesito 11.1)**:
+    - *Dati*: Valore contabile impianto $= 200.000$ €; Fair Value $= 175.000$ €; Costi di dismissione $= 5.000$ €; Valore d'uso $= 180.000$ €.
+    - $\text{Fair Value Netto} = 175.000 - 5.000 = 170.000$ €;
+    - $\text{Valore Recuperabile} = \max(170.000,\ 180.000) = \mathbf{180.000}$ €;
+    - **Perdita di Valore (*Impairment Loss*) a P&L**: $200.000 - 180.000 = \mathbf{20.000}$ €.
+  - **Regole sul Fair Value Less Costs of Disposal (`Value in use.pdf` Slide 1)**:
+    - I costi di dismissione includono spese legali, imposte di registro/bollo a carico del venditore e costi diretti di rimozione del bene (escludendo oneri finanziari e imposte sul reddito);
+    - Se esistono **più mercati attivi** per lo stesso bene, si utilizza il **Fair Value più elevato** (mercato più vantaggioso); se il Fair Value è espresso in valuta estera, va convertito nella valuta funzionale al **tasso di cambio della data di chiusura del bilancio (*reporting date*)**.
+- **Il Valore d'Uso (*Value in Use*), la Regola "As-Is" e il WACC (`Value in use.pdf` Slide 1–2)**
+  - **Formula DCF**:
+    $$\text{VIU} = \sum_{t=1}^{n} \frac{\text{CF}_t}{(1 + \text{WACC})^t} + \frac{V_{\text{fin}}}{(1 + \text{WACC})^n}$$
+    con proiezioni di flussi operativi fino a un massimo di **5 anni** (da piani approvati dal management, stimati con *metodo diretto a scenari ponderati* o *metodo indiretto da budget rettificato*) più un valore terminale con tasso $g$ stabile o decrescente.
+  - **La Regola dello Stato Attuale ("As-Is Condition")**: I flussi devono riflettere il bene **nelle condizioni correnti in cui si trova**, **ESCLUDENDO** flussi derivanti da: 1) ristrutturazioni future per le quali non esiste ancora un'obbligazione vincolante (IAS 37); 2) investimenti futuri migliorativi o espansivi (*CapEx* di potenziamento); 3) flussi dell'attività di finanziamento e imposte sul reddito.
+  - **Caso d'Aula della Lista Clienti (`Value in use.pdf` Slide 1)**:
+    - Un'impresa acquista una lista clienti con **1.000 indirizzi** iscritta come intangible specifico. Nel tempo vengono cancellati **500 indirizzi** e ne vengono aggiunti internamente **800 nuovi** (totale attuale: **1.300 clienti**).
+    - **Domanda d'Aula**: *Ai fini del test di impairment si considerano i flussi dei 1.300 clienti?* $\rightarrow$ **NO! Si devono considerare esclusivamente i flussi dei 500 clienti originari residui**, perché gli 800 clienti aggiunti successivamente sono liste clienti generate internamente (vietate dallo IAS 38) e miglioramenti successivi esclusi dalla regola *"as-is"*!
+  - **Tasso di Attualizzazione (WACC) ed Errori da Evitare (`Value in use.pdf` Slide 2)**:
+    - $$\text{WACC} = K_e \cdot \frac{E}{E+D} + K_d (1 - t) \cdot \frac{D}{E+D}, \quad \text{con } K_e = R_f + \beta (R_m - R_f)$$
+    - Dove $E = \text{Patrimonio Netto a fine periodo al lordo dell'impairment}$ e $D = \text{Posizione Finanziaria Netta (PFN)}$.
+    - **I 2 Errori da Evitare indicati nelle Slide**: 1) Usare un tasso proveniente da una giurisdizione/Paese diversa da quella in cui opera l'attività o la CGU; 2) Prendere un tasso *risk-free* ($R_f$) da titoli a breve scadenza anziché da titoli di Stato a lungo termine.
+- **Cash-Generating Unit (CGU) e Caso della Ferrovia Privata (Quesito 11.3 & Slide 2–3)**
+  - **Definizione (Quesito 11.3)**: Quando una singola linea o macchinario non genera entrate autonome, si individua la **CGU**, ossia **il più piccolo gruppo identificabile di attività che genera flussi finanziari in entrata ampiamente indipendenti** da quelli di altre attività (dimensione massima: un segmento operativo ex IFRS 8).
+  - **Carrying Amount della CGU**: Include le attività attribuite direttamente o allocate su base ragionevole e coerente (es. *corporate assets*), ed **esclude le passività riconosciute** (a meno che il valore recuperabile della CGU non possa essere determinato senza considerare tale passività).
+  - **Caso d'Aula della Miniera e Ferrovia Privata (`Value in use.pdf` Slide 3)**: Un'impresa mineraria possiede una ferrovia privata di raccordo che non genera ricavi autonomi e può essere venduta solo a valore di rottame $\rightarrow$ Non si svaluta la ferrovia al valore di rottame, ma si stima il valore recuperabile dell'intera **CGU «Miniera»** a cui appartiene!
+- **Corporate Assets: Ponderazione per Vita Utile e Test Bottom-Up vs Top-Down (`Value in use.pdf` Slide 1, 3–7, 12–14)**
+  - **Corporate Assets**: Beni gestiti centralmente (sede centrale *HQ building*, centro R&D, rete IT) che non generano flussi autonomi ma supportano più CGU.
+  - **Caso 1 – Allocazione Ragionevole Possibile con Ponderazione per Vita Utile (`Exercise 1: CGU` Slide 3–4)**:
+    - Se le CGU hanno vite utili diverse, l'allocazione pro-quota del Corporate Asset deve essere **ponderata per la vita utile residua**!
+    - *Dati Exercise 1*: Sede HQ da allocare $= \mathbf{150}$. Tre CGU: **A** ($\text{VC} = 100$, vita utile 10 anni $\rightarrow$ peso 1 $\rightarrow$ VC ponderato $= 100$); **B** ($\text{VC} = 150$, vita utile 20 anni $\rightarrow$ peso 2 $\rightarrow$ VC ponderato $= 300$); **C** ($\text{VC} = 200$, vita utile 20 anni $\rightarrow$ peso 2 $\rightarrow$ VC ponderato $= 400$). Totale ponderato $= 100 + 300 + 400 = \mathbf{800}$.
+    - Quote HQ allocate: **A** riceve $12,5\% \times 150 = \mathbf{18,75}$ ($\text{VC tot A} = 118,75$); **B** riceve $37,5\% \times 150 = \mathbf{56,25}$ ($\text{VC tot B} = 206,25$); **C** riceve $50\% \times 150 = \mathbf{75}$ ($\text{VC tot C} = 275$).
+  - **Caso 2 – Corporate Asset NON Allocabile: Test a Due Livelli *Bottom-Up* e *Top-Down* (Slide 5–7)**:
+    - *Dati Esempio Divisione X*: BU A ($\text{Impianti } 500 + \text{Terreni } 300 = 800$, $\text{RA} = 900$); BU B ($\text{Impianti } 400 + \text{Terreni } 220 = 620$, $\text{RA} = 665$). Corporate Assets: **Fabbricati $= 160$** (allocabili $50\%$ ad A e $50\%$ a B) e **Research Centre $= 70$** (**NON allocabile** alle singole BU).
+    - **I Step – Bottom-Up Test (con i soli Fabbricati allocati: +80 ad A, +80 a B)**:
+      - BU A: $\text{VC} = 800 + 80 = 880$ vs $\text{RA} = 900 \rightarrow$ **Nessun Impairment**;
+      - BU B: $\text{VC} = 620 + 80 = 700$ vs $\text{RA} = 665 \rightarrow$ **Impairment di 35**, ripartito pro-quota sul VC di 700: Impianti $-20$ ($\text{VNC} = 380$), Terreni $-11$ ($\text{VNC} = 209$), Fabbricati $-4$ ($\text{VNC} = 76$).
+    - **II Step – Top-Down Test (intera Divisione X incluso il Research Centre di 70)**:
+      - $\text{VC Divisione} = 880\text{ (A)} + 665\text{ (B post-svalutazione)} + 70\text{ (Research Centre)} = \mathbf{1.615}$;
+      - $\text{RA Divisione} = 900 + 665 = \mathbf{1.565} \rightarrow$ **Ulteriore Impairment di 50** ($1.615 - 1.565$), ripartito pro-quota su tutti i beni della Divisione (base $1.615$, incluso il Research Centre che subisce $-2$ scendendo a $\text{VNC} = 68$).
+- **Ordine Gerarchico di Allocazione della Perdita nella CGU (`Exercise 2: Alfa & Beta` Slide 8–10)**
+  - **Gerarchia Tassativa IAS 36**:
+    - 1. **Prima si riduce fino ad azzeramento l'Avviamento (*Goodwill*)** allocato alla CGU;
+    - 2. **Poi l'eccedenza si ripartisce pro-quota tra le altre attività non correnti della CGU** in proporzione al loro valore contabile (**ESCLUSE le Rimanenze di magazzino ex IAS 2**, i crediti e le attività finanziarie!).
+  - **Limite Minimo Individuale (*Floor*)**: Nessuna singola attività può essere svalutata al di sotto del maggiore tra: il suo Fair Value netto (se determinabile), il suo Value in Use (se determinabile) e **zero**.
+  - **Esercizio d'Aula Risolto (`Exercise 2: Beta CGU` Slide 9–10)**:
+    - *Dati*: Goodwill $= 14.000$, Factory Building $= 24.000$, Purifying Plant $= 16.000$, Inventories (IAS 2) $= 10.000 \rightarrow \text{Totale VC} = \mathbf{64.000}$. Value in Use della CGU $= \mathbf{40.000} \rightarrow \text{Impairment Loss Totale} = \mathbf{24.000}$.
+    - 1) Il **Goodwill ($14.000$)** viene **interamente azzerato** ($\text{Nuovo VNC} = 0$);
+    - 2) Le **Rimanenze ($10.000$) sono escluse** dallo IAS 36 e restano a $\mathbf{10.000}$;
+    - 3) La perdita residua di $\mathbf{10.000}$ ($24.000 - 14.000$) si ripartisce pro-quota tra Factory Building ($24.000$) e Purifying Plant ($16.000$) su base $40.000$:
+      - Factory Building: $-10.000 \times (24/40) = -6.000 \rightarrow \text{Nuovo VNC} = \mathbf{18.000}$;
+      - Purifying Plant: $-10.000 \times (16/40) = -4.000 \rightarrow \text{Nuovo VNC} = \mathbf{12.000}$.
+- **Ripristino di Valore (*Reversal of Impairment*) e Regola del Tetto Massimo (Quesiti 11.2 & 11.4 e Slide 10–14)**
+  - **1. DIVIETO ASSOLUTO PER L'AVVIAMENTO (Quesito 11.4)**:
+    - La perdita di valore imputata all'**Avviamento NON PUÒ MAI ESSERE RIPRISTINATA** negli esercizi successivi, nemmeno se il valore recuperabile della CGU torna a salire (equivarrebbe a capitalizzare avviamento generato internamente, vietato dallo IAS 38).
+  - **2. Ripristino per le Altre Attività e Regola del Tetto Massimo (*Ceiling Rule* – Quesito 11.2)**:
+    - Per i beni diversi dall'avviamento, il ripristino di valore è rilevato a Conto Economico (o a OCI per la parte che eccede il costo storico nei beni valutati col Revaluation Model), ma **il nuovo valore contabile post-ripristino NON può superare il Valore Contabile Netto Storico Teorico** (cioè il valore netto che il bene avrebbe avuto in quella data se non fosse mai stato svalutato in passato).
+  - **Esercizio Ufficiale Risolto (Quesito 11.2)**:
+    - *Dati*: Valore contabile attuale dopo precedente svalutazione $= 64.000$ €; Nuovo valore recuperabile $= 95.000$ €; Valore contabile netto che avrebbe avuto senza la svalutazione $= 84.000$ €.
+    - Il nuovo valore si ferma al tetto massimo di **€84.000** (il minore tra €84.000 e €95.000);
+    - $$\text{Ripristino Massimo a Conto Economico} = 84.000 - 64.000 = \mathbf{20.000}$$ €
+  - **I 2 Esercizi d'Aula con Scrittura Contabile e Adeguamento del Fondo Ammortamento (`Value in use.pdf` Slide 10–11 e 13–14)**:
+    - **Caso 1 (Immobile costo storico 2.000, vita utile 20 anni = 100/anno)**:
+      - Dopo 3 anni ($\text{VNC} = 1.700$, Fondo $= 300$) viene svalutato di **200** a $\text{RA} = 1.500$. Nei 2 anni successivi si ammortizza su 17 anni residui ($1.500 / 17 = 88,24/\text{anno}$): a fine 5° anno $\text{VNC} = 1.323,52$ e Fondo $= 476,48$.
+      - Al 5° anno il nuovo $\text{RA} = 1.600$, mentre il **VNC storico teorico senza svalutazione** è $2.000 - (100 \times 5) = \mathbf{1.500}$. Prevale il minore (**1.500**):
+      - **Ripristino effettivo a CE** $= 1.500 - 1.323,52 = \mathbf{176,48}$; adeguamento Fondo Amm.to $= 500 - 476,48 = \mathbf{23,52}$.
+      - *Scrittura*: **Dare Immobili 200 / Avere Rivalutazione da ripristino (CE) 176,48 e Avere Fondo Ammortamento Immobili 23,52**.
+    - **Caso 2 (Esercizio 3 d'Aula – Bene €36.000, vita utile 10 anni = 3.600/anno)**:
+      - Fine Anno 1 (2016): $\text{VNC} = 32.400$ vs $\text{RA} = \max(\text{VIU } 27.000,\ \text{FV netto } 25.000) = 27.000 \rightarrow$ **Svalutazione di 5.400** a CE.
+      - Anni 2 e 3 (2017–2018): nuovo ammortamento su 9 anni residui $= 27.000 / 9 = 3.000/\text{anno}$ $\rightarrow$ a fine 2018 $\text{VNC} = 21.000$ (Fondo $= 3.600 + 3.000 + 3.000 = 9.600$).
+      - Fine Anno 3 (2018): il **VNC storico teorico** è $36.000 - (3.600 \times 3) = \mathbf{25.200}$, inferiore al nuovo $\text{RA}$ ($25.800 / 26.250$) $\rightarrow$ il bene risale fino al tetto massimo di **25.200** con un **Ripristino a CE di $25.200 - 21.000 = \mathbf{4.200}$**!
+      - *Scrittura*: **Dare Bene 5.400 / Avere Rivalutazione da ripristino (CE) 4.200 e Avere Fondo Ammortamento 1.200** ($10.800 - 9.600$). L'impatto reddituale netto dell'intera operazione sul triennio è **pari a zero** ($-5.400\text{ svalutazione} + 1.200\text{ minori ammortamenti} + 4.200\text{ ripristino} = 0$).
